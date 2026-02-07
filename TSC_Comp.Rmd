@@ -1,0 +1,502 @@
+---
+title: "Triangle Sports ACC"
+author: "Gaurav Law"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(xgboost)
+library(randomForest)
+library(broom)
+library(janitor)
+library(pROC)
+library(reshape2)
+library(caret)
+library(purrr)
+
+library(hoopR)
+library(ncaahoopR)
+library(toRvik)
+library(AdvancedBasketballStats)
+library(cbbdata)
+```
+
+```{r} 
+games_2024 <- hoopR::load_mbb_schedule(seasons = 2024)
+team_box_2026 <- hoopR::load_mbb_team_box(seasons = 2026)
+
+write.csv(team_box_2026, "team_box_26.csv")
+
+```
+
+# Player Factor
+
+```{r}
+
+# ORTG, USG, DRTG, MPG, PFR = PER
+
+get_torvik <- function(years) {
+  # Use map_df to apply the commands to each year and combine
+  purrr::map_df(years, function(year) {
+    cbd_torvik_player_season(year = year) %>%
+      filter(g > 10) %>%
+      mutate(Season = year) %>%
+      relocate(Season, .after = pos)
+  })
+}
+
+cbb_player <- get_torvik(2015:2025)
+
+acc_fctr <- cbb_player
+
+```
+
+
+```{r}
+acc_fctr$`net rtg` <- acc_fctr$ortg - acc_fctr$drtg
+
+acc_fctr <- acc_fctr %>%
+  drop_na(`net rtg`)
+
+mean_rtg <- mean(acc_fctr$`net rtg`)
+sd_rtg <- sd(acc_fctr$`net rtg`)
+acc_fctr$net_std <- round(((acc_fctr$`net rtg` - mean_rtg)/sd_rtg), 2)
+
+min_mean <- mean(acc_fctr$mpg)
+min_sd <- sd(acc_fctr$mpg)
+acc_fctr$min_std <- round(((acc_fctr$mpg)/min_sd), 2)
+
+acc_fctr$net_min_std <- round((acc_fctr$net_std * acc_fctr$min_std / max(acc_fctr$net_std * acc_fctr$min_std)), 2)
+
+acc_fctr$`pfr*mpg` = acc_fctr$pfr * acc_fctr$mpg
+
+mean_per <- mean(acc_fctr$`pfr*mpg`)
+sd_per <- sd(acc_fctr$`pfr*mpg`)
+acc_fctr$per_std <- round(((acc_fctr$`pfr*mpg` - mean_per)/sd_per), 2)
+
+```
+
+
+```{r impact score creation}
+acc_fctr$impact <- 0
+
+acc_fctr <- acc_fctr %>%
+  mutate(impact = round(
+            usg * (net_min_std - min(net_min_std))*(per_std - min(per_std)) /
+              (max((net_min_std - min(net_min_std))*(per_std - min(per_std))*usg / 25)), 
+            2))
+
+acc_fctr <- acc_fctr %>%
+  filter(mpg >= 15 & g >= 19) %>%
+  mutate(fgm = fgm / g,
+         ftm = ftm / g,
+         fta = fta / g,
+         three_m = three_m / g,
+         three_a = three_a / g)
+
+
+player_26 <- load_mbb_player_box(seasons = 2026) %>%
+  group_by(athlete_id) %>%
+  reframe(athlete_display_name, team_location,
+    round(across(where(is.numeric), mean, na.rm = TRUE), 2),
+    GP = n()) %>%
+  distinct() %>%
+  mutate(Season = 2026,
+         impact = 0) %>%
+  filter(minutes >= 15 & GP >= 14) %>%
+         # & team_location %in% c("Boston College", "California", "Clemson",
+         #                        "Duke", "Florida State", "Georgia Tech",
+         #                        "Louisville", "Miami", "North Carolina",
+         #                        "NC State", "Notre Dame", "Pittsburgh",
+         #                        "SMU", "Stanford", "Syracuse", "Virginia",
+         #                        "Virginia Tech", "Wake Forest")) %>%
+  select(-c(opponent_team_id, opponent_team_score, team_score, team_id)) %>%
+  rename("player" = "athlete_display_name",
+         "team" = "team_location",
+         "mpg" = "minutes",
+         "ppg" = "points",
+         "rpg" = "rebounds",
+         "apg" = "assists",
+         "bpg" = "blocks",
+         "spg" = "steals",
+         "oreb" = "offensive_rebounds",
+         "dreb" = "defensive_rebounds",
+         "tov" = "turnovers",
+         "fgm" = "field_goals_made",
+         "ftm" = "free_throws_made",
+         "fta" = "free_throws_attempted",
+         "three_m" = "three_point_field_goals_made",
+         "three_a" = "three_point_field_goals_attempted",
+         "g" = "GP")
+
+
+dfs <- list(acc_fctr, player_26)
+
+common_cols <- reduce(lapply(dfs, names), intersect)
+
+final_df <- dfs %>%
+  map(~ select(.x, all_of(common_cols))) %>%
+  bind_rows()
+
+final_df %>%
+  filter(team == "Baylor" & Season != 2026) %>%
+  summarise(impact = mean(impact))
+  
+```
+
+
+# Coach Factor
+
+```{r}
+coach_torvik <- cbd_torvik_ncaa_results(min_year = 1975, max_year = 2026, type = 'coach') %>%
+  mutate(total_games = wins + loss) %>%
+  filter(!is.na(rk)) %>%
+  select(-c(min_year, max_year, f4_percent, champ_percent,
+            r64, r32, s16, e8, f4, f2, champ, top2, rk))
+
+```
+
+```{r coach scraper}
+library(rvest)
+library(dplyr)
+library(janitor)
+
+# Initialize empty list
+all_coaches <- list()
+
+# Loop through years
+for (year in 2015:2026) {
+  url <- paste0("https://www.sports-reference.com/cbb/seasons/men/", year, "-coaches.html")
+  
+  cat("Scraping", year, "...\n")
+  
+  full_table <- read_html(url, as.data.frame = TRUE, stringsAsFactors = TRUE)
+  
+  coach_data <- full_table %>%
+    html_nodes("table") %>%
+    .[[1]] %>%
+    html_table(fill = TRUE) %>%
+    row_to_names(row_number = 1)
+  
+  # Add season column
+  coach_data$Season <- year
+  
+  # Add to list
+  all_coaches[[as.character(year)]] <- coach_data
+  
+  cat("  ✓ Found", nrow(coach_data), "coaches\n")
+  
+  # Wait 2 seconds
+  Sys.sleep(2)
+}
+
+# Combine all data
+all_coaches_data <- bind_rows(all_coaches)
+```
+
+```{r}
+
+coaches <- all_coaches_data %>%
+  select(-c(...4, ...11, Since, W...13,
+            L...14, `W-L%...15`, NCAA...16,
+            S16...17, FF...18, Chmp...19, ...20)) %>%
+  filter(Coach != "" & Coach != "Coach") %>%
+  rename("W_curr" = "W...5",
+         "L_curr" = "L...6",
+         "W_pct_curr" = "W-L%...7",
+         "W_ovr" = "W...21",
+         "L_ovr" = "L...22",
+         "W_pct_ovr" = "W-L%...23",
+         "NCAA_app_ovr" = "NCAA...24",
+         "S16_ovr" = "S16...25",
+         "FF_ovr" = "FF...26",
+         "Chmp_ovr" = "Chmp...27"
+         ) %>%
+  mutate(Coach = str_replace_all(Coach, "\\*", ""),
+         across(c(W_curr:`AP Post`, W_ovr:Chmp_ovr), as.integer),
+         `AP Change` = `AP Post` - `AP Pre`,
+         W_pct_ovr = (W_ovr) / (W_ovr + L_ovr),
+         W_pct_curr = (W_curr) / (W_curr + L_curr),) %>%
+  relocate(`AP Change`, .after = `AP Post`) %>%
+  filter(Conference %in% c("Pac-12", "ACC", "SEC", "Big Ten", "Big East", "Big 12"))
+
+coaches 
+```
+
+```{r}
+
+coaches <- coaches %>%
+  left_join(coach_torvik, by = c(Coach = "coach")) %>%
+  rename("Total_NCAAT_games" = "total_games") %>%
+  mutate(total_games = W_ovr + L_ovr)
+
+coaches %>%
+  group_by(`AP Change`) %>%
+  distinct() %>%
+  count() %>%
+  arrange(-n)
+```
+
+## Cross validate to find optimal momentum
+
+
+Our idea in creating this momentum metric was we wanted to weight more recent years with a higher magnitude than previous years for a given supplier. Simply using the eye test for the FHR dataset, there is really no identifiable trend, which may make things difficult. However, we do know that it seems if there is some previous trend from just the most recent year of data we have, we may be able to make more accurate predictions. Below are the steps we took in this process of determining momentum:
+
+1. Find the optimal momentum metric: After much thought, we knew we did not want our predicted FHR values to change too much. So, we decided on an optimal value being in the range [0.01, 0.05]. Think of these as percents.
+
+2. Determine the previous trend: Once we have this metric, if we are able to determine the most recent trends from the second-to-last semester to the most recent semester, we make further manipulations. If the trend is positive, we add this percentage of the predicted FHR score to that score; if the trend is negative, we subtract that percentage.
+
+3. Validate our results!
+
+### Cross Validate to find optimal momentum
+
+```{r, include=FALSE}
+momentum_data <- coaches %>%
+  arrange(Coach, Season) %>%
+  group_by(Coach) %>%
+  mutate(
+    prev1 = lag(W_pct_ovr, 1),
+    prev2 = lag(W_pct_ovr, 2),
+    avg_prev_2 = (prev1 + prev2) / 2,
+    trend = prev1 - prev2,
+    momentum_direction = case_when(
+      !is.na(trend) & trend > 0 ~ 1,
+      !is.na(trend) & trend < 0 ~ -1,
+      TRUE ~ 0
+    )
+  ) %>%
+  ungroup() %>%
+  select(Coach, 
+       School,
+       Conference,
+       Season, 
+       W_pct_ovr, 
+       prev1, 
+       prev2, 
+       avg_prev_2,
+       trend,
+       momentum_direction) %>%
+  distinct()
+```
+
+
+```{r, include=FALSE}
+set.seed(123)
+
+# Cross-validation setup
+train_control <- trainControl(method = "cv", number = 5)
+
+# Grid of multipliers to test
+momentum_range <- seq(0.01, 0.5, by = 0.01)
+
+# Function to evaluate a momentum multiplier
+evaluate_momentum <- function(multiplier) {data <- momentum_data %>%
+  
+    arrange(Coach, Season) %>%
+    group_by(Coach) %>%
+    mutate(
+      prev1 = lag(W_pct_ovr, 1),
+      prev2 = lag(W_pct_ovr, 2),
+      
+      # Average of previous 2 seasons (evenly weighted)
+      avg_prev_2 = (prev1 + prev2) / 2,
+      
+      # Calculate trend
+      trend = prev1 - prev2,
+      
+      # Momentum adjustment: multiplier * avg of last 2 seasons * direction
+      momentum_adjustment = if_else(
+        !is.na(avg_prev_2) & !is.na(trend),
+        multiplier * avg_prev_2 * sign(trend),
+        0
+      )
+    ) %>%
+    ungroup() %>%
+    select(W_pct_ovr, avg_prev_2, trend, momentum_adjustment) %>%
+    na.omit()
+
+  data <- data %>%
+    mutate(
+      baseline_pred = avg_prev_2,
+      adjusted_pred = baseline_pred + momentum_adjustment,
+      baseline_error = (W_pct_ovr - baseline_pred)^2,
+      adjusted_error = (W_pct_ovr - adjusted_pred)^2
+    )
+  
+    model <- train(
+    W_pct_ovr ~ momentum_adjustment, 
+    data = data,
+    method = "xgbLinear",
+    trControl = train_control
+  )
+    
+  # Return the RMSE for this multiplier
+  data.frame(multiplier = multiplier, RMSE = min(model$results$RMSE))
+  
+#   # Calculate RMSE for both
+#   baseline_rmse <- sqrt(mean(data$baseline_error))
+#   adjusted_rmse <- sqrt(mean(data$adjusted_error))
+#   
+#   baseline_mae <- mean(abs(w_percent - baseline_pred), data = data)
+#   adjusted_mae <- mean(abs(w_percent - adjusted_pred), data = data)
+#   
+#   # Return the RMSE for this multiplier
+#   data.frame(
+#     multiplier = multiplier, 
+#     baseline_RMSE = baseline_rmse,
+#     adjusted_RMSE = adjusted_rmse,
+#     improvement = baseline_rmse - adjusted_rmse,
+#     baseline_MAE = baseline_mae,
+#     adjusted_MAE = adjusted_mae,
+#     n_obs = nrow(data)
+#   )
+# }
+#   # Train XGBoost model simply modeling FHR with momentum
+#   model <- train(
+#     FHR ~ momentum, 
+#     data = data,
+#     method = "xgbLinear",
+#     trControl = train_control
+#   )
+#   
+  
+}
+
+# Run across momentum values
+cv_results <- map_dfr(momentum_range, evaluate_momentum)
+
+
+```
+
+```{r, echo=FALSE}
+# Best multiplier
+best_multiplier <- cv_results %>%
+  arrange(RMSE) 
+
+best_multiplier
+```
+
+
+Now, we have determined our optimal momentum is 1% through cross validation.
+
+Next, we determine our trend.
+
+
+```{r}
+coach_upd <- read_csv("coaches_upd.csv") %>%
+  select(-c(`Unnamed: 0`, norm, TeamNameSpelling))
+
+massey <- read_csv("MMasseyOrdinals.csv")
+  
+massey <- massey %>%
+  filter(SystemName == "POM") %>%
+  group_by(Season, TeamID) %>%
+  filter(RankingDayNum %in% range(RankingDayNum)) %>%
+  arrange(RankingDayNum) %>%
+  summarise(
+    min_day = first(RankingDayNum),
+    max_day = last(RankingDayNum),
+    rank_start = first(OrdinalRank),
+    rank_end   = last(OrdinalRank),
+    rank_diff  = rank_start - rank_end,
+    .groups = "drop"
+  ) %>%
+  select(-c(min_day, max_day))
+
+coach_upd <- coach_upd %>%
+  left_join(massey, by = c("Season", "TeamID")) %>%
+    mutate(
+    across(
+      c(NCAA_app_ovr, S16_ovr, FF_ovr, Chmp_ovr, wins, loss, w_percent, Total_NCAAT_games,
+        ),   # columns you want
+      ~ replace_na(.x, 0)
+    )
+  ) %>%
+  select(-c(`AP Pre`, `AP Post`, `AP Change`))
+```
+
+```{r}
+coach_upd %>%
+  group_by(Coach) %>%
+  distinct() %>%
+  count()
+
+coach_upd_lin <- read_csv("coaches_linear_upd.csv") %>%
+  select(-c(rank_start, rank_end, ...1, `Unnamed: 0`)) %>%
+  mutate(rank_diff = round(rank_diff),
+         Coach = str_trim(Coach),
+         School = str_trim(School),
+         Conference = str_trim(Conference),
+         Season = as.integer(Season))
+         
+momentum_data <- momentum_data %>%
+  mutate(mult = 1.19, 
+         momentum = case_when(momentum_direction == -1 ~ -mult*W_pct_ovr,
+                              momentum_direction == 0 ~ W_pct_ovr,
+                              momentum_direction == 1 ~ mult*W_pct_ovr),
+         Coach = str_trim(Coach),
+         School = str_trim(School),
+         Conference = str_trim(Conference),
+         Season = as.integer(Season)) %>%
+  select(-W_pct_ovr)
+
+acc_coach <- coach_upd_lin %>%
+  left_join(momentum_data, by = c("Coach", "School", "Season", "Conference")) %>%
+  mutate(rank_diff_scaled = rank_diff / max(abs(rank_diff), na.rm = TRUE),
+         coach_factor = W_ovr + (W_ovr*rank_diff_scaled) / total_games,
+         coach_factor = coach_factor / max(coach_factor) * 25) %>%
+  reframe(Season, School, coach_factor, Conference) %>%
+  filter(Conference == "ACC")
+
+coach_upd_lin %>%
+  left_join(momentum_data, by = c("Coach", "School", "Season", "Conference")) %>%
+  mutate(rank_diff_scaled = rank_diff / max(abs(rank_diff), na.rm = TRUE),
+         coach_factor = W_ovr + (W_ovr*rank_diff_scaled) / total_games,
+         coach_factor = coach_factor / max(coach_factor) * 25) %>%
+  reframe(Season, School, coach_factor, Conference) %>%
+  filter(School == "Baylor") %>%
+  group_by(School) %>%
+  summarise(coach_factor = mean(coach_factor))
+
+
+
+```
+
+1) Exceeded expectations
+2) Longevity (games coached) 
+3) Career W
+4) 0.19 factor for last two seasons
+
+
+Formula for coaching factor:
+(Career wins ± Career Wins(Expectations) / Total Games) ± momentum*W%
+
+```{r}
+acc_fctr_upd <- read_csv("acc_player_fct.csv") %>%
+  select(player, Season, team, impact)
+
+acc_player <- acc_fctr_upd %>%
+  group_by(Season) %>%
+  slice_max(order_by = impact, n = 25) %>%
+  group_by(Season, team) %>%
+  summarise(avg_impact = mean(impact, na.rm = TRUE), .groups = 'drop') %>%
+  mutate(Season = as.integer(str_trim(Season)),
+         team = str_trim(team))
+
+acc_coach <- acc_coach %>%
+  left_join(acc_player, by = c("Season", School = "team")) %>%
+  mutate(total_factor = ifelse(!is.na(avg_impact), coach_factor + avg_impact, coach_factor)) %>%
+  arrange(-total_factor) %>%
+  filter(Season == 2026)
+```
+
+
+
+
+

@@ -1,0 +1,167 @@
+---
+title: "Locations"
+author: "Gaurav Law"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(xgboost)
+library(randomForest)
+library(broom)
+library(janitor)
+library(pROC)
+library(reshape2)
+
+library(hoopR)
+library(ncaahoopR)
+library(toRvik)
+library(AdvancedBasketballStats)
+library(cbbdata)
+```
+
+# Cities
+
+
+```{r, message=FALSE, warning=FALSE}
+cities <- read_csv("Cities.csv")
+city_team_connect <- read_csv("MGameCities.csv")
+
+city_team_connect <- city_team_connect %>%
+  left_join(cities, by = "CityID") 
+
+game_locs <- read_csv("MRegularSeasonDetailedResults.csv")
+
+w_l_teamids <- read_csv("MTeams.csv") 
+winners <- w_l_teamids %>%
+  rename("WTeamID" = "TeamID",
+         "WTeamName" = "TeamName") %>%
+  select(WTeamID, WTeamName) %>%
+  left_join(game_locs, by = c("WTeamID")) %>%
+  drop_na()
+
+losers <- w_l_teamids %>%
+  select(TeamID, TeamName) %>%
+  rename("LTeamName" = "TeamName")
+
+w_l_teamids <- winners %>%
+  left_join(losers, by = c(LTeamID = "TeamID")) %>%
+  relocate(LTeamName, .after = LTeamID) %>%
+  filter(WLoc != "N")
+
+```
+
+
+```{r}
+library(geosphere)
+library(tidygeocoder)
+
+# Step 1: HomeTeamID
+w_l_teamids <- w_l_teamids %>%
+  mutate(HTeamId = ifelse(WLoc == "H", WTeamID, LTeamID),
+         ATeamID = ifelse(WLoc == "A", WTeamID, LTeamID)) %>%
+  relocate(HTeamId, .before = WTeamID) %>%
+  relocate(ATeamID, .before = LTeamID)
+
+# Step 2: Join
+
+w_l_teamids <- w_l_teamids %>%
+  left_join(city_team_connect, by = c("Season", "DayNum", "WTeamID", "LTeamID")) %>%
+  mutate(HTeamName = ifelse(WLoc == "H", WTeamName, LTeamName),
+         ATeamName = ifelse(WLoc == "A", WTeamName, LTeamName),
+         Win = ifelse(HTeamId == WTeamID, 1, 0)) %>%
+  relocate(HTeamName, .after = HTeamId) %>%
+  relocate(ATeamName, .after = ATeamID) %>%
+  relocate(c(Season, DayNum), .before = HTeamId) %>%
+  select(-c(WTeamID, WTeamName, LTeamID, LTeamName)) %>%
+  rename("H_City" = "City",
+         "H_State" = "State")
+
+# Step 3: Locations
+
+locations <- w_l_teamids %>%
+  group_by(HTeamId, HTeamName, H_City, H_State) %>%
+  distinct() %>%
+  count() %>%
+  filter(!is.na(H_City)) %>%
+  group_by(HTeamId) %>%
+  slice_max(n, n = 1) %>%
+  ungroup() %>%
+  select(-n) %>%
+  rename("TeamId" = "HTeamId",
+         "TeamName" = "HTeamName",
+         "City" = "H_City",
+         "State" = "H_State")
+
+w_l_teamids <- w_l_teamids %>%
+  filter(Season >= 2010) %>%
+  left_join(locations, by = c(ATeamID = "TeamId",
+                              ATeamName = "TeamName")) %>%
+  rename("A_City" = "City",
+         "A_State" = "State")
+
+```
+```{r}
+
+# Step 4: Distances
+
+# Get unique cities
+unique_cities <- w_l_teamids %>%
+  distinct(H_City, H_State) %>%
+  rename(city = H_City, state = H_State) %>%
+  bind_rows(
+    w_l_teamids %>%
+      distinct(A_City, A_State) %>%
+      rename(city = A_City, state = A_State)
+  ) %>%
+  distinct() %>%
+  filter(!is.na(city))
+
+# Geocode once (much smaller set)
+unique_cities_geocoded <- unique_cities %>%
+  geocode(city = city, state = state, method = 'osm', lat = lat, long = long)
+
+unique_cities_geocoded <- unique_cities_geocoded %>%
+  mutate(
+    lat = case_when(
+      city == "USAF Academy" & state == "CO" ~ 38.9943,
+      city == "Saint George" & state == "UT" ~ 37.1042,
+      city == "West Point" & state == "NY" ~ 41.3915,
+      city == "Alcorn State" & state == "MS" ~ 31.8783,
+      city == "Niagara University" & state == "NY" ~ 43.1273,
+      city == "Presbyterian" & state == "SC" ~ 34.4651,
+      city == "Belmont Park" & state == "NY" ~ 40.7130,
+      TRUE ~ lat  # Keep existing value for all others
+    ),
+    long = case_when(
+      city == "USAF Academy" & state == "CO" ~ -104.8638,
+      city == "Saint George" & state == "UT" ~ -113.5841,
+      city == "West Point" & state == "NY" ~ -73.9560,
+      city == "Alcorn State" & state == "MS" ~ -91.1412,
+      city == "Niagara University" & state == "NY" ~ -79.0380,
+      city == "Presbyterian" & state == "SC" ~ -81.8750,
+      city == "Belmont Park" & state == "NY" ~ -73.7180,
+      TRUE ~ long  # Keep existing value for all others
+    )
+  )
+
+# Join back to your data
+w_l_teamids <- w_l_teamids %>%
+  left_join(unique_cities_geocoded, by = c("H_City" = "city", "H_State" = "state")) %>%
+  rename(lat_h = lat, long_h = long) %>%
+  left_join(unique_cities_geocoded, by = c("A_City" = "city", "A_State" = "state")) %>%
+  rename(lat_a = lat, long_a = long) %>%
+  mutate(distance_miles = round(distHaversine(
+    cbind(long_h, lat_h),
+    cbind(long_a, lat_a)
+  ) / 1609.34, 3)) %>%
+  select(-c(lat_a, lat_h, long_a, long_h))
+
+```
+
+
