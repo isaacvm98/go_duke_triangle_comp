@@ -1,0 +1,940 @@
+Season,norm,Coach,Unnamed: 0,School,Conference,W_curr,L_curr,W_pct_curr,AP Pre,AP Post,AP Change,NCAA Tournament,W_ovr,L_ovr,W_pct_ovr,NCAA_app_ovr,S16_ovr,FF_ovr,Chmp_ovr,pake,pase,wins,loss,w_percent,Total_NCAAT_games,total_games,TeamNameSpelling,TeamID
+2015,alabama,Anthony Grant,27,Alabama,SEC,18,14,0.5625,,,,,193,110,0.636963696369637,3.0,,,,-0.4,-0.8,2.0,4.0,0.333,6.0,303,alabama,1104
+2015,alabama,John Brannen,10,Alabama,SEC,1,1,0.5,,,,,1,1,0.5,,,,,-0.1,-0.3,0.0,2.0,0.0,2.0,2,alabama,1104
+2015,arizona,Sean Miller,54,Arizona,Pac-12,34,4,0.894736842105263,2.0,5.0,3.0,Lost Regional Final,283,99,0.740837696335079,8.0,6.0,,,1.4,1.5,21.0,13.0,0.618,34.0,382,arizona,1112
+2015,arizona state,Herb Sendek,64,Arizona State,Pac-12,18,16,0.529411764705882,,,,,413,295,0.583333333333333,8.0,1.0,,,-1.9,-0.2,6.0,7.0,0.462,13.0,708,arizona-state,1113
+2015,arkansas,Mike Anderson Sr,4,Arkansas,SEC,27,9,0.75,,21.0,,Lost Third Round,286,146,0.662037037037037,7.0,2.0,,,,,,,,,432,arkansas,1116
+2015,auburn,Bruce Pearl,56,Auburn,SEC,15,20,0.428571428571429,,,,,246,119,0.673972602739726,8.0,4.0,,,1.1,1.4,21.0,14.0,0.6,35.0,365,auburn,1120
+2015,baylor,Scott Drew,22,Baylor,Big 12,24,10,0.705882352941177,,16.0,,Lost Second Round,250,171,0.593824228028504,5.0,3.0,,,0.5,-0.8,21.0,12.0,0.636,33.0,421,baylor,1124
+2015,boston college,Jim Christian,15,Boston College,ACC,13,19,0.40625,,,,,255,173,0.595794392523365,2.0,,,,-0.9,-1.1,0.0,2.0,0.0,2.0,428,boston-college,1130
+2015,butler,Chris Holtmann,32,Butler,Big East,23,11,0.676470588235294,,24.0,,Lost Third Round,67,65,0.507575757575758,1.0,,,,-1.4,-1.2,7.0,7.0,0.5,14.0,132,butler,1139
+2015,california,Cuonzo Martin,48,California,Pac-12,18,15,0.545454545454545,,,,,142,97,0.594142259414226,1.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,239,california,1143
+2015,clemson,Brad Brownell,12,Clemson,ACC,16,15,0.516129032258065,,,,,257,158,0.619277108433735,4.0,,,,-1.8,-1.1,5.0,8.0,0.385,13.0,415,clemson,1155
+2015,colorado,Tad Boyle,9,Colorado,Pac-12,16,18,0.470588235294118,,,,,164,134,0.550335570469799,3.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,298,colorado,1160
+2015,creighton,Greg McDermott,52,Creighton,Big East,14,19,0.424242424242424,,,,,270,188,0.589519650655022,6.0,,,,0.0,0.1,12.0,13.0,0.48,25.0,458,creighton,1166
+2015,depaul,Oliver Purnell,59,DePaul,Big East,12,20,0.375,,,,,448,384,0.538461538461538,6.0,,,,-4.4,-5.1,0.0,5.0,0.0,5.0,832,depaul,1177
+2015,duke,Mike Krzyzewski,43,Duke,ACC,35,4,0.897435897435897,4.0,4.0,0.0,Won National Final,1018,310,0.766566265060241,31.0,22.0,12.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1328,duke,1181
+2015,florida,Billy Donovan,21,Florida,SEC,16,17,0.484848484848485,7.0,,,,502,206,0.709039548022599,14.0,8.0,4.0,2.0,7.6,9.7,33.0,11.0,0.75,44.0,708,florida,1196
+2015,florida state,Leonard Hamilton ,30,Florida State,ACC,17,16,0.515151515151515,,,,,458,383,0.544589774078478,7.0,2.0,,,,,,,,,841,florida-state,1199
+2015,georgetown,John Thompson III,67,Georgetown,Big East,22,11,0.666666666666667,,22.0,,Lost Third Round,317,157,0.668776371308017,10.0,2.0,1.0,,,,,,,,474,georgetown,1207
+2015,georgia,Mark Fox,25,Georgia,SEC,21,12,0.636363636363636,,,,Lost Second Round,229,132,0.634349030470914,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,361,georgia,1208
+2015,georgia tech,Brian Gregory,28,Georgia Tech,ACC,12,19,0.387096774193548,,,,,227,165,0.579081632653061,2.0,,,,0.1,-0.3,1.0,2.0,0.333,3.0,392,georgia-tech,1210
+2015,illinois,John Groce,29,Illinois,Big Ten,19,14,0.575757575757576,,,,,147,98,0.6,3.0,1.0,,,1.8,2.1,4.0,6.0,0.4,10.0,245,illinois,1228
+2015,indiana,Tom Crean,18,Indiana,Big Ten,20,14,0.588235294117647,,,,Lost Second Round,311,207,0.6003861003861,8.0,3.0,1.0,,-1.0,-1.3,11.0,9.0,0.55,20.0,518,indiana,1231
+2015,iowa,Fran McCaffery,51,Iowa,Big Ten,22,12,0.647058823529412,,,,Lost Third Round,347,252,0.579298831385643,7.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,599,iowa,1234
+2015,iowa state,Fred Hoiberg,31,Iowa State,Big 12,25,9,0.735294117647059,14.0,9.0,-5.0,Lost Second Round,115,56,0.672514619883041,4.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,171,iowa-state,1235
+2015,kansas,Bill Self,63,Kansas,Big 12,27,9,0.75,5.0,10.0,5.0,Lost Third Round,559,183,0.753369272237197,17.0,10.0,2.0,1.0,2.5,-4.4,56.0,23.0,0.709,79.0,742,kansas,1242
+2015,kansas state,Bruce Weber,71,Kansas State,Big 12,15,17,0.46875,,,,,375,193,0.660211267605634,10.0,3.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,568,kansas-state,1243
+2015,kentucky,John Calipari ,13,Kentucky,SEC,38,1,0.974358974358974,1.0,1.0,0.0,Lost National Semifinal,635,178,0.781057810578106,16.0,12.0,6.0,1.0,,,,,,,813,kentucky,1246
+2015,louisville,Rick Pitino ,58,Louisville,ACC,27,9,0.75,8.0,17.0,9.0,Lost Regional Final,722,254,0.739754098360656,20.0,13.0,7.0,2.0,,,,,,,976,louisville,1257
+2015,lsu,Johnny Jones,36,LSU,SEC,22,11,0.666666666666667,,,,Lost Second Round,266,199,0.572043010752688,3.0,,,,-0.9,-0.8,0.0,5.0,0.0,5.0,465,lsu,1261
+2015,marquette,Steve Wojciechowski,75,Marquette,Big East,13,19,0.40625,,,,,13,19,0.40625,,,,,-1.5,-1.8,0.0,2.0,0.0,2.0,32,marquette,1266
+2015,maryland,Mark Turgeon,69,Maryland,Big Ten,28,7,0.8,,12.0,,Lost Third Round,337,209,0.617216117216117,6.0,1.0,,,0.7,0.4,10.0,10.0,0.5,20.0,546,maryland,1268
+2015,miami fl,Jim Larranaga,44,Miami (FL),ACC,25,13,0.657894736842105,,,,,533,358,0.598204264870932,6.0,2.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,891,miami-fl,1274
+2015,michigan,John Beilein,6,Michigan,Big Ten,16,16,0.5,24.0,,,,459,285,0.616935483870968,9.0,4.0,1.0,,8.2,9.6,24.0,11.0,0.686,35.0,744,michigan,1276
+2015,michigan state,Tom Izzo,34,Michigan State,Big Ten,27,12,0.692307692307692,18.0,23.0,5.0,Lost National Semifinal,495,199,0.713256484149856,18.0,13.0,7.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,694,michigan-state,1277
+2015,minnesota,Richard Pitino,57,Minnesota,Big Ten,18,15,0.545454545454545,,,,,61,42,0.592233009708738,,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,103,minnesota,1278
+2015,mississippi state,Rick Ray,60,Mississippi State,SEC,13,19,0.40625,,,,,37,60,0.381443298969072,,,,,,,,,,,97,mississippi-state,1280
+2015,missouri,Kim Anderson,3,Missouri,SEC,9,23,0.28125,,,,,9,23,0.28125,,,,,,,,,,,32,missouri,1281
+2015,nc state,Mark Gottfried,26,NC State,ACC,22,14,0.611111111111111,,,,Lost Regional Semifinal,370,207,0.641247833622184,11.0,3.0,,,1.2,1.0,9.0,9.0,0.5,18.0,577,nc-state,1301
+2015,nebraska,Tim Miles,53,Nebraska,Big Ten,13,18,0.419354838709677,21.0,,,,154,157,0.495176848874598,2.0,,,,-1.0,-1.3,0.0,2.0,0.0,2.0,311,nebraska,1304
+2015,northwestern,Chris Collins,16,Northwestern,Big Ten,15,17,0.46875,,,,,29,36,0.446153846153846,,,,,0.9,0.8,3.0,3.0,0.5,6.0,65,northwestern,1321
+2015,notre dame,Mike Brey,11,Notre Dame,ACC,32,6,0.842105263157895,,8.0,,Lost Regional Final,431,217,0.665123456790123,12.0,2.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,648,notre-dame,1323
+2015,ohio state,Thad Matta,50,Ohio State,Big Ten,24,11,0.685714285714286,20.0,,,Lost Third Round,401,125,0.762357414448669,13.0,6.0,2.0,,1.0,1.4,24.0,13.0,0.649,37.0,526,ohio-state,1326
+2015,oklahoma,Lon Kruger,41,Oklahoma,Big 12,24,11,0.685714285714286,19.0,13.0,-6.0,Lost Regional Semifinal,561,353,0.613785557986871,16.0,4.0,1.0,,0.3,-0.4,12.0,12.0,0.5,24.0,914,oklahoma,1328
+2015,oklahoma state,Travis Ford,24,Oklahoma State,Big 12,18,14,0.5625,,,,Lost Second Round,266,206,0.563559322033898,6.0,,,,-3.1,-3.3,1.0,7.0,0.125,8.0,472,oklahoma-state,1329
+2015,ole miss,Andy Kennedy,38,Ole Miss,SEC,21,13,0.617647058823529,,,,Lost Second Round,213,127,0.626470588235294,2.0,,,,-0.6,-1.2,1.0,4.0,0.2,5.0,340,ole-miss,1279
+2015,oregon,Dana Altman,2,Oregon,Pac-12,26,10,0.722222222222222,,,,Lost Third Round,533,300,0.639855942376951,11.0,1.0,,,3.0,3.5,18.0,15.0,0.545,33.0,833,oregon,1332
+2015,oregon state,Wayne Tinkle,68,Oregon State,Pac-12,17,14,0.548387096774194,,,,,175,105,0.625,3.0,,,,1.2,1.0,3.0,5.0,0.375,8.0,280,oregon-state,1333
+2015,penn state,Patrick Chambers,14,Penn State,Big Ten,18,16,0.529411764705882,,,,,98,103,0.487562189054726,1.0,,,,,,,,,,201,penn-state,1336
+2015,pitt,Jamie Dixon,20,Pitt,ACC,19,15,0.558823529411765,,,,,307,111,0.73444976076555,10.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,418,pitt,1338
+2015,providence,Ed Cooley,17,Providence,Big East,22,12,0.647058823529412,,,,Lost Second Round,171,125,0.577702702702703,2.0,,,,-1.3,-2.1,3.0,6.0,0.333,9.0,296,providence,1344
+2015,purdue,Matt Painter,55,Purdue,Big Ten,21,13,0.617647058823529,,,,Lost Second Round,237,130,0.645776566757493,8.0,2.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,367,purdue,1345
+2015,rutgers,Eddie Jordan,37,Rutgers,Big Ten,10,22,0.3125,,,,,22,43,0.338461538461538,,,,,,,,,,,65,rutgers,1353
+2015,seton hall,Kevin Willard,72,Seton Hall,Big East,16,15,0.516129032258065,,,,,127,130,0.494163424124514,,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,257,seton-hall,1371
+2015,south carolina,Frank Martin,49,South Carolina,SEC,17,16,0.515151515151515,,,,,162,108,0.6,4.0,1.0,,,4.0,4.3,10.0,5.0,0.667,15.0,270,south-carolina,1376
+2015,st john s ny,Steve Lavin,45,St. John's (NY),Big East,21,12,0.636363636363636,,,,Lost Second Round,237,150,0.612403100775194,8.0,5.0,,,1.5,1.0,6.0,5.0,0.545,11.0,387,st. john`s (ny),1385
+2015,stanford,Johnny Dawkins Jr,19,Stanford,Pac-12,24,13,0.648648648648649,,,,,141,100,0.5850622406639,1.0,1.0,,,,,,,,,241,stanford,1390
+2015,syracuse,Jim Boeheim ,8,Syracuse,ACC,18,13,0.580645161290323,23.0,,,,966,333,0.74364896073903,31.0,17.0,4.0,1.0,,,,,,,1299,syracuse,1393
+2015,tcu,Trent Johnson,35,TCU,Big 12,18,15,0.545454545454545,,,,,264,244,0.519685039370079,5.0,2.0,,,0.6,0.5,5.0,5.0,0.5,10.0,508,tcu,1395
+2015,tennessee,Donnie Tyndall ,70,Tennessee,SEC,16,16,0.5,,,,,186,118,0.611842105263158,2.0,,,,,,,,,,304,tennessee,1397
+2015,texas,Rick Barnes,5,Texas,Big 12,20,14,0.588235294117647,10.0,,,Lost Second Round,604,314,0.657952069716776,22.0,6.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,918,texas,1400
+2015,texas a m,Billy Kennedy,39,Texas A&M,SEC,21,12,0.636363636363636,,,,,282,240,0.540229885057471,2.0,,,,1.3,1.9,5.0,4.0,0.556,9.0,522,texas a&m,1401
+2015,texas tech,Tubby Smith,65,Texas Tech,Big 12,13,19,0.40625,,,,,538,263,0.671660424469413,17.0,9.0,1.0,1.0,-2.1,-3.1,15.0,12.0,0.556,27.0,801,texas-tech,1403
+2015,ucla,Steve Alford,1,UCLA,Pac-12,22,14,0.611111111111111,,,,Lost Regional Semifinal,435,229,0.655120481927711,9.0,3.0,,,-2.5,-3.8,9.0,10.0,0.474,19.0,664,ucla,1417
+2015,unc,Roy Williams,74,UNC,ACC,26,12,0.684210526315789,6.0,15.0,9.0,Lost Regional Semifinal,750,202,0.78781512605042,25.0,16.0,7.0,2.0,13.1,10.8,57.0,17.0,0.77,74.0,952,unc,1314
+2015,usc,Andy Enfield,23,USC,Pac-12,12,20,0.375,,,,,64,69,0.481203007518797,1.0,1.0,,,1.6,2.0,6.0,6.0,0.5,12.0,133,usc,1425
+2015,utah,Larry Krystkowiak,42,Utah,Pac-12,26,9,0.742857142857143,25.0,19.0,-6.0,Lost Regional Semifinal,110,84,0.56701030927835,3.0,1.0,,,,,,,,,194,utah,1428
+2015,vanderbilt,Kevin Stallings,66,Vanderbilt,SEC,21,14,0.6,,,,,436,269,0.618439716312057,8.0,2.0,,,-0.8,-2.5,5.0,6.0,0.455,11.0,705,vanderbilt,1435
+2015,villanova,Jay Wright,76,Villanova,Big East,33,3,0.916666666666667,12.0,2.0,-10.0,Lost Third Round,441,237,0.650442477876106,12.0,4.0,1.0,,4.5,3.4,34.0,16.0,0.68,50.0,678,villanova,1437
+2015,virginia,Tony Bennett,7,Virginia,ACC,30,4,0.882352941176471,9.0,6.0,-3.0,Lost Third Round,205,97,0.678807947019868,5.0,2.0,,,-7.1,-8.0,16.0,10.0,0.615,26.0,302,virginia,1438
+2015,virginia tech,Buzz Williams,73,Virginia Tech,ACC,11,22,0.333333333333333,,,,,164,108,0.602941176470588,5.0,3.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,272,virginia-tech,1439
+2015,wake forest,Danny Manning,47,Wake Forest,ACC,13,19,0.40625,,,,,51,48,0.515151515151515,1.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,99,wake-forest,1448
+2015,washington,Lorenzo Romar,61,Washington,Pac-12,16,15,0.516129032258065,,,,,363,247,0.595081967213115,7.0,3.0,,,-0.2,-0.9,8.0,7.0,0.533,15.0,610,washington,1449
+2015,washington state,Ernie Kent,40,Washington State,Pac-12,13,18,0.419354838709677,,,,,338,271,0.555008210180624,6.0,2.0,,,1.1,-0.4,6.0,5.0,0.545,11.0,609,washington-state,1450
+2015,west virginia,Bob Huggins,33,West Virginia,Big 12,25,10,0.714285714285714,,20.0,,Lost Regional Semifinal,693,287,0.707142857142857,21.0,7.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,980,west-virginia,1452
+2015,wisconsin,Bo Ryan,62,Wisconsin,Big Ten,36,4,0.9,3.0,3.0,0.0,Lost National Final,387,152,0.717996289424861,14.0,7.0,2.0,,1.9,4.3,25.0,14.0,0.641,39.0,539,wisconsin,1458
+2015,xavier,Chris Mack,46,Xavier,Big East,23,14,0.621621621621622,,,,Lost Regional Semifinal,134,71,0.653658536585366,5.0,3.0,,,1.0,0.0,11.0,8.0,0.579,19.0,205,xavier,1462
+2016,alabama,Avery Johnson,111,Alabama,SEC,18,15,0.545454545454545,,,,,18,15,0.545454545454545,,,,,0.5,0.4,1.0,1.0,0.5,2.0,33,alabama,1104
+2016,arizona,Sean Miller,131,Arizona,Pac-12,25,9,0.735294117647059,12.0,17.0,5.0,Lost First Round,308,108,0.740384615384615,9.0,6.0,,,1.4,1.5,21.0,13.0,0.618,34.0,416,arizona,1112
+2016,arizona state,Bobby Hurley,109,Arizona State,Pac-12,15,17,0.46875,,,,,57,37,0.606382978723404,1.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,94,arizona-state,1113
+2016,arkansas,Mike Anderson Sr,80,Arkansas,SEC,16,16,0.5,,,,,302,162,0.650862068965517,7.0,2.0,,,,,,,,,464,arkansas,1116
+2016,auburn,Bruce Pearl,134,Auburn,SEC,11,20,0.354838709677419,,,,,257,139,0.648989898989899,8.0,4.0,,,1.1,1.4,21.0,14.0,0.6,35.0,396,auburn,1120
+2016,baylor,Scott Drew,96,Baylor,Big 12,22,12,0.647058823529412,22.0,21.0,-1.0,Lost First Round,272,183,0.597802197802198,6.0,3.0,,,0.5,-0.8,21.0,12.0,0.636,33.0,455,baylor,1124
+2016,boston college,Jim Christian,90,Boston College,ACC,7,25,0.21875,,,,,262,198,0.569565217391304,2.0,,,,-0.9,-1.1,0.0,2.0,0.0,2.0,460,boston-college,1130
+2016,butler,Chris Holtmann,105,Butler,Big East,22,11,0.666666666666667,24.0,,,Lost Second Round,89,76,0.539393939393939,2.0,,,,-1.4,-1.2,7.0,7.0,0.5,14.0,165,butler,1139
+2016,california,Cuonzo Martin,125,California,Pac-12,23,11,0.676470588235294,14.0,23.0,9.0,Lost First Round,165,108,0.604395604395604,2.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,273,california,1143
+2016,clemson,Brad Brownell,87,Clemson,ACC,17,14,0.548387096774194,,,,,274,172,0.614349775784753,4.0,,,,-1.8,-1.1,5.0,8.0,0.385,13.0,446,clemson,1155
+2016,colorado,Tad Boyle,85,Colorado,Pac-12,22,12,0.647058823529412,,,,Lost First Round,186,146,0.560240963855422,4.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,332,colorado,1160
+2016,creighton,Greg McDermott,129,Creighton,Big East,20,15,0.571428571428571,,,,,290,203,0.588235294117647,6.0,,,,0.0,0.1,12.0,13.0,0.48,25.0,493,creighton,1166
+2016,depaul,Dave Leitao,122,DePaul,Big East,9,22,0.290322580645161,,,,,152,151,0.501650165016502,2.0,,,,0.0,-0.4,2.0,2.0,0.5,4.0,303,depaul,1177
+2016,duke,Mike Krzyzewski,120,Duke,ACC,25,11,0.694444444444444,5.0,19.0,14.0,Lost Regional Semifinal,1043,321,0.76466275659824,32.0,23.0,12.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1364,duke,1181
+2016,florida,Michael White,148,Florida,SEC,21,15,0.583333333333333,,,,,122,55,0.689265536723164,,,,,0.8,1.3,6.0,5.0,0.545,11.0,177,florida,1196
+2016,florida state,Leonard Hamilton ,104,Florida State,ACC,20,14,0.588235294117647,,,,,478,397,0.546285714285714,7.0,2.0,,,,,,,,,875,florida-state,1199
+2016,georgetown,John Thompson III,144,Georgetown,Big East,15,18,0.454545454545455,,,,,332,175,0.654832347140039,10.0,2.0,1.0,,,,,,,,507,georgetown,1207
+2016,georgia,Mark Fox,99,Georgia,SEC,20,14,0.588235294117647,,,,,249,146,0.630379746835443,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,395,georgia,1208
+2016,georgia tech,Brian Gregory,102,Georgia Tech,ACC,21,15,0.583333333333333,,,,,248,180,0.579439252336449,2.0,,,,0.1,-0.3,1.0,2.0,0.333,3.0,428,georgia-tech,1210
+2016,illinois,John Groce,103,Illinois,Big Ten,15,19,0.441176470588235,,,,,162,117,0.580645161290323,3.0,1.0,,,1.8,2.1,4.0,6.0,0.4,10.0,279,illinois,1228
+2016,indiana,Tom Crean,93,Indiana,Big Ten,27,8,0.771428571428571,15.0,14.0,-1.0,Lost Regional Semifinal,338,215,0.61121157323689,9.0,4.0,1.0,,-1.0,-1.3,11.0,9.0,0.55,20.0,553,indiana,1231
+2016,iowa,Fran McCaffery,128,Iowa,Big Ten,22,11,0.666666666666667,,25.0,,Lost Second Round,369,263,0.583860759493671,8.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,632,iowa,1234
+2016,iowa state,Steve Prohm,137,Iowa State,Big 12,23,12,0.657142857142857,7.0,22.0,15.0,Lost Regional Semifinal,127,41,0.755952380952381,2.0,1.0,,,-1.7,-1.2,1.0,2.0,0.333,3.0,168,iowa-state,1235
+2016,kansas,Bill Self,140,Kansas,Big 12,33,5,0.868421052631579,4.0,1.0,-3.0,Lost Regional Final,592,188,0.758974358974359,18.0,11.0,2.0,1.0,2.5,-4.4,56.0,23.0,0.709,79.0,780,kansas,1242
+2016,kansas state,Bruce Weber,147,Kansas State,Big 12,17,16,0.515151515151515,,,,,392,209,0.652246256239601,10.0,3.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,601,kansas-state,1243
+2016,kentucky,John Calipari ,88,Kentucky,SEC,27,9,0.75,2.0,10.0,8.0,Lost Second Round,662,187,0.779740871613663,17.0,12.0,6.0,1.0,,,,,,,849,kentucky,1246
+2016,louisville,Rick Pitino ,136,Louisville,ACC,23,8,0.741935483870968,,16.0,,,745,262,0.739821251241311,20.0,13.0,7.0,2.0,,,,,,,1007,louisville,1257
+2016,lsu,Johnny Jones,113,LSU,SEC,19,14,0.575757575757576,21.0,,,,285,213,0.572289156626506,3.0,,,,-0.9,-0.8,0.0,5.0,0.0,5.0,498,lsu,1261
+2016,marquette,Steve Wojciechowski,152,Marquette,Big East,20,13,0.606060606060606,,,,,33,32,0.507692307692308,,,,,-1.5,-1.8,0.0,2.0,0.0,2.0,65,marquette,1266
+2016,maryland,Mark Turgeon,146,Maryland,Big Ten,27,9,0.75,3.0,18.0,15.0,Lost Regional Semifinal,364,218,0.625429553264605,7.0,2.0,,,0.7,0.4,10.0,10.0,0.5,20.0,582,maryland,1268
+2016,miami fl,Jim Larranaga,121,Miami (FL),ACC,27,8,0.771428571428571,,10.0,,Lost Regional Semifinal,560,366,0.60475161987041,7.0,3.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,926,miami-fl,1274
+2016,michigan,John Beilein,82,Michigan,Big Ten,23,13,0.638888888888889,25.0,,,Lost First Round,482,298,0.617948717948718,10.0,4.0,1.0,,8.2,9.6,24.0,11.0,0.686,35.0,780,michigan,1276
+2016,michigan state,Tom Izzo,110,Michigan State,Big Ten,29,6,0.828571428571429,13.0,2.0,-11.0,Lost First Round,524,205,0.718792866941015,19.0,13.0,7.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,729,michigan-state,1277
+2016,minnesota,Richard Pitino,135,Minnesota,Big Ten,8,23,0.258064516129032,,,,,69,65,0.514925373134328,,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,134,minnesota,1278
+2016,mississippi state,Ben Howland,107,Mississippi State,SEC,14,17,0.451612903225806,,,,,413,225,0.647335423197492,10.0,5.0,3.0,,1.2,2.0,19.0,10.0,0.655,29.0,638,mississippi-state,1280
+2016,missouri,Kim Anderson,79,Missouri,SEC,10,21,0.32258064516129,,,,,19,44,0.301587301587302,,,,,,,,,,,63,missouri,1281
+2016,nc state,Mark Gottfried,101,NC State,ACC,16,17,0.484848484848485,,,,,386,224,0.632786885245902,11.0,3.0,,,1.2,1.0,9.0,9.0,0.5,18.0,610,nc-state,1301
+2016,nebraska,Tim Miles,130,Nebraska,Big Ten,16,18,0.470588235294118,,,,,170,175,0.492753623188406,2.0,,,,-1.0,-1.3,0.0,2.0,0.0,2.0,345,nebraska,1304
+2016,northwestern,Chris Collins,91,Northwestern,Big Ten,20,12,0.625,,,,,49,48,0.505154639175258,,,,,0.9,0.8,3.0,3.0,0.5,6.0,97,northwestern,1321
+2016,notre dame,Mike Brey,86,Notre Dame,ACC,24,12,0.666666666666667,19.0,,,Lost Regional Final,455,229,0.665204678362573,13.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,684,notre-dame,1323
+2016,ohio state,Thad Matta,127,Ohio State,Big Ten,21,14,0.6,,,,,422,139,0.75222816399287,13.0,6.0,2.0,,1.0,1.4,24.0,13.0,0.649,37.0,561,ohio-state,1326
+2016,oklahoma,Lon Kruger,118,Oklahoma,Big 12,29,8,0.783783783783784,8.0,7.0,-1.0,Lost National Semifinal,590,361,0.620399579390116,17.0,5.0,2.0,,0.3,-0.4,12.0,12.0,0.5,24.0,951,oklahoma,1328
+2016,oklahoma state,Travis Ford,98,Oklahoma State,Big 12,12,20,0.375,,,,,278,226,0.551587301587302,6.0,,,,-3.1,-3.3,1.0,7.0,0.125,8.0,504,oklahoma-state,1329
+2016,ole miss,Andy Kennedy,115,Ole Miss,SEC,20,12,0.625,,,,,233,139,0.626344086021505,2.0,,,,-0.6,-1.2,1.0,4.0,0.2,5.0,372,ole-miss,1279
+2016,oregon,Dana Altman,78,Oregon,Pac-12,31,7,0.815789473684211,,5.0,,Lost Regional Final,564,307,0.647531572904707,12.0,2.0,,,3.0,3.5,18.0,15.0,0.545,33.0,871,oregon,1332
+2016,oregon state,Wayne Tinkle,145,Oregon State,Pac-12,19,13,0.59375,,,,Lost First Round,194,118,0.621794871794872,4.0,,,,1.2,1.0,3.0,5.0,0.375,8.0,312,oregon-state,1333
+2016,penn state,Patrick Chambers,89,Penn State,Big Ten,16,16,0.5,,,,,114,119,0.489270386266094,1.0,,,,,,,,,,233,penn-state,1336
+2016,pitt,Jamie Dixon,95,Pitt,ACC,21,12,0.636363636363636,,,,Lost First Round,328,123,0.727272727272727,11.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,451,pitt,1338
+2016,providence,Ed Cooley,92,Providence,Big East,24,11,0.685714285714286,,,,Lost Second Round,195,136,0.589123867069486,3.0,,,,-1.3,-2.1,3.0,6.0,0.333,9.0,331,providence,1344
+2016,purdue,Matt Painter,133,Purdue,Big Ten,26,9,0.742857142857143,23.0,12.0,-11.0,Lost First Round,263,139,0.654228855721393,9.0,2.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,402,purdue,1345
+2016,rutgers,Eddie Jordan,114,Rutgers,Big Ten,7,25,0.21875,,,,,29,68,0.298969072164948,,,,,,,,,,,97,rutgers,1353
+2016,seton hall,Kevin Willard,149,Seton Hall,Big East,25,9,0.735294117647059,,20.0,,Lost First Round,152,139,0.52233676975945,1.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,291,seton-hall,1371
+2016,south carolina,Frank Martin,126,South Carolina,SEC,25,9,0.735294117647059,,,,,187,117,0.615131578947368,4.0,1.0,,,4.0,4.3,10.0,5.0,0.667,15.0,304,south-carolina,1376
+2016,st john s ny,Chris Mullin,132,St. John's (NY),Big East,8,24,0.25,,,,,8,24,0.25,,,,,,,,,,,32,st. john`s (ny),1385
+2016,stanford,Johnny Dawkins Jr,94,Stanford,Pac-12,15,15,0.5,,,,,156,115,0.575645756457565,1.0,1.0,,,,,,,,,271,stanford,1390
+2016,syracuse,Jim Boeheim ,84,Syracuse,ACC,19,9,0.678571428571429,,,,Lost National Semifinal,985,342,0.742275810097965,32.0,18.0,5.0,1.0,,,,,,,1327,syracuse,1393
+2016,syracuse,Mike Hopkins,106,Syracuse,ACC,4,5,0.444444444444444,,,,,4,5,0.444444444444444,,,,,0.4,0.4,1.0,1.0,0.5,2.0,9,syracuse,1393
+2016,tcu,Trent Johnson,112,TCU,Big 12,12,21,0.363636363636364,,,,,276,265,0.510166358595194,5.0,2.0,,,0.6,0.5,5.0,5.0,0.5,10.0,541,tcu,1395
+2016,tennessee,Rick Barnes,81,Tennessee,SEC,15,19,0.441176470588235,,,,,619,333,0.650210084033613,22.0,6.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,952,tennessee,1397
+2016,texas,Shaka Smart,141,Texas,Big 12,20,13,0.606060606060606,,,,Lost First Round,183,69,0.726190476190476,6.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,252,texas,1400
+2016,texas a m,Billy Kennedy,116,Texas A&M,SEC,28,9,0.756756756756757,,15.0,,Lost Regional Semifinal,310,249,0.554561717352415,3.0,1.0,,,1.3,1.9,5.0,4.0,0.556,9.0,559,texas a&m,1401
+2016,texas tech,Tubby Smith,142,Texas Tech,Big 12,19,13,0.59375,,,,Lost First Round,557,276,0.668667466986795,18.0,9.0,1.0,1.0,-2.1,-3.1,15.0,12.0,0.556,27.0,833,texas-tech,1403
+2016,ucla,Steve Alford,77,UCLA,Pac-12,15,17,0.46875,,,,,450,246,0.646551724137931,9.0,3.0,,,-2.5,-3.8,9.0,10.0,0.474,19.0,696,ucla,1417
+2016,unc,Roy Williams,151,UNC,ACC,33,7,0.825,1.0,3.0,2.0,Lost National Final,783,209,0.789314516129032,26.0,17.0,8.0,2.0,13.1,10.8,57.0,17.0,0.77,74.0,992,unc,1314
+2016,usc,Andy Enfield,97,USC,Pac-12,21,13,0.617647058823529,,,,Lost First Round,85,82,0.508982035928144,2.0,1.0,,,1.6,2.0,6.0,6.0,0.5,12.0,167,usc,1425
+2016,utah,Larry Krystkowiak,119,Utah,Pac-12,27,9,0.75,16.0,13.0,-3.0,Lost Second Round,137,93,0.595652173913043,4.0,1.0,,,,,,,,,230,utah,1428
+2016,vanderbilt,Kevin Stallings,143,Vanderbilt,SEC,19,14,0.575757575757576,18.0,,,Lost First Four,455,283,0.616531165311653,9.0,2.0,,,-0.8,-2.5,5.0,6.0,0.455,11.0,738,vanderbilt,1435
+2016,villanova,Jay Wright,153,Villanova,Big East,35,5,0.875,11.0,6.0,-5.0,Won National Final,476,242,0.662952646239554,13.0,5.0,2.0,1.0,4.5,3.4,34.0,16.0,0.68,50.0,718,villanova,1437
+2016,virginia,Tony Bennett,83,Virginia,ACC,29,8,0.783783783783784,6.0,4.0,-2.0,Lost Regional Final,234,105,0.690265486725664,6.0,3.0,,,-7.1,-8.0,16.0,10.0,0.615,26.0,339,virginia,1438
+2016,virginia tech,Buzz Williams,150,Virginia Tech,ACC,20,15,0.571428571428571,,,,,184,123,0.599348534201954,5.0,3.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,307,virginia-tech,1439
+2016,wake forest,Danny Manning,124,Wake Forest,ACC,11,20,0.354838709677419,,,,,62,68,0.476923076923077,1.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,130,wake-forest,1448
+2016,washington,Lorenzo Romar,138,Washington,Pac-12,19,15,0.558823529411765,,,,,382,262,0.593167701863354,7.0,3.0,,,-0.2,-0.9,8.0,7.0,0.533,15.0,644,washington,1449
+2016,washington state,Ernie Kent,117,Washington State,Pac-12,9,22,0.290322580645161,,,,,347,293,0.5421875,6.0,2.0,,,1.1,-0.4,6.0,5.0,0.545,11.0,640,washington-state,1450
+2016,west virginia,Bob Huggins,108,West Virginia,Big 12,26,9,0.742857142857143,,8.0,,Lost First Round,719,296,0.708374384236453,22.0,7.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1015,west-virginia,1452
+2016,wisconsin,Bo Ryan,139,Wisconsin,Big Ten,7,5,0.583333333333333,17.0,,,Lost Regional Semifinal,394,157,0.715063520871143,15.0,8.0,2.0,,1.9,4.3,25.0,14.0,0.641,39.0,551,wisconsin,1458
+2016,wisconsin,Greg Gard,100,Wisconsin,Big Ten,15,8,0.652173913043478,17.0,,,Lost Regional Semifinal,15,8,0.652173913043478,1.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,23,wisconsin,1458
+2016,xavier,Chris Mack,123,Xavier,Big East,28,6,0.823529411764706,,9.0,,Lost Second Round,162,77,0.677824267782427,6.0,3.0,,,1.0,0.0,11.0,8.0,0.579,19.0,239,xavier,1462
+2017,alabama,Avery Johnson,187,Alabama,SEC,19,15,0.558823529411765,,,,,37,30,0.552238805970149,,,,,0.5,0.4,1.0,1.0,0.5,2.0,67,alabama,1104
+2017,arizona,Sean Miller ,205,Arizona,Pac-12,32,5,0.864864864864865,10.0,4.0,-6.0,Lost Regional Semifinal,340,113,0.750551876379691,10.0,7.0,,,,,,,,,453,arizona,1112
+2017,arizona state,Bobby Hurley,185,Arizona State,Pac-12,15,18,0.454545454545455,,,,,72,55,0.566929133858268,1.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,127,arizona-state,1113
+2017,arkansas,Mike Anderson Sr,157,Arkansas,SEC,26,10,0.722222222222222,,,,Lost Second Round,328,172,0.656,8.0,2.0,,,,,,,,,500,arkansas,1116
+2017,auburn,Bruce Pearl,209,Auburn,SEC,18,14,0.5625,,,,,275,153,0.642523364485981,8.0,4.0,,,1.1,1.4,21.0,14.0,0.6,35.0,428,auburn,1120
+2017,baylor,Scott Drew,174,Baylor,Big 12,27,8,0.771428571428571,,12.0,,Lost Regional Semifinal,299,191,0.610204081632653,7.0,4.0,,,0.5,-0.8,21.0,12.0,0.636,33.0,490,baylor,1124
+2017,boston college,Jim Christian,168,Boston College,ACC,9,23,0.28125,,,,,271,221,0.550813008130081,2.0,,,,-0.9,-1.1,0.0,2.0,0.0,2.0,492,boston-college,1130
+2017,butler,Chris Holtmann,182,Butler,Big East,25,9,0.735294117647059,,21.0,,Lost Regional Semifinal,114,85,0.57286432160804,3.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,199,butler,1139
+2017,california,Cuonzo Martin,199,California,Pac-12,21,13,0.617647058823529,,,,,186,121,0.60586319218241,2.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,307,california,1143
+2017,clemson,Brad Brownell,165,Clemson,ACC,17,16,0.515151515151515,,,,,291,188,0.607515657620042,4.0,,,,-1.8,-1.1,5.0,8.0,0.385,13.0,479,clemson,1155
+2017,colorado,Tad Boyle,163,Colorado,Pac-12,19,15,0.558823529411765,,,,,205,161,0.560109289617486,4.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,366,colorado,1160
+2017,creighton,Greg McDermott,203,Creighton,Big East,25,10,0.714285714285714,22.0,,,Lost First Round,315,213,0.596590909090909,7.0,,,,0.0,0.1,12.0,13.0,0.48,25.0,528,creighton,1166
+2017,depaul,Dave Leitao,196,DePaul,Big East,9,23,0.28125,,,,,161,174,0.480597014925373,2.0,,,,0.0,-0.4,2.0,2.0,0.5,4.0,335,depaul,1177
+2017,duke,Mike Krzyzewski,194,Duke,ACC,28,9,0.756756756756757,1.0,7.0,6.0,Lost Second Round,1071,330,0.764453961456103,33.0,23.0,12.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1401,duke,1181
+2017,florida,Michael White,224,Florida,SEC,27,9,0.75,,20.0,,Lost Regional Final,149,64,0.699530516431925,1.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,213,florida,1196
+2017,florida state,Leonard Hamilton ,181,Florida State,ACC,26,9,0.742857142857143,,16.0,,Lost Second Round,504,406,0.553846153846154,8.0,2.0,,,,,,,,,910,florida-state,1199
+2017,georgetown,John Thompson III,218,Georgetown,Big East,14,18,0.4375,,,,,346,193,0.641929499072356,10.0,2.0,1.0,,,,,,,,539,georgetown,1207
+2017,georgia,Mark Fox,176,Georgia,SEC,19,15,0.558823529411765,,,,,268,161,0.624708624708625,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,429,georgia,1208
+2017,georgia tech,Josh Pastner ,208,Georgia Tech,ACC,21,16,0.567567567567568,,,,,188,89,0.67870036101083,4.0,,,,,,,,,,277,georgia-tech,1210
+2017,illinois,Jamall Walker,222,Illinois,Big Ten,2,1,0.666666666666667,,,,,2,1,0.666666666666667,,,,,,,,,,,3,illinois,1228
+2017,illinois,John Groce,179,Illinois,Big Ten,18,14,0.5625,,,,,180,131,0.578778135048232,3.0,1.0,,,1.8,2.1,4.0,6.0,0.4,10.0,311,illinois,1228
+2017,indiana,Tom Crean,171,Indiana,Big Ten,18,16,0.529411764705882,11.0,,,,356,231,0.606473594548552,9.0,4.0,1.0,,-1.0,-1.3,11.0,9.0,0.55,20.0,587,indiana,1231
+2017,iowa,Fran McCaffery,202,Iowa,Big Ten,19,15,0.558823529411765,,,,,388,278,0.582582582582583,8.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,666,iowa,1234
+2017,iowa state,Steve Prohm,213,Iowa State,Big 12,24,11,0.685714285714286,24.0,16.0,-8.0,Lost Second Round,151,52,0.74384236453202,3.0,1.0,,,-1.7,-1.2,1.0,2.0,0.333,3.0,203,iowa-state,1235
+2017,kansas,Bill Self,215,Kansas,Big 12,31,5,0.861111111111111,3.0,3.0,0.0,Lost Regional Final,623,193,0.763480392156863,19.0,12.0,2.0,1.0,2.5,-4.4,56.0,23.0,0.709,79.0,816,kansas,1242
+2017,kansas state,Bruce Weber,223,Kansas State,Big 12,21,14,0.6,,,,Lost First Round,413,223,0.64937106918239,11.0,3.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,636,kansas-state,1243
+2017,kentucky,John Calipari ,166,Kentucky,SEC,32,6,0.842105263157895,2.0,5.0,3.0,Lost Regional Final,694,193,0.782412626832018,18.0,13.0,6.0,1.0,,,,,,,887,kentucky,1246
+2017,louisville,Rick Pitino ,212,Louisville,ACC,25,9,0.735294117647059,13.0,10.0,-3.0,Lost Second Round,770,271,0.739673390970221,21.0,13.0,7.0,2.0,,,,,,,1041,louisville,1257
+2017,lsu,Johnny Jones,188,LSU,SEC,10,21,0.32258064516129,,,,,295,234,0.55765595463138,3.0,,,,-0.9,-0.8,0.0,5.0,0.0,5.0,529,lsu,1261
+2017,marquette,Steve Wojciechowski,228,Marquette,Big East,19,13,0.59375,,,,Lost First Round,52,45,0.536082474226804,1.0,,,,-1.5,-1.8,0.0,2.0,0.0,2.0,97,marquette,1266
+2017,maryland,Mark Turgeon,220,Maryland,Big Ten,24,9,0.727272727272727,25.0,,,Lost First Round,388,227,0.630894308943089,8.0,2.0,,,0.7,0.4,10.0,10.0,0.5,20.0,615,maryland,1268
+2017,miami fl,Jim Larranaga,195,Miami (FL),ACC,21,12,0.636363636363636,,,,Lost First Round,581,378,0.605839416058394,8.0,3.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,959,miami-fl,1274
+2017,michigan,John Beilein,160,Michigan,Big Ten,26,12,0.684210526315789,,23.0,,Lost Regional Semifinal,508,310,0.621026894865526,11.0,5.0,1.0,,8.2,9.6,24.0,11.0,0.686,35.0,818,michigan,1276
+2017,michigan state,Tom Izzo,186,Michigan State,Big Ten,20,15,0.571428571428571,12.0,,,Lost Second Round,544,220,0.712041884816754,20.0,13.0,7.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,764,michigan-state,1277
+2017,minnesota,Richard Pitino,211,Minnesota,Big Ten,24,10,0.705882352941177,,,,Lost First Round,93,75,0.553571428571429,1.0,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,168,minnesota,1278
+2017,mississippi state,Ben Howland,183,Mississippi State,SEC,16,16,0.5,,,,,429,241,0.640298507462687,10.0,5.0,3.0,,1.2,2.0,19.0,10.0,0.655,29.0,670,mississippi-state,1280
+2017,missouri,Kim Anderson,156,Missouri,SEC,8,24,0.25,,,,,27,68,0.284210526315789,,,,,,,,,,,95,missouri,1281
+2017,nc state,Mark Gottfried,178,NC State,ACC,15,17,0.46875,,,,,401,241,0.624610591900312,11.0,3.0,,,1.2,1.0,9.0,9.0,0.5,18.0,642,nc-state,1301
+2017,nebraska,Tim Miles,204,Nebraska,Big Ten,12,19,0.387096774193548,,,,,182,194,0.484042553191489,2.0,,,,-1.0,-1.3,0.0,2.0,0.0,2.0,376,nebraska,1304
+2017,northwestern,Chris Collins,169,Northwestern,Big Ten,24,12,0.666666666666667,,,,Lost Second Round,73,60,0.548872180451128,1.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,133,northwestern,1321
+2017,notre dame,Mike Brey,164,Notre Dame,ACC,26,10,0.722222222222222,,14.0,,Lost Second Round,481,239,0.668055555555556,14.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,720,notre-dame,1323
+2017,ohio state,Thad Matta,201,Ohio State,Big Ten,17,15,0.53125,,,,,439,154,0.740303541315346,13.0,6.0,2.0,,1.0,1.4,24.0,13.0,0.649,37.0,593,ohio-state,1326
+2017,oklahoma,Lon Kruger,192,Oklahoma,Big 12,11,20,0.354838709677419,,,,,601,381,0.612016293279022,17.0,5.0,2.0,,0.3,-0.4,12.0,12.0,0.5,24.0,982,oklahoma,1328
+2017,oklahoma state,Brad Underwood ,221,Oklahoma State,Big 12,20,13,0.606060606060606,,,,Lost First Round,109,27,0.801470588235294,4.0,,,,,,,,,,136,oklahoma-state,1329
+2017,ole miss,Andy Kennedy,189,Ole Miss,SEC,22,14,0.611111111111111,,,,,255,153,0.625,2.0,,,,-0.6,-1.2,1.0,4.0,0.2,5.0,408,ole-miss,1279
+2017,oregon,Dana Altman,155,Oregon,Pac-12,33,6,0.846153846153846,5.0,9.0,4.0,Lost National Semifinal,597,313,0.656043956043956,13.0,3.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,910,oregon,1332
+2017,oregon state,Wayne Tinkle,219,Oregon State,Pac-12,5,27,0.15625,,,,,199,145,0.578488372093023,4.0,,,,1.2,1.0,3.0,5.0,0.375,8.0,344,oregon-state,1333
+2017,penn state,Patrick Chambers,167,Penn State,Big Ten,15,18,0.454545454545455,,,,,129,137,0.484962406015038,1.0,,,,,,,,,,266,penn-state,1336
+2017,pitt,Kevin Stallings,217,Pitt,ACC,16,17,0.484848484848485,,,,,471,300,0.610894941634241,9.0,2.0,,,-0.8,-2.5,5.0,6.0,0.455,11.0,771,pitt,1338
+2017,providence,Ed Cooley,170,Providence,Big East,20,13,0.606060606060606,,,,Lost First Four,215,149,0.590659340659341,4.0,,,,-1.3,-2.1,3.0,6.0,0.333,9.0,364,providence,1344
+2017,purdue,Matt Painter,207,Purdue,Big Ten,27,8,0.771428571428571,15.0,15.0,0.0,Lost Regional Semifinal,290,147,0.663615560640732,10.0,3.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,437,purdue,1345
+2017,rutgers,Steve Pikiell,210,Rutgers,Big Ten,15,18,0.454545454545455,,,,,207,174,0.543307086614173,1.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,381,rutgers,1353
+2017,seton hall,Kevin Willard,225,Seton Hall,Big East,21,12,0.636363636363636,,,,Lost First Round,173,151,0.533950617283951,2.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,324,seton-hall,1371
+2017,south carolina,Frank Martin,200,South Carolina,SEC,26,11,0.702702702702703,,,,Lost National Semifinal,213,128,0.624633431085044,5.0,2.0,1.0,,4.0,4.3,10.0,5.0,0.667,15.0,341,south-carolina,1376
+2017,st john s ny,Chris Mullin,206,St. John's (NY),Big East,14,19,0.424242424242424,,,,,22,43,0.338461538461538,,,,,,,,,,,65,st. john`s (ny),1385
+2017,stanford,Jerod Haase,180,Stanford,Pac-12,14,17,0.451612903225806,,,,,94,70,0.573170731707317,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,164,stanford,1390
+2017,syracuse,Jim Boeheim ,162,Syracuse,ACC,19,15,0.558823529411765,19.0,,,,1004,357,0.737692872887583,32.0,18.0,5.0,1.0,,,,,,,1361,syracuse,1393
+2017,tcu,Jamie Dixon,172,TCU,Big 12,24,15,0.615384615384615,,,,,352,138,0.718367346938775,11.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,490,tcu,1395
+2017,tennessee,Rick Barnes,158,Tennessee,SEC,16,16,0.5,,,,,635,349,0.645325203252033,22.0,6.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,984,tennessee,1397
+2017,texas,Shaka Smart,216,Texas,Big 12,11,22,0.333333333333333,21.0,,,,194,91,0.680701754385965,6.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,285,texas,1400
+2017,texas a m,Billy Kennedy,190,Texas A&M,SEC,16,15,0.516129032258065,,,,,326,264,0.552542372881356,3.0,1.0,,,1.3,1.9,5.0,4.0,0.556,9.0,590,texas a&m,1401
+2017,texas tech,Chris Beard,159,Texas Tech,Big 12,18,14,0.5625,,,,,48,19,0.716417910447761,1.0,,,,4.4,5.6,13.0,6.0,0.684,19.0,67,texas-tech,1403
+2017,ucla,Steve Alford,154,UCLA,Pac-12,31,5,0.861111111111111,16.0,8.0,-8.0,Lost Regional Semifinal,481,251,0.657103825136612,10.0,4.0,,,-2.5,-3.8,9.0,10.0,0.474,19.0,732,ucla,1417
+2017,unc,Roy Williams,227,UNC,ACC,33,7,0.825,6.0,6.0,0.0,Won National Final,816,216,0.790697674418605,27.0,18.0,9.0,3.0,13.1,10.8,57.0,17.0,0.77,74.0,1032,unc,1314
+2017,usc,Andy Enfield,175,USC,Pac-12,26,10,0.722222222222222,,,,Lost Second Round,111,92,0.54679802955665,3.0,1.0,,,1.6,2.0,6.0,6.0,0.5,12.0,203,usc,1425
+2017,utah,Larry Krystkowiak,193,Utah,Pac-12,20,12,0.625,,,,,157,105,0.599236641221374,4.0,1.0,,,,,,,,,262,utah,1428
+2017,vanderbilt,Bryce Drew,173,Vanderbilt,SEC,19,16,0.542857142857143,,,,Lost First Round,143,65,0.6875,3.0,,,,-1.4,-1.0,1.0,7.0,0.125,8.0,208,vanderbilt,1435
+2017,villanova,Jay Wright,229,Villanova,Big East,32,4,0.888888888888889,4.0,1.0,-3.0,Lost Second Round,508,246,0.673740053050398,14.0,5.0,2.0,1.0,4.5,3.4,34.0,16.0,0.68,50.0,754,villanova,1437
+2017,virginia,Tony Bennett,161,Virginia,ACC,23,11,0.676470588235294,8.0,24.0,16.0,Lost Second Round,257,116,0.689008042895442,7.0,3.0,,,-7.1,-8.0,16.0,10.0,0.615,26.0,373,virginia,1438
+2017,virginia tech,Buzz Williams,226,Virginia Tech,ACC,22,11,0.666666666666667,,,,Lost First Round,206,134,0.605882352941176,6.0,3.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,340,virginia-tech,1439
+2017,wake forest,Danny Manning,198,Wake Forest,ACC,19,14,0.575757575757576,,,,Lost First Four,81,82,0.496932515337423,2.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,163,wake-forest,1448
+2017,washington,Lorenzo Romar,214,Washington,Pac-12,9,22,0.290322580645161,,,,,391,284,0.579259259259259,7.0,3.0,,,-0.2,-0.9,8.0,7.0,0.533,15.0,675,washington,1449
+2017,washington state,Ernie Kent,191,Washington State,Pac-12,13,18,0.419354838709677,,,,,360,311,0.536512667660209,6.0,2.0,,,1.1,-0.4,6.0,5.0,0.545,11.0,671,washington-state,1450
+2017,west virginia,Bob Huggins,184,West Virginia,Big 12,28,9,0.756756756756757,20.0,13.0,-7.0,Lost Regional Semifinal,747,305,0.710076045627376,23.0,8.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1052,west-virginia,1452
+2017,wisconsin,Greg Gard,177,Wisconsin,Big Ten,27,10,0.72972972972973,9.0,25.0,16.0,Lost Regional Semifinal,42,18,0.7,2.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,60,wisconsin,1458
+2017,xavier,Chris Mack,197,Xavier,Big East,24,14,0.631578947368421,7.0,,,Lost Regional Final,186,91,0.671480144404332,7.0,4.0,,,1.0,0.0,11.0,8.0,0.579,19.0,277,xavier,1462
+2018,alabama,Avery Johnson,262,Alabama,SEC,20,16,0.555555555555556,,,,Lost Second Round,57,46,0.553398058252427,1.0,,,,0.5,0.4,1.0,1.0,0.5,2.0,103,alabama,1104
+2018,arizona,Sean Miller ,283,Arizona,Pac-12,27,8,0.771428571428571,3.0,12.0,9.0,Lost First Round,367,121,0.752049180327869,11.0,7.0,,,,,,,,,488,arizona,1112
+2018,arizona state,Bobby Hurley,260,Arizona State,Pac-12,20,12,0.625,,,,Lost First Four,92,67,0.578616352201258,2.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,159,arizona-state,1113
+2018,arkansas,Mike Anderson Sr,232,Arkansas,SEC,23,12,0.657142857142857,,,,Lost First Round,351,184,0.65607476635514,9.0,2.0,,,,,,,,,535,arkansas,1116
+2018,auburn,Bruce Pearl,288,Auburn,SEC,26,8,0.764705882352941,,19.0,,Lost Second Round,301,161,0.651515151515151,9.0,4.0,,,1.1,1.4,21.0,14.0,0.6,35.0,462,auburn,1120
+2018,baylor,Scott Drew,249,Baylor,Big 12,19,15,0.558823529411765,24.0,,,,318,206,0.606870229007634,7.0,4.0,,,0.5,-0.8,21.0,12.0,0.636,33.0,524,baylor,1124
+2018,boston college,Jim Christian,244,Boston College,ACC,19,16,0.542857142857143,,,,,290,237,0.550284629981025,2.0,,,,-0.9,-1.1,0.0,2.0,0.0,2.0,527,boston-college,1130
+2018,butler,LaVall Jordan,264,Butler,Big East,21,14,0.6,,,,Lost Second Round,32,38,0.457142857142857,1.0,,,,-0.1,0.4,1.0,1.0,0.5,2.0,70,butler,1139
+2018,california,Wyking Jones,263,California,Pac-12,8,24,0.25,,,,,8,24,0.25,,,,,,,,,,,32,california,1143
+2018,clemson,Brad Brownell,241,Clemson,ACC,25,10,0.714285714285714,,20.0,,Lost Regional Semifinal,316,198,0.614785992217899,5.0,1.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,514,clemson,1155
+2018,colorado,Tad Boyle,238,Colorado,Pac-12,17,15,0.53125,,,,,222,176,0.557788944723618,4.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,398,colorado,1160
+2018,creighton,Greg McDermott,280,Creighton,Big East,21,12,0.636363636363636,,,,Lost First Round,336,225,0.598930481283422,8.0,,,,0.0,0.1,12.0,13.0,0.48,25.0,561,creighton,1166
+2018,depaul,Dave Leitao,273,DePaul,Big East,11,20,0.354838709677419,,,,,172,194,0.469945355191257,2.0,,,,0.0,-0.4,2.0,2.0,0.5,4.0,366,depaul,1177
+2018,duke,Mike Krzyzewski,271,Duke,ACC,29,8,0.783783783783784,1.0,9.0,8.0,Lost Regional Final,1100,338,0.764951321279555,34.0,24.0,12.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1438,duke,1181
+2018,florida,Michael White,300,Florida,SEC,21,13,0.617647058823529,8.0,23.0,15.0,Lost Second Round,170,77,0.688259109311741,2.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,247,florida,1196
+2018,florida state,Leonard Hamilton ,255,Florida State,ACC,23,12,0.657142857142857,,,,Lost Regional Final,527,418,0.557671957671958,9.0,3.0,,,,,,,,,945,florida-state,1199
+2018,georgetown,Patrick Ewing,251,Georgetown,Big East,15,15,0.5,,,,,15,15,0.5,,,,,-0.4,-0.5,0.0,1.0,0.0,1.0,30,georgetown,1207
+2018,georgia,Mark Fox,252,Georgia,SEC,18,15,0.545454545454545,,,,,286,176,0.619047619047619,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,462,georgia,1208
+2018,georgia tech,Josh Pastner ,287,Georgia Tech,ACC,13,19,0.40625,,,,,201,108,0.650485436893204,4.0,,,,,,,,,,309,georgia-tech,1210
+2018,illinois,Brad Underwood ,297,Illinois,Big Ten,14,18,0.4375,,,,,123,45,0.732142857142857,4.0,,,,,,,,,,168,illinois,1228
+2018,indiana,Archie Miller,282,Indiana,Big Ten,16,15,0.516129032258065,,,,,155,78,0.665236051502146,4.0,1.0,,,1.8,0.9,4.0,4.0,0.5,8.0,233,indiana,1231
+2018,iowa,Fran McCaffery,279,Iowa,Big Ten,14,19,0.424242424242424,,,,,402,297,0.575107296137339,8.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,699,iowa,1234
+2018,iowa state,Steve Prohm,291,Iowa State,Big 12,13,18,0.419354838709677,,,,,164,70,0.700854700854701,3.0,1.0,,,-1.7,-1.2,1.0,2.0,0.333,3.0,234,iowa-state,1235
+2018,kansas,Bill Self,292,Kansas,Big 12,31,8,0.794871794871795,4.0,4.0,0.0,Lost National Semifinal,654,201,0.764912280701754,20.0,13.0,3.0,1.0,2.5,-4.4,56.0,23.0,0.709,79.0,855,kansas,1242
+2018,kansas state,Bruce Weber,299,Kansas State,Big 12,25,12,0.675675675675676,,,,Lost Regional Final,438,235,0.650817236255572,12.0,4.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,673,kansas-state,1243
+2018,kentucky,John Calipari ,242,Kentucky,SEC,26,11,0.702702702702703,5.0,18.0,13.0,Lost Regional Semifinal,720,204,0.779220779220779,19.0,14.0,6.0,1.0,,,,,,,924,kentucky,1246
+2018,louisville,David Padgett,285,Louisville,ACC,22,14,0.611111111111111,16.0,,,,22,14,0.611111111111111,,,,,,,,,,,36,louisville,1257
+2018,lsu,Will Wade,298,LSU,SEC,18,15,0.545454545454545,,,,,109,60,0.644970414201183,2.0,,,,-0.8,-0.8,5.0,7.0,0.417,12.0,169,lsu,1261
+2018,marquette,Steve Wojciechowski,304,Marquette,Big East,21,14,0.6,,,,,73,59,0.553030303030303,1.0,,,,-1.5,-1.8,0.0,2.0,0.0,2.0,132,marquette,1266
+2018,maryland,Mark Turgeon,296,Maryland,Big Ten,19,13,0.59375,,,,,407,240,0.629057187017002,8.0,2.0,,,0.7,0.4,10.0,10.0,0.5,20.0,647,maryland,1268
+2018,miami fl,Jim Larranaga,272,Miami (FL),ACC,22,10,0.6875,13.0,22.0,9.0,Lost First Round,603,388,0.608476286579213,9.0,3.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,991,miami-fl,1274
+2018,michigan,John Beilein,235,Michigan,Big Ten,33,8,0.804878048780488,,7.0,,Lost National Final,541,318,0.629802095459837,12.0,6.0,2.0,,8.2,9.6,24.0,11.0,0.686,35.0,859,michigan,1276
+2018,michigan state,Tom Izzo,261,Michigan State,Big Ten,30,5,0.857142857142857,2.0,5.0,3.0,Lost Second Round,574,225,0.718397997496871,21.0,13.0,7.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,799,michigan-state,1277
+2018,minnesota,Richard Pitino,290,Minnesota,Big Ten,15,17,0.46875,15.0,,,,108,92,0.54,1.0,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,200,minnesota,1278
+2018,mississippi state,Ben Howland,258,Mississippi State,SEC,25,12,0.675675675675676,,,,,454,253,0.642149929278642,10.0,5.0,3.0,,1.2,2.0,19.0,10.0,0.655,29.0,707,mississippi-state,1280
+2018,missouri,Cuonzo Martin,277,Missouri,SEC,20,13,0.606060606060606,,,,Lost First Round,206,134,0.605882352941176,3.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,340,missouri,1281
+2018,nc state,Kevin Keatts,265,NC State,ACC,21,12,0.636363636363636,,,,Lost First Round,93,40,0.699248120300752,3.0,,,,1.5,1.3,4.0,5.0,0.444,9.0,133,nc-state,1301
+2018,nebraska,Tim Miles,281,Nebraska,Big Ten,22,11,0.666666666666667,,,,,204,205,0.498777506112469,2.0,,,,-1.0,-1.3,0.0,2.0,0.0,2.0,409,nebraska,1304
+2018,northwestern,Chris Collins,245,Northwestern,Big Ten,15,17,0.46875,19.0,,,,88,77,0.533333333333333,1.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,165,northwestern,1321
+2018,notre dame,Mike Brey,240,Notre Dame,ACC,21,15,0.583333333333333,14.0,,,,502,254,0.664021164021164,14.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,756,notre-dame,1323
+2018,ohio state,Chris Holtmann,256,Ohio State,Big Ten,25,9,0.735294117647059,,17.0,,Lost Second Round,139,94,0.59656652360515,4.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,233,ohio-state,1326
+2018,oklahoma,Lon Kruger,269,Oklahoma,Big 12,18,14,0.5625,,,,Lost First Round,619,395,0.610453648915187,18.0,5.0,2.0,,0.3,-0.4,12.0,12.0,0.5,24.0,1014,oklahoma,1328
+2018,oklahoma state,Michael Boynton,239,Oklahoma State,Big 12,21,15,0.583333333333333,,,,,21,15,0.583333333333333,,,,,,,,,,,36,oklahoma-state,1329
+2018,ole miss,Andy Kennedy,266,Ole Miss,SEC,11,16,0.407407407407407,,,,,266,169,0.611494252873563,2.0,,,,-0.6,-1.2,1.0,4.0,0.2,5.0,435,ole-miss,1279
+2018,ole miss,Tony Madlock,275,Ole Miss,SEC,1,4,0.2,,,,,1,4,0.2,,,,,0.0,0.0,0.0,1.0,0.0,1.0,5,ole-miss,1279
+2018,oregon,Dana Altman,231,Oregon,Pac-12,23,13,0.638888888888889,,,,,620,326,0.6553911205074,13.0,3.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,946,oregon,1332
+2018,oregon state,Wayne Tinkle,295,Oregon State,Pac-12,16,16,0.5,,,,,215,161,0.571808510638298,4.0,,,,1.2,1.0,3.0,5.0,0.375,8.0,376,oregon-state,1333
+2018,penn state,Patrick Chambers,243,Penn State,Big Ten,26,13,0.666666666666667,,,,,155,150,0.508196721311475,1.0,,,,,,,,,,305,penn-state,1336
+2018,pitt,Kevin Stallings,294,Pitt,ACC,8,24,0.25,,,,,479,324,0.596513075965131,9.0,2.0,,,-0.8,-2.5,5.0,6.0,0.455,11.0,803,pitt,1338
+2018,providence,Ed Cooley,246,Providence,Big East,21,14,0.6,,,,Lost First Round,236,163,0.591478696741855,5.0,,,,-1.3,-2.1,3.0,6.0,0.333,9.0,399,providence,1344
+2018,purdue,Matt Painter,286,Purdue,Big Ten,30,7,0.810810810810811,20.0,11.0,-9.0,Lost Regional Semifinal,320,154,0.675105485232067,11.0,4.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,474,purdue,1345
+2018,rutgers,Steve Pikiell,289,Rutgers,Big Ten,15,19,0.441176470588235,,,,,222,193,0.534939759036145,1.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,415,rutgers,1353
+2018,seton hall,Kevin Willard,301,Seton Hall,Big East,22,12,0.647058823529412,23.0,,,Lost Second Round,195,163,0.544692737430168,3.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,358,seton-hall,1371
+2018,south carolina,Frank Martin,278,South Carolina,SEC,17,16,0.515151515151515,,,,,230,144,0.614973262032086,5.0,2.0,1.0,,4.0,4.3,10.0,5.0,0.667,15.0,374,south-carolina,1376
+2018,st john s ny,Chris Mullin,284,St. John's (NY),Big East,16,17,0.484848484848485,,,,,38,60,0.387755102040816,,,,,,,,,,,98,st. john`s (ny),1385
+2018,stanford,Jerod Haase,254,Stanford,Pac-12,19,16,0.542857142857143,,,,,113,86,0.5678391959799,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,199,stanford,1390
+2018,syracuse,Jim Boeheim ,237,Syracuse,ACC,23,14,0.621621621621622,,,,Lost Regional Semifinal,1027,371,0.734620886981402,33.0,19.0,5.0,1.0,,,,,,,1398,syracuse,1393
+2018,tcu,Jamie Dixon,247,TCU,Big 12,21,12,0.636363636363636,,,,Lost First Round,373,150,0.713193116634799,12.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,523,tcu,1395
+2018,tennessee,Rick Barnes,233,Tennessee,SEC,26,9,0.742857142857143,,13.0,,Lost Second Round,661,358,0.648675171736997,23.0,6.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1019,tennessee,1397
+2018,texas,Shaka Smart,293,Texas,Big 12,19,15,0.558823529411765,,,,Lost First Round,213,106,0.667711598746082,7.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,319,texas,1400
+2018,texas a m,Billy Kennedy,267,Texas A&M,SEC,22,13,0.628571428571429,25.0,,,Lost Regional Semifinal,348,277,0.5568,4.0,2.0,,,1.3,1.9,5.0,4.0,0.556,9.0,625,texas a&m,1401
+2018,texas tech,Chris Beard,234,Texas Tech,Big 12,27,10,0.72972972972973,,14.0,,Lost Regional Final,75,29,0.721153846153846,2.0,1.0,,,4.4,5.6,13.0,6.0,0.684,19.0,104,texas-tech,1403
+2018,ucla,Steve Alford,230,UCLA,Pac-12,21,12,0.636363636363636,21.0,,,Lost First Four,502,263,0.656209150326797,11.0,4.0,,,-2.5,-3.8,9.0,10.0,0.474,19.0,765,ucla,1417
+2018,unc,Roy Williams,303,UNC,ACC,26,11,0.702702702702703,9.0,10.0,1.0,Lost Second Round,842,227,0.787652011225444,28.0,18.0,9.0,3.0,13.1,10.8,57.0,17.0,0.77,74.0,1069,unc,1314
+2018,usc,Andy Enfield,250,USC,Pac-12,24,12,0.666666666666667,10.0,,,,135,104,0.564853556485356,3.0,1.0,,,1.6,2.0,6.0,6.0,0.5,12.0,239,usc,1425
+2018,utah,Larry Krystkowiak,270,Utah,Pac-12,23,12,0.657142857142857,,,,,180,117,0.606060606060606,4.0,1.0,,,,,,,,,297,utah,1428
+2018,vanderbilt,Bryce Drew,248,Vanderbilt,SEC,12,20,0.375,,,,,155,85,0.645833333333333,3.0,,,,-1.4,-1.0,1.0,7.0,0.125,8.0,240,vanderbilt,1435
+2018,villanova,Jay Wright,305,Villanova,Big East,36,4,0.9,6.0,2.0,-4.0,Won National Final,544,250,0.685138539042821,15.0,6.0,3.0,2.0,4.5,3.4,34.0,16.0,0.68,50.0,794,villanova,1437
+2018,virginia,Tony Bennett,236,Virginia,ACC,31,3,0.911764705882353,,1.0,,Lost First Round,288,119,0.707616707616708,8.0,3.0,,,-7.1,-8.0,16.0,10.0,0.615,26.0,407,virginia,1438
+2018,virginia tech,Buzz Williams,302,Virginia Tech,ACC,21,12,0.636363636363636,,,,Lost First Round,227,146,0.60857908847185,7.0,3.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,373,virginia-tech,1439
+2018,wake forest,Danny Manning,276,Wake Forest,ACC,11,20,0.354838709677419,,,,,92,102,0.474226804123711,2.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,194,wake-forest,1448
+2018,washington,Mike Hopkins,257,Washington,Pac-12,21,13,0.617647058823529,,,,,25,18,0.581395348837209,,,,,0.4,0.4,1.0,1.0,0.5,2.0,43,washington,1449
+2018,washington state,Ernie Kent,268,Washington State,Pac-12,12,19,0.387096774193548,,,,,372,330,0.52991452991453,6.0,2.0,,,1.1,-0.4,6.0,5.0,0.545,11.0,702,washington-state,1450
+2018,west virginia,Bob Huggins,259,West Virginia,Big 12,26,11,0.702702702702703,11.0,15.0,4.0,Lost Regional Semifinal,773,316,0.709825528007346,24.0,9.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1089,west-virginia,1452
+2018,wisconsin,Greg Gard,253,Wisconsin,Big Ten,15,18,0.454545454545455,,,,,57,36,0.612903225806452,2.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,93,wisconsin,1458
+2018,xavier,Chris Mack,274,Xavier,Big East,29,6,0.828571428571429,17.0,3.0,-14.0,Lost Second Round,215,97,0.689102564102564,8.0,4.0,,,1.0,0.0,11.0,8.0,0.579,19.0,312,xavier,1462
+2019,alabama,Avery Johnson,342,Alabama,SEC,18,16,0.529411764705882,,,,,75,62,0.547445255474453,1.0,,,,0.5,0.4,1.0,1.0,0.5,2.0,137,alabama,1104
+2019,arizona,Sean Miller ,361,Arizona,Pac-12,17,15,0.53125,,,,,384,136,0.738461538461539,11.0,7.0,,,,,,,,,520,arizona,1112
+2019,arizona state,Bobby Hurley,340,Arizona State,Pac-12,23,11,0.676470588235294,,,,Lost First Round,115,78,0.595854922279793,3.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,193,arizona-state,1113
+2019,arkansas,Mike Anderson Sr,308,Arkansas,SEC,18,16,0.529411764705882,,,,,369,200,0.648506151142355,9.0,2.0,,,,,,,,,569,arkansas,1116
+2019,auburn,Bruce Pearl,365,Auburn,SEC,30,10,0.75,11.0,14.0,3.0,Lost National Semifinal,331,171,0.659362549800797,10.0,5.0,1.0,,1.1,1.4,21.0,14.0,0.6,35.0,502,auburn,1120
+2019,baylor,Scott Drew,330,Baylor,Big 12,20,14,0.588235294117647,,,,Lost Second Round,338,220,0.60573476702509,8.0,4.0,,,0.5,-0.8,21.0,12.0,0.636,33.0,558,baylor,1124
+2019,boston college,Jim Christian,323,Boston College,ACC,14,17,0.451612903225806,,,,,304,254,0.544802867383513,2.0,,,,-0.9,-1.1,0.0,2.0,0.0,2.0,558,boston-college,1130
+2019,butler,LaVall Jordan,344,Butler,Big East,16,17,0.484848484848485,,,,,48,55,0.466019417475728,1.0,,,,-0.1,0.4,1.0,1.0,0.5,2.0,103,butler,1139
+2019,california,Wyking Jones,343,California,Pac-12,8,23,0.258064516129032,,,,,16,47,0.253968253968254,,,,,,,,,,,63,california,1143
+2019,clemson,Brad Brownell,319,Clemson,ACC,20,14,0.588235294117647,22.0,,,,336,212,0.613138686131387,5.0,1.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,548,clemson,1155
+2019,colorado,Tad Boyle,316,Colorado,Pac-12,23,13,0.638888888888889,,,,,245,189,0.564516129032258,4.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,434,colorado,1160
+2019,creighton,Greg McDermott,358,Creighton,Big East,20,15,0.571428571428571,,,,,356,240,0.597315436241611,8.0,,,,0.0,0.1,12.0,13.0,0.48,25.0,596,creighton,1166
+2019,depaul,Dave Leitao,352,DePaul,Big East,19,17,0.527777777777778,,,,,191,211,0.475124378109453,2.0,,,,0.0,-0.4,2.0,2.0,0.5,4.0,402,depaul,1177
+2019,duke,Mike Krzyzewski,350,Duke,ACC,32,6,0.842105263157895,4.0,1.0,-3.0,Lost Regional Final,1132,344,0.766937669376694,35.0,25.0,12.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1476,duke,1181
+2019,florida,Michael White,377,Florida,SEC,20,16,0.555555555555556,,,,Lost Second Round,190,93,0.671378091872792,3.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,283,florida,1196
+2019,florida state,Leonard Hamilton ,335,Florida State,ACC,29,8,0.783783783783784,17.0,10.0,-7.0,Lost Regional Semifinal,556,426,0.566191446028513,10.0,4.0,,,,,,,,,982,florida-state,1199
+2019,georgetown,Patrick Ewing,332,Georgetown,Big East,19,14,0.575757575757576,,,,,34,29,0.53968253968254,,,,,-0.4,-0.5,0.0,1.0,0.0,1.0,63,georgetown,1207
+2019,georgia,Tom Crean,326,Georgia,SEC,11,21,0.34375,,,,,367,252,0.592891760904685,9.0,4.0,1.0,,-1.0,-1.3,11.0,9.0,0.55,20.0,619,georgia,1208
+2019,georgia tech,Josh Pastner ,364,Georgia Tech,ACC,14,18,0.4375,,,,,215,126,0.63049853372434,4.0,,,,,,,,,,341,georgia-tech,1210
+2019,illinois,Brad Underwood ,374,Illinois,Big Ten,12,21,0.363636363636364,,,,,135,66,0.671641791044776,4.0,,,,,,,,,,201,illinois,1228
+2019,indiana,Archie Miller,360,Indiana,Big Ten,19,16,0.542857142857143,,,,,174,94,0.649253731343284,4.0,1.0,,,1.8,0.9,4.0,4.0,0.5,8.0,268,indiana,1231
+2019,iowa,Fran McCaffery,357,Iowa,Big Ten,23,12,0.657142857142857,,,,Lost Second Round,425,309,0.579019073569482,9.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,734,iowa,1234
+2019,iowa state,Steve Prohm,368,Iowa State,Big 12,23,12,0.657142857142857,,24.0,,Lost First Round,187,82,0.695167286245353,4.0,1.0,,,-1.7,-1.2,1.0,2.0,0.333,3.0,269,iowa-state,1235
+2019,kansas,Bill Self,369,Kansas,Big 12,26,10,0.722222222222222,1.0,17.0,16.0,Lost Second Round,680,211,0.763187429854096,21.0,13.0,3.0,1.0,2.5,-4.4,56.0,23.0,0.709,79.0,891,kansas,1242
+2019,kansas state,Bruce Weber,376,Kansas State,Big 12,25,9,0.735294117647059,12.0,18.0,6.0,Lost First Round,463,244,0.654879773691655,13.0,4.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,707,kansas-state,1243
+2019,kentucky,John Calipari ,320,Kentucky,SEC,30,7,0.810810810810811,2.0,7.0,5.0,Lost Regional Final,750,211,0.780437044745057,20.0,15.0,6.0,1.0,,,,,,,961,kentucky,1246
+2019,louisville,Chris Mack,353,Louisville,ACC,20,14,0.588235294117647,,,,Lost First Round,235,111,0.679190751445087,9.0,4.0,,,1.0,0.0,11.0,8.0,0.579,19.0,346,louisville,1257
+2019,lsu,Tony Benford,313,LSU,SEC,3,2,0.6,23.0,12.0,-11.0,Lost Regional Semifinal,65,97,0.401234567901235,1.0,1.0,,,,,,,,,162,lsu,1261
+2019,lsu,Will Wade,375,LSU,SEC,25,5,0.833333333333333,23.0,12.0,-11.0,Lost Regional Semifinal,134,65,0.673366834170854,3.0,1.0,,,-0.8,-0.8,5.0,7.0,0.417,12.0,199,lsu,1261
+2019,marquette,Steve Wojciechowski,381,Marquette,Big East,24,10,0.705882352941177,,,,Lost First Round,97,69,0.58433734939759,2.0,,,,-1.5,-1.8,0.0,2.0,0.0,2.0,166,marquette,1266
+2019,maryland,Mark Turgeon,373,Maryland,Big Ten,23,11,0.676470588235294,,,,Lost Second Round,430,251,0.631424375917768,9.0,2.0,,,0.7,0.4,10.0,10.0,0.5,20.0,681,maryland,1268
+2019,miami fl,Jim Larranaga,351,Miami (FL),ACC,14,18,0.4375,,,,,617,406,0.603128054740958,9.0,3.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,1023,miami-fl,1274
+2019,michigan,John Beilein,312,Michigan,Big Ten,30,7,0.810810810810811,19.0,8.0,-11.0,Lost Regional Semifinal,571,325,0.637276785714286,13.0,7.0,2.0,,8.2,9.6,24.0,11.0,0.686,35.0,896,michigan,1276
+2019,michigan state,Tom Izzo,341,Michigan State,Big Ten,32,7,0.82051282051282,10.0,5.0,-5.0,Lost National Semifinal,606,232,0.723150357995227,22.0,14.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,838,michigan-state,1277
+2019,minnesota,Richard Pitino,367,Minnesota,Big Ten,22,14,0.611111111111111,,,,Lost Second Round,130,106,0.550847457627119,2.0,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,236,minnesota,1278
+2019,mississippi state,Ben Howland,338,Mississippi State,SEC,23,11,0.676470588235294,18.0,,,Lost First Round,477,264,0.643724696356275,11.0,5.0,3.0,,1.2,2.0,19.0,10.0,0.655,29.0,741,mississippi-state,1280
+2019,missouri,Cuonzo Martin,355,Missouri,SEC,15,17,0.46875,,,,,221,151,0.594086021505376,3.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,372,missouri,1281
+2019,nc state,Kevin Keatts,345,NC State,ACC,24,12,0.666666666666667,,,,,117,52,0.692307692307692,3.0,,,,1.5,1.3,4.0,5.0,0.444,9.0,169,nc-state,1301
+2019,nebraska,Tim Miles,359,Nebraska,Big Ten,19,17,0.527777777777778,,,,,223,222,0.501123595505618,2.0,,,,-1.0,-1.3,0.0,2.0,0.0,2.0,445,nebraska,1304
+2019,northwestern,Chris Collins,324,Northwestern,Big Ten,13,19,0.40625,,,,,101,96,0.512690355329949,1.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,197,northwestern,1321
+2019,notre dame,Mike Brey,318,Notre Dame,ACC,14,19,0.424242424242424,,,,,516,273,0.653992395437262,14.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,789,notre-dame,1323
+2019,ohio state,Chris Holtmann,336,Ohio State,Big Ten,20,15,0.571428571428571,,,,Lost Second Round,159,109,0.593283582089552,5.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,268,ohio-state,1326
+2019,oklahoma,Lon Kruger,348,Oklahoma,Big 12,20,14,0.588235294117647,,,,Lost Second Round,639,409,0.609732824427481,19.0,5.0,2.0,,0.3,-0.4,12.0,12.0,0.5,24.0,1048,oklahoma,1328
+2019,oklahoma state,Michael Boynton,317,Oklahoma State,Big 12,12,20,0.375,,,,,33,35,0.485294117647059,,,,,,,,,,,68,oklahoma-state,1329
+2019,ole miss,Kermit Davis Jr,327,Ole Miss,SEC,20,13,0.606060606060606,,,,Lost First Round,423,251,0.627596439169139,6.0,,,,0.8,0.9,1.0,1.0,0.5,2.0,674,ole-miss,1279
+2019,oregon,Dana Altman,307,Oregon,Pac-12,25,13,0.657894736842105,14.0,,,Lost Regional Semifinal,645,339,0.655487804878049,14.0,4.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,984,oregon,1332
+2019,oregon state,Wayne Tinkle,372,Oregon State,Pac-12,18,13,0.580645161290323,,,,,233,174,0.572481572481572,4.0,,,,1.2,1.0,3.0,5.0,0.375,8.0,407,oregon-state,1333
+2019,penn state,Patrick Chambers,322,Penn State,Big Ten,14,18,0.4375,,,,,169,168,0.501483679525223,1.0,,,,,,,,,,337,penn-state,1336
+2019,pitt,Jeff Capel III ,321,Pitt,ACC,14,19,0.424242424242424,,,,,189,129,0.594339622641509,3.0,1.0,,,,,,,,,318,pitt,1338
+2019,providence,Ed Cooley,325,Providence,Big East,18,16,0.529411764705882,,,,,254,179,0.586605080831409,5.0,,,,-1.3,-2.1,3.0,6.0,0.333,9.0,433,providence,1344
+2019,purdue,Matt Painter,363,Purdue,Big Ten,26,10,0.722222222222222,24.0,13.0,-11.0,Lost Regional Final,346,164,0.67843137254902,12.0,5.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,510,purdue,1345
+2019,rutgers,Steve Pikiell,366,Rutgers,Big Ten,14,17,0.451612903225806,,,,,236,210,0.52914798206278,1.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,446,rutgers,1353
+2019,seton hall,Kevin Willard,378,Seton Hall,Big East,20,14,0.588235294117647,,,,Lost First Round,215,177,0.548469387755102,4.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,392,seton-hall,1371
+2019,south carolina,Frank Martin,356,South Carolina,SEC,16,16,0.5,,,,,246,160,0.605911330049261,5.0,2.0,1.0,,4.0,4.3,10.0,5.0,0.667,15.0,406,south-carolina,1376
+2019,st john s ny,Chris Mullin,362,St. John's (NY),Big East,21,13,0.617647058823529,,,,Lost First Four,59,73,0.446969696969697,1.0,,,,,,,,,,132,st. john`s (ny),1385
+2019,stanford,Jerod Haase,334,Stanford,Pac-12,15,16,0.483870967741935,,,,,128,102,0.556521739130435,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,230,stanford,1390
+2019,syracuse,Jim Boeheim ,315,Syracuse,ACC,20,14,0.588235294117647,16.0,,,Lost First Round,1047,385,0.731145251396648,34.0,19.0,5.0,1.0,,,,,,,1432,syracuse,1393
+2019,tcu,Jamie Dixon,328,TCU,Big 12,23,14,0.621621621621622,20.0,,,,396,164,0.707142857142857,12.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,560,tcu,1395
+2019,tennessee,Rick Barnes,309,Tennessee,SEC,31,6,0.837837837837838,6.0,6.0,0.0,Lost Regional Semifinal,692,364,0.65530303030303,24.0,7.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1056,tennessee,1397
+2019,texas,Shaka Smart,370,Texas,Big 12,21,16,0.567567567567568,,,,,234,122,0.657303370786517,7.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,356,texas,1400
+2019,texas a m,Billy Kennedy,346,Texas A&M,SEC,14,18,0.4375,,,,,362,295,0.550989345509893,4.0,2.0,,,1.3,1.9,5.0,4.0,0.556,9.0,657,texas a&m,1401
+2019,texas tech,Chris Beard,311,Texas Tech,Big 12,31,7,0.815789473684211,,9.0,,Lost National Final,106,36,0.746478873239437,3.0,2.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,142,texas-tech,1403
+2019,ucla,Murry Bartow,310,UCLA,Pac-12,10,10,0.5,21.0,,,,338,274,0.552287581699346,4.0,,,,,,,,,,612,ucla,1417
+2019,ucla,Steve Alford,306,UCLA,Pac-12,7,6,0.538461538461538,21.0,,,,509,269,0.654241645244216,11.0,4.0,,,-2.5,-3.8,9.0,10.0,0.474,19.0,778,ucla,1417
+2019,unc,Roy Williams,380,UNC,ACC,29,7,0.805555555555556,8.0,3.0,-5.0,Lost Regional Semifinal,871,234,0.788235294117647,29.0,19.0,9.0,3.0,13.1,10.8,57.0,17.0,0.77,74.0,1105,unc,1314
+2019,usc,Andy Enfield,331,USC,Pac-12,16,17,0.484848484848485,,,,,151,121,0.555147058823529,3.0,1.0,,,1.6,2.0,6.0,6.0,0.5,12.0,272,usc,1425
+2019,utah,Larry Krystkowiak,349,Utah,Pac-12,17,14,0.548387096774194,,,,,197,131,0.600609756097561,4.0,1.0,,,,,,,,,328,utah,1428
+2019,vanderbilt,Bryce Drew,329,Vanderbilt,SEC,9,23,0.28125,,,,,164,108,0.602941176470588,3.0,,,,-1.4,-1.0,1.0,7.0,0.125,8.0,272,vanderbilt,1435
+2019,villanova,Jay Wright,382,Villanova,Big East,26,10,0.722222222222222,9.0,23.0,14.0,Lost Second Round,570,260,0.686746987951807,16.0,6.0,3.0,2.0,4.5,3.4,34.0,16.0,0.68,50.0,830,villanova,1437
+2019,virginia,Tony Bennett,314,Virginia,ACC,35,3,0.921052631578947,5.0,2.0,-3.0,Won National Final,323,122,0.725842696629214,9.0,4.0,1.0,1.0,-7.1,-8.0,16.0,10.0,0.615,26.0,445,virginia,1438
+2019,virginia tech,Buzz Williams,379,Virginia Tech,ACC,26,9,0.742857142857143,15.0,16.0,1.0,Lost Regional Semifinal,253,155,0.620098039215686,8.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,408,virginia-tech,1439
+2019,wake forest,Danny Manning,354,Wake Forest,ACC,11,20,0.354838709677419,,,,,103,122,0.457777777777778,2.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,225,wake-forest,1448
+2019,washington,Mike Hopkins,337,Washington,Pac-12,27,9,0.75,25.0,,,Lost Second Round,52,27,0.658227848101266,1.0,,,,0.4,0.4,1.0,1.0,0.5,2.0,79,washington,1449
+2019,washington state,Ernie Kent,347,Washington State,Pac-12,11,21,0.34375,,,,,383,351,0.521798365122616,6.0,2.0,,,1.1,-0.4,6.0,5.0,0.545,11.0,734,washington-state,1450
+2019,west virginia,Bob Huggins,339,West Virginia,Big 12,15,21,0.416666666666667,13.0,,,,788,337,0.700444444444444,24.0,9.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1125,west-virginia,1452
+2019,wisconsin,Greg Gard,333,Wisconsin,Big Ten,23,11,0.676470588235294,,21.0,,Lost First Round,80,47,0.62992125984252,3.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,127,wisconsin,1458
+2019,xavier,Travis Steele,371,Xavier,Big East,19,16,0.542857142857143,,,,,19,16,0.542857142857143,,,,,,,,,,,35,xavier,1462
+2020,alabama,Nate Oats,435,Alabama,SEC,16,15,0.516129032258065,,,,,112,58,0.658823529411765,3.0,,,,1.7,0.9,13.0,8.0,0.619,21.0,170,alabama,1104
+2020,arizona,Sean Miller ,433,Arizona,Pac-12,21,11,0.65625,21.0,,,,405,147,0.733695652173913,11.0,7.0,,,,,,,,,552,arizona,1112
+2020,arizona state,Bobby Hurley,417,Arizona State,Pac-12,20,11,0.645161290322581,,,,,135,89,0.602678571428571,3.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,224,arizona-state,1113
+2020,arkansas,Eric Musselman,434,Arkansas,SEC,20,12,0.625,,,,,130,46,0.738636363636364,3.0,1.0,,,4.6,3.6,10.0,6.0,0.625,16.0,176,arkansas,1116
+2020,auburn,Bruce Pearl,438,Auburn,SEC,25,6,0.806451612903226,24.0,20.0,-4.0,,356,177,0.667917448405253,10.0,5.0,1.0,,1.1,1.4,21.0,14.0,0.6,35.0,533,auburn,1120
+2020,baylor,Scott Drew,404,Baylor,Big 12,26,4,0.866666666666667,16.0,5.0,-11.0,,364,224,0.619047619047619,8.0,4.0,,,0.5,-0.8,21.0,12.0,0.636,33.0,588,baylor,1124
+2020,boston college,Jim Christian,397,Boston College,ACC,13,19,0.40625,,,,,317,273,0.53728813559322,2.0,,,,-0.9,-1.1,0.0,2.0,0.0,2.0,590,boston-college,1130
+2020,butler,LaVall Jordan,419,Butler,Big East,22,9,0.709677419354839,,23.0,,,70,64,0.522388059701492,1.0,,,,-0.1,0.4,1.0,1.0,0.5,2.0,134,butler,1139
+2020,california,Mark Fox,407,California,Pac-12,14,18,0.4375,,,,,300,194,0.607287449392713,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,494,california,1143
+2020,clemson,Brad Brownell,393,Clemson,ACC,16,15,0.516129032258065,,,,,352,227,0.607944732297064,5.0,1.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,579,clemson,1155
+2020,colorado,Tad Boyle,390,Colorado,Pac-12,21,11,0.65625,,,,,266,200,0.570815450643777,4.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,466,colorado,1160
+2020,creighton,Greg McDermott,431,Creighton,Big East,24,7,0.774193548387097,,7.0,,,380,247,0.606060606060606,8.0,,,,0.0,0.1,12.0,13.0,0.48,25.0,627,creighton,1166
+2020,depaul,Dave Leitao,425,DePaul,Big East,16,16,0.5,,,,,207,227,0.476958525345622,2.0,,,,0.0,-0.4,2.0,2.0,0.5,4.0,434,depaul,1177
+2020,duke,Mike Krzyzewski,423,Duke,ACC,25,6,0.806451612903226,4.0,11.0,7.0,,1157,350,0.767750497677505,35.0,25.0,12.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1507,duke,1181
+2020,florida,Michael White,452,Florida,SEC,19,12,0.612903225806452,6.0,,,,209,105,0.665605095541401,3.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,314,florida,1196
+2020,florida state,Leonard Hamilton ,410,Florida State,ACC,26,5,0.838709677419355,,4.0,,,582,431,0.574531095755183,10.0,4.0,,,,,,,,,1013,florida-state,1199
+2020,georgetown,Patrick Ewing,406,Georgetown,Big East,15,17,0.46875,,,,,49,46,0.515789473684211,,,,,-0.4,-0.5,0.0,1.0,0.0,1.0,95,georgetown,1207
+2020,georgia,Tom Crean,400,Georgia,SEC,16,16,0.5,,,,,383,268,0.588325652841782,9.0,4.0,1.0,,-1.0,-1.3,11.0,9.0,0.55,20.0,651,georgia,1208
+2020,georgia tech,Josh Pastner ,437,Georgia Tech,ACC,17,14,0.548387096774194,,,,,232,140,0.623655913978495,4.0,,,,,,,,,,372,georgia-tech,1210
+2020,illinois,Brad Underwood ,449,Illinois,Big Ten,21,10,0.67741935483871,,21.0,,,156,76,0.672413793103448,4.0,,,,,,,,,,232,illinois,1228
+2020,indiana,Archie Miller,432,Indiana,Big Ten,20,12,0.625,,,,,194,106,0.646666666666667,4.0,1.0,,,1.8,0.9,4.0,4.0,0.5,8.0,300,indiana,1231
+2020,iowa,Fran McCaffery,430,Iowa,Big Ten,20,11,0.645161290322581,,25.0,,,445,320,0.581699346405229,9.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,765,iowa,1234
+2020,iowa state,Steve Prohm,441,Iowa State,Big 12,12,20,0.375,,,,,199,102,0.661129568106312,4.0,1.0,,,-1.7,-1.2,1.0,2.0,0.333,3.0,301,iowa-state,1235
+2020,kansas,Bill Self,442,Kansas,Big 12,28,3,0.903225806451613,3.0,1.0,-2.0,,708,214,0.767895878524946,21.0,13.0,3.0,1.0,2.5,-4.4,56.0,23.0,0.709,79.0,922,kansas,1242
+2020,kansas state,Bruce Weber,451,Kansas State,Big 12,11,21,0.34375,,,,,474,265,0.641407307171854,13.0,4.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,739,kansas-state,1243
+2020,kentucky,John Calipari ,394,Kentucky,SEC,25,6,0.806451612903226,2.0,8.0,6.0,,775,217,0.78125,20.0,15.0,6.0,1.0,,,,,,,992,kentucky,1246
+2020,louisville,Chris Mack,426,Louisville,ACC,24,7,0.774193548387097,5.0,14.0,9.0,,259,118,0.687002652519894,9.0,4.0,,,1.0,0.0,11.0,8.0,0.579,19.0,377,louisville,1257
+2020,lsu,Will Wade,450,LSU,SEC,21,10,0.67741935483871,22.0,,,,155,75,0.673913043478261,3.0,1.0,,,-0.8,-0.8,5.0,7.0,0.417,12.0,230,lsu,1261
+2020,marquette,Steve Wojciechowski,456,Marquette,Big East,18,12,0.6,,,,,115,81,0.586734693877551,2.0,,,,-1.5,-1.8,0.0,2.0,0.0,2.0,196,marquette,1266
+2020,maryland,Mark Turgeon,448,Maryland,Big Ten,24,7,0.774193548387097,7.0,12.0,5.0,,454,258,0.637640449438202,9.0,2.0,,,0.7,0.4,10.0,10.0,0.5,20.0,712,maryland,1268
+2020,miami fl,Jim Larranaga,424,Miami (FL),ACC,15,16,0.483870967741935,,,,,632,422,0.599620493358634,9.0,3.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,1054,miami-fl,1274
+2020,michigan,Juwan Howard,414,Michigan,Big Ten,19,12,0.612903225806452,,,,,19,12,0.612903225806452,,,,,1.5,1.0,5.0,2.0,0.714,7.0,31,michigan,1276
+2020,michigan state,Tom Izzo,418,Michigan State,Big Ten,22,9,0.709677419354839,1.0,9.0,8.0,,628,241,0.722669735327963,22.0,14.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,869,michigan-state,1277
+2020,minnesota,Richard Pitino,440,Minnesota,Big Ten,15,16,0.483870967741935,,,,,145,122,0.543071161048689,2.0,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,267,minnesota,1278
+2020,mississippi state,Ben Howland,415,Mississippi State,SEC,20,11,0.645161290322581,,,,,497,275,0.643782383419689,11.0,5.0,3.0,,1.2,2.0,19.0,10.0,0.655,29.0,772,mississippi-state,1280
+2020,missouri,Cuonzo Martin,428,Missouri,SEC,15,16,0.483870967741935,,,,,236,167,0.58560794044665,3.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,403,missouri,1281
+2020,nc state,Kevin Keatts,420,NC State,ACC,20,12,0.625,,,,,137,64,0.681592039800995,3.0,,,,1.5,1.3,4.0,5.0,0.444,9.0,201,nc-state,1301
+2020,nebraska,Fred Hoiberg,411,Nebraska,Big Ten,7,25,0.21875,,,,,122,81,0.600985221674877,4.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,203,nebraska,1304
+2020,northwestern,Chris Collins,398,Northwestern,Big Ten,8,23,0.258064516129032,,,,,109,119,0.478070175438596,1.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,228,northwestern,1321
+2020,notre dame,Mike Brey,392,Notre Dame,ACC,20,12,0.625,,,,,536,285,0.652862362971985,14.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,821,notre-dame,1323
+2020,ohio state,Chris Holtmann,412,Ohio State,Big Ten,21,10,0.67741935483871,18.0,19.0,1.0,,180,119,0.602006688963211,5.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,299,ohio-state,1326
+2020,oklahoma,Lon Kruger,421,Oklahoma,Big 12,19,12,0.612903225806452,,,,,658,421,0.60982391102873,19.0,5.0,2.0,,0.3,-0.4,12.0,12.0,0.5,24.0,1079,oklahoma,1328
+2020,oklahoma state,Michael Boynton,391,Oklahoma State,Big 12,18,14,0.5625,,,,,51,49,0.51,,,,,,,,,,,100,oklahoma-state,1329
+2020,ole miss,Kermit Davis Jr,402,Ole Miss,SEC,15,17,0.46875,,,,,438,268,0.620396600566572,6.0,,,,0.8,0.9,1.0,1.0,0.5,2.0,706,ole-miss,1279
+2020,oregon,Dana Altman,383,Oregon,Pac-12,24,7,0.774193548387097,15.0,13.0,-2.0,,669,346,0.659113300492611,14.0,4.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,1015,oregon,1332
+2020,oregon state,Wayne Tinkle,447,Oregon State,Pac-12,18,13,0.580645161290323,,,,,251,187,0.573059360730594,4.0,,,,1.2,1.0,3.0,5.0,0.375,8.0,438,oregon-state,1333
+2020,penn state,Patrick Chambers,396,Penn State,Big Ten,21,10,0.67741935483871,,,,,190,178,0.516304347826087,1.0,,,,,,,,,,368,penn-state,1336
+2020,pitt,Jeff Capel III ,395,Pitt,ACC,16,17,0.484848484848485,,,,,205,146,0.584045584045584,3.0,1.0,,,,,,,,,351,pitt,1338
+2020,providence,Ed Cooley,399,Providence,Big East,19,12,0.612903225806452,,,,,273,191,0.588362068965517,5.0,,,,-1.3,-2.1,3.0,6.0,0.333,9.0,464,providence,1344
+2020,purdue,Matt Painter,436,Purdue,Big Ten,16,15,0.516129032258065,23.0,,,,362,179,0.66913123844732,12.0,5.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,541,purdue,1345
+2020,rutgers,Steve Pikiell,439,Rutgers,Big Ten,20,11,0.645161290322581,,,,,256,221,0.536687631027254,1.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,477,rutgers,1353
+2020,seton hall,Grant Billmeier,388,Seton Hall,Big East,1,0,1.0,12.0,15.0,3.0,,1,0,1.0,,,,,,,,,,,1,seton-hall,1371
+2020,seton hall,Kevin Willard,453,Seton Hall,Big East,20,9,0.689655172413793,12.0,15.0,3.0,,235,186,0.558194774346793,4.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,421,seton-hall,1371
+2020,south carolina,Frank Martin,429,South Carolina,SEC,18,13,0.580645161290323,,,,,264,173,0.604118993135011,5.0,2.0,1.0,,4.0,4.3,10.0,5.0,0.667,15.0,437,south-carolina,1376
+2020,st john s ny,Mike Anderson Sr,384,St. John's (NY),Big East,17,15,0.53125,,,,,386,215,0.642262895174709,9.0,2.0,,,,,,,,,601,st. john`s (ny),1385
+2020,stanford,Jerod Haase,409,Stanford,Pac-12,20,12,0.625,,,,,148,114,0.564885496183206,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,262,stanford,1390
+2020,syracuse,Jim Boeheim ,389,Syracuse,ACC,18,14,0.5625,,,,,1065,399,0.727459016393443,34.0,19.0,5.0,1.0,,,,,,,1464,syracuse,1393
+2020,tcu,Jamie Dixon,403,TCU,Big 12,16,16,0.5,,,,,412,180,0.695945945945946,12.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,592,tcu,1395
+2020,tennessee,Rick Barnes,385,Tennessee,SEC,17,14,0.548387096774194,,,,,709,378,0.652253909843606,24.0,7.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1087,tennessee,1397
+2020,texas,Shaka Smart,443,Texas,Big 12,19,12,0.612903225806452,,,,,253,134,0.65374677002584,7.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,387,texas,1400
+2020,texas a m,Buzz Williams,454,Texas A&M,SEC,16,14,0.533333333333333,,,,,269,169,0.614155251141553,8.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,438,texas a&m,1401
+2020,texas tech,Chris Beard,386,Texas Tech,Big 12,18,13,0.580645161290323,13.0,,,,124,49,0.716763005780347,3.0,2.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,173,texas-tech,1403
+2020,ucla,Mick Cronin,401,UCLA,Pac-12,19,12,0.612903225806452,,,,,384,183,0.677248677248677,11.0,1.0,,,-2.3,-0.5,15.0,15.0,0.5,30.0,567,ucla,1417
+2020,unc,Roy Williams,455,UNC,ACC,14,19,0.424242424242424,9.0,,,,885,253,0.77768014059754,29.0,19.0,9.0,3.0,13.1,10.8,57.0,17.0,0.77,74.0,1138,unc,1314
+2020,usc,Andy Enfield,405,USC,Pac-12,22,9,0.709677419354839,,,,,173,130,0.570957095709571,3.0,1.0,,,1.6,2.0,6.0,6.0,0.5,12.0,303,usc,1425
+2020,utah,Larry Krystkowiak,422,Utah,Pac-12,16,15,0.516129032258065,,,,,213,146,0.593314763231198,4.0,1.0,,,,,,,,,359,utah,1428
+2020,vanderbilt,Jerry Stackhouse,445,Vanderbilt,SEC,11,21,0.34375,,,,,11,21,0.34375,,,,,,,,,,,32,vanderbilt,1435
+2020,villanova,Jay Wright,457,Villanova,Big East,24,7,0.774193548387097,10.0,10.0,0.0,,594,267,0.689895470383275,16.0,6.0,3.0,2.0,4.5,3.4,34.0,16.0,0.68,50.0,861,villanova,1437
+2020,virginia,Tony Bennett,387,Virginia,ACC,23,7,0.766666666666667,11.0,16.0,5.0,,346,129,0.728421052631579,9.0,4.0,1.0,1.0,-7.1,-8.0,16.0,10.0,0.615,26.0,475,virginia,1438
+2020,virginia tech,Mike Young,458,Virginia Tech,ACC,16,16,0.5,,,,,315,260,0.547826086956522,5.0,,,,-2.8,-2.1,1.0,7.0,0.125,8.0,575,virginia-tech,1439
+2020,wake forest,Danny Manning,427,Wake Forest,ACC,13,18,0.419354838709677,,,,,116,140,0.453125,2.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,256,wake-forest,1448
+2020,washington,Mike Hopkins,413,Washington,Pac-12,15,17,0.46875,,,,,67,44,0.603603603603604,1.0,,,,0.4,0.4,1.0,1.0,0.5,2.0,111,washington,1449
+2020,washington state,Kyle Smith,444,Washington State,Pac-12,16,16,0.5,,,,,180,138,0.566037735849057,,,,,0.2,0.1,1.0,1.0,0.5,2.0,318,washington-state,1450
+2020,west virginia,Bob Huggins,416,West Virginia,Big 12,21,10,0.67741935483871,,24.0,,,809,347,0.699826989619377,24.0,9.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1156,west-virginia,1452
+2020,wisconsin,Greg Gard,408,Wisconsin,Big Ten,21,10,0.67741935483871,,17.0,,,101,57,0.639240506329114,3.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,158,wisconsin,1458
+2020,xavier,Travis Steele,446,Xavier,Big East,19,13,0.59375,19.0,,,,38,29,0.567164179104478,,,,,,,,,,,67,xavier,1462
+2021,alabama,Nate Oats,511,Alabama,SEC,26,7,0.787878787878788,,5.0,,Lost Regional Semifinal,138,65,0.679802955665025,4.0,1.0,,,1.7,0.9,13.0,8.0,0.619,21.0,203,alabama,1104
+2021,arizona,Sean Miller ,509,Arizona,Pac-12,17,9,0.653846153846154,,,,,422,156,0.730103806228374,11.0,7.0,,,,,,,,,578,arizona,1112
+2021,arizona state,Bobby Hurley,493,Arizona State,Pac-12,11,14,0.44,18.0,,,,146,103,0.586345381526104,3.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,249,arizona-state,1113
+2021,arkansas,Eric Musselman,510,Arkansas,SEC,25,7,0.78125,,10.0,,Lost Regional Final,155,53,0.745192307692308,4.0,2.0,,,4.6,3.6,10.0,6.0,0.625,16.0,208,arkansas,1116
+2021,auburn,Bruce Pearl,514,Auburn,SEC,13,14,0.481481481481481,,,,,369,191,0.658928571428571,10.0,5.0,1.0,,1.1,1.4,21.0,14.0,0.6,35.0,560,auburn,1120
+2021,baylor,Scott Drew,478,Baylor,Big 12,28,2,0.933333333333333,2.0,3.0,1.0,Won National Final,392,226,0.634304207119741,9.0,5.0,1.0,1.0,0.5,-0.8,21.0,12.0,0.636,33.0,618,baylor,1124
+2021,boston college,Jim Christian,471,Boston College,ACC,3,13,0.1875,,,,,320,286,0.528052805280528,2.0,,,,-0.9,-1.1,0.0,2.0,0.0,2.0,606,boston-college,1130
+2021,boston college,Scott Spinelli,521,Boston College,ACC,1,3,0.25,,,,,1,3,0.25,,,,,,,,,,,4,boston-college,1130
+2021,butler,LaVall Jordan,496,Butler,Big East,10,15,0.4,,,,,80,79,0.50314465408805,1.0,,,,-0.1,0.4,1.0,1.0,0.5,2.0,159,butler,1139
+2021,california,Mark Fox,483,California,Pac-12,9,20,0.310344827586207,,,,,309,214,0.590822179732314,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,523,california,1143
+2021,clemson,Brad Brownell,468,Clemson,ACC,16,8,0.666666666666667,,,,Lost First Round,368,235,0.61028192371476,6.0,1.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,603,clemson,1155
+2021,colorado,Tad Boyle,465,Colorado,Pac-12,23,9,0.71875,,22.0,,Lost Second Round,289,209,0.580321285140562,5.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,498,colorado,1160
+2021,creighton,Greg McDermott,507,Creighton,Big East,22,9,0.709677419354839,11.0,19.0,8.0,Lost Regional Semifinal,402,256,0.610942249240122,9.0,1.0,,,0.0,0.1,12.0,13.0,0.48,25.0,658,creighton,1166
+2021,depaul,Dave Leitao,502,DePaul,Big East,5,14,0.263157894736842,,,,,212,241,0.467991169977925,2.0,,,,0.0,-0.4,2.0,2.0,0.5,4.0,453,depaul,1177
+2021,duke,Mike Krzyzewski,500,Duke,ACC,13,11,0.541666666666667,9.0,,,,1170,361,0.764206401045069,35.0,25.0,12.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1531,duke,1181
+2021,florida,Michael White,529,Florida,SEC,15,10,0.6,,,,Lost Second Round,224,115,0.660766961651917,4.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,339,florida,1196
+2021,florida state,Leonard Hamilton ,486,Florida State,ACC,18,7,0.72,21.0,14.0,-7.0,Lost Regional Semifinal,600,438,0.578034682080925,11.0,5.0,,,,,,,,,1038,florida-state,1199
+2021,georgetown,Patrick Ewing,480,Georgetown,Big East,13,13,0.5,,,,Lost First Round,62,59,0.512396694214876,1.0,,,,-0.4,-0.5,0.0,1.0,0.0,1.0,121,georgetown,1207
+2021,georgia,Tom Crean,474,Georgia,SEC,14,12,0.538461538461538,,,,,397,280,0.586410635155096,9.0,4.0,1.0,,-1.0,-1.3,11.0,9.0,0.55,20.0,677,georgia,1208
+2021,georgia tech,Josh Pastner ,513,Georgia Tech,ACC,17,9,0.653846153846154,,,,Lost First Round,249,149,0.625628140703518,5.0,,,,,,,,,,398,georgia-tech,1210
+2021,illinois,Brad Underwood ,526,Illinois,Big Ten,24,7,0.774193548387097,8.0,2.0,-6.0,Lost Second Round,180,83,0.684410646387833,5.0,,,,,,,,,,263,illinois,1228
+2021,indiana,Archie Miller,508,Indiana,Big Ten,12,15,0.444444444444444,,,,,206,121,0.629969418960245,4.0,1.0,,,1.8,0.9,4.0,4.0,0.5,8.0,327,indiana,1231
+2021,iowa,Fran McCaffery,506,Iowa,Big Ten,22,9,0.709677419354839,5.0,8.0,3.0,Lost Second Round,467,329,0.586683417085427,10.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,796,iowa,1234
+2021,iowa state,Steve Prohm,517,Iowa State,Big 12,2,22,0.0833333333333333,,,,,201,124,0.618461538461539,4.0,1.0,,,-1.7,-1.2,1.0,2.0,0.333,3.0,325,iowa-state,1235
+2021,kansas,Bill Self,518,Kansas,Big 12,21,9,0.7,6.0,12.0,6.0,Lost Second Round,729,223,0.765756302521008,22.0,13.0,3.0,1.0,2.5,-4.4,56.0,23.0,0.709,79.0,952,kansas,1242
+2021,kansas state,Bruce Weber,528,Kansas State,Big 12,9,20,0.310344827586207,,,,,483,285,0.62890625,13.0,4.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,768,kansas-state,1243
+2021,kentucky,John Calipari ,469,Kentucky,SEC,9,16,0.36,10.0,,,,784,233,0.770894788593904,20.0,15.0,6.0,1.0,,,,,,,1017,kentucky,1246
+2021,louisville,Chris Mack,503,Louisville,ACC,13,7,0.65,,,,,272,125,0.685138539042821,9.0,4.0,,,1.0,0.0,11.0,8.0,0.579,19.0,397,louisville,1257
+2021,lsu,Will Wade,527,LSU,SEC,19,10,0.655172413793103,,,,Lost Second Round,174,85,0.671814671814672,4.0,1.0,,,-0.8,-0.8,5.0,7.0,0.417,12.0,259,lsu,1261
+2021,marquette,Steve Wojciechowski,533,Marquette,Big East,13,14,0.481481481481481,,,,,128,95,0.573991031390135,2.0,,,,-1.5,-1.8,0.0,2.0,0.0,2.0,223,marquette,1266
+2021,maryland,Mark Turgeon,525,Maryland,Big Ten,17,14,0.548387096774194,,,,Lost Second Round,471,272,0.633916554508748,10.0,2.0,,,0.7,0.4,10.0,10.0,0.5,20.0,743,maryland,1268
+2021,miami fl,Jim Larranaga,501,Miami (FL),ACC,10,17,0.37037037037037,,,,,642,439,0.593894542090657,9.0,3.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,1081,miami-fl,1274
+2021,michigan,Juwan Howard,490,Michigan,Big Ten,23,5,0.821428571428571,25.0,4.0,-21.0,Lost Regional Final,42,17,0.711864406779661,1.0,1.0,,,1.5,1.0,5.0,2.0,0.714,7.0,59,michigan,1276
+2021,michigan state,Tom Izzo,495,Michigan State,Big Ten,15,13,0.535714285714286,13.0,,,Lost First Four,643,254,0.716833890746934,23.0,14.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,897,michigan-state,1277
+2021,minnesota,Richard Pitino,516,Minnesota,Big Ten,14,15,0.482758620689655,,,,,159,137,0.537162162162162,2.0,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,296,minnesota,1278
+2021,mississippi state,Ben Howland,491,Mississippi State,SEC,18,15,0.545454545454545,,,,,515,290,0.639751552795031,11.0,5.0,3.0,,1.2,2.0,19.0,10.0,0.655,29.0,805,mississippi-state,1280
+2021,missouri,Cuonzo Martin,504,Missouri,SEC,16,10,0.615384615384615,,,,Lost First Round,252,177,0.587412587412587,4.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,429,missouri,1281
+2021,nc state,Kevin Keatts,497,NC State,ACC,14,11,0.56,,,,,151,75,0.668141592920354,3.0,,,,1.5,1.3,4.0,5.0,0.444,9.0,226,nc-state,1301
+2021,nebraska,Fred Hoiberg,487,Nebraska,Big Ten,7,20,0.259259259259259,,,,,129,101,0.560869565217391,4.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,230,nebraska,1304
+2021,northwestern,Chris Collins,472,Northwestern,Big Ten,9,15,0.375,,,,,118,134,0.468253968253968,1.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,252,northwestern,1321
+2021,notre dame,Mike Brey,467,Notre Dame,ACC,11,15,0.423076923076923,,,,,547,300,0.645808736717828,14.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,847,notre-dame,1323
+2021,ohio state,Chris Holtmann,488,Ohio State,Big Ten,21,10,0.67741935483871,23.0,7.0,-16.0,Lost First Round,201,129,0.609090909090909,6.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,330,ohio-state,1326
+2021,oklahoma,Lon Kruger,498,Oklahoma,Big 12,16,11,0.592592592592593,,,,Lost Second Round,674,432,0.609403254972875,20.0,5.0,2.0,,0.3,-0.4,12.0,12.0,0.5,24.0,1106,oklahoma,1328
+2021,oklahoma state,Michael Boynton,466,Oklahoma State,Big 12,21,9,0.7,,11.0,,Lost Second Round,72,58,0.553846153846154,1.0,,,,,,,,,,130,oklahoma-state,1329
+2021,ole miss,Kermit Davis Jr,476,Ole Miss,SEC,16,12,0.571428571428571,,,,,454,280,0.618528610354223,6.0,,,,0.8,0.9,1.0,1.0,0.5,2.0,734,ole-miss,1279
+2021,oregon,Dana Altman,459,Oregon,Pac-12,21,7,0.75,20.0,,,Lost Regional Semifinal,690,353,0.661553211888782,15.0,5.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,1043,oregon,1332
+2021,oregon state,Wayne Tinkle,524,Oregon State,Pac-12,20,13,0.606060606060606,,,,Lost Regional Final,271,200,0.575371549893843,5.0,1.0,,,1.2,1.0,3.0,5.0,0.375,8.0,471,oregon-state,1333
+2021,penn state,Jim Ferry,481,Penn State,Big Ten,11,14,0.44,,,,,221,260,0.459459459459459,2.0,,,,-0.3,-0.1,0.0,2.0,0.0,2.0,481,penn-state,1336
+2021,pitt,Jeff Capel III ,470,Pitt,ACC,10,12,0.454545454545455,,,,,215,158,0.576407506702413,3.0,1.0,,,,,,,,,373,pitt,1338
+2021,providence,Ed Cooley,473,Providence,Big East,13,13,0.5,,,,,286,204,0.583673469387755,5.0,,,,-1.3,-2.1,3.0,6.0,0.333,9.0,490,providence,1344
+2021,purdue,Matt Painter,512,Purdue,Big Ten,18,10,0.642857142857143,,20.0,,Lost First Round,380,189,0.667838312829525,13.0,5.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,569,purdue,1345
+2021,rutgers,Steve Pikiell,515,Rutgers,Big Ten,16,12,0.571428571428571,24.0,,,Lost Second Round,272,233,0.538613861386139,2.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,505,rutgers,1353
+2021,seton hall,Kevin Willard,530,Seton Hall,Big East,14,13,0.518518518518518,,,,,249,199,0.555803571428571,4.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,448,seton-hall,1371
+2021,south carolina,Frank Martin,505,South Carolina,SEC,6,15,0.285714285714286,,,,,270,188,0.589519650655022,5.0,2.0,1.0,,4.0,4.3,10.0,5.0,0.667,15.0,458,south-carolina,1376
+2021,st john s ny,Mike Anderson Sr,460,St. John's (NY),Big East,16,11,0.592592592592593,,,,,402,226,0.640127388535032,9.0,2.0,,,,,,,,,628,st. john`s (ny),1385
+2021,stanford,Jerod Haase,485,Stanford,Pac-12,14,13,0.518518518518518,,,,,162,127,0.560553633217993,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,289,stanford,1390
+2021,syracuse,Jim Boeheim ,464,Syracuse,ACC,18,10,0.642857142857143,,,,Lost Regional Semifinal,1083,409,0.725871313672922,35.0,20.0,5.0,1.0,,,,,,,1492,syracuse,1393
+2021,tcu,Jamie Dixon,477,TCU,Big 12,12,14,0.461538461538462,,,,,424,194,0.686084142394822,12.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,618,tcu,1395
+2021,tennessee,Rick Barnes,461,Tennessee,SEC,18,9,0.666666666666667,12.0,,,Lost First Round,727,387,0.652603231597846,25.0,7.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1114,tennessee,1397
+2021,texas,Shaka Smart,519,Texas,Big 12,19,8,0.703703703703704,19.0,9.0,-10.0,Lost First Round,272,142,0.657004830917874,8.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,414,texas,1400
+2021,texas a m,Buzz Williams,531,Texas A&M,SEC,8,10,0.444444444444444,,,,,277,179,0.607456140350877,8.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,456,texas a&m,1401
+2021,texas tech,Chris Beard,462,Texas Tech,Big 12,18,11,0.620689655172414,14.0,21.0,7.0,Lost Second Round,142,60,0.702970297029703,4.0,2.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,202,texas-tech,1403
+2021,ucla,Mick Cronin,475,UCLA,Pac-12,22,10,0.6875,22.0,,,Lost National Semifinal,406,193,0.67779632721202,12.0,2.0,1.0,,-2.3,-0.5,15.0,15.0,0.5,30.0,599,ucla,1417
+2021,uconn,Dan Hurley,494,UConn,Big East,15,8,0.652173913043478,,,,Lost First Round,201,142,0.58600583090379,3.0,,,,4.2,5.8,15.0,5.0,0.75,20.0,343,uconn,1163
+2021,unc,Roy Williams,532,UNC,ACC,18,11,0.620689655172414,16.0,,,Lost First Round,903,264,0.773778920308483,30.0,19.0,9.0,3.0,13.1,10.8,57.0,17.0,0.77,74.0,1167,unc,1314
+2021,usc,Andy Enfield,479,USC,Pac-12,25,8,0.757575757575758,,24.0,,Lost Regional Final,198,138,0.589285714285714,4.0,2.0,,,1.6,2.0,6.0,6.0,0.5,12.0,336,usc,1425
+2021,utah,Larry Krystkowiak,499,Utah,Pac-12,12,13,0.48,,,,,225,159,0.5859375,4.0,1.0,,,,,,,,,384,utah,1428
+2021,vanderbilt,Jerry Stackhouse,522,Vanderbilt,SEC,9,16,0.36,,,,,20,37,0.350877192982456,,,,,,,,,,,57,vanderbilt,1435
+2021,villanova,Jay Wright,534,Villanova,Big East,18,7,0.72,3.0,18.0,15.0,Lost Regional Semifinal,612,274,0.690744920993228,17.0,7.0,3.0,2.0,4.5,3.4,34.0,16.0,0.68,50.0,886,villanova,1437
+2021,virginia,Tony Bennett,463,Virginia,ACC,18,7,0.72,4.0,15.0,11.0,Lost First Round,364,136,0.728,10.0,4.0,1.0,1.0,-7.1,-8.0,16.0,10.0,0.615,26.0,500,virginia,1438
+2021,virginia tech,Mike Young,535,Virginia Tech,ACC,15,7,0.681818181818182,,25.0,,Lost First Round,330,267,0.552763819095477,6.0,,,,-2.8,-2.1,1.0,7.0,0.125,8.0,597,virginia-tech,1439
+2021,wake forest,Steve Forbes,482,Wake Forest,ACC,6,16,0.272727272727273,,,,,136,59,0.697435897435897,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,195,wake-forest,1448
+2021,washington,Mike Hopkins,489,Washington,Pac-12,5,21,0.192307692307692,,,,,72,65,0.525547445255474,1.0,,,,0.4,0.4,1.0,1.0,0.5,2.0,137,washington,1449
+2021,washington state,Kyle Smith,520,Washington State,Pac-12,14,13,0.518518518518518,,,,,194,151,0.56231884057971,,,,,0.2,0.1,1.0,1.0,0.5,2.0,345,washington-state,1450
+2021,west virginia,Bob Huggins,492,West Virginia,Big 12,19,10,0.655172413793103,15.0,13.0,-2.0,Lost Second Round,828,357,0.69873417721519,25.0,9.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1185,west-virginia,1452
+2021,wisconsin,Greg Gard,484,Wisconsin,Big Ten,18,13,0.580645161290323,7.0,,,Lost Second Round,119,70,0.62962962962963,4.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,189,wisconsin,1458
+2021,xavier,Travis Steele,523,Xavier,Big East,13,8,0.619047619047619,,,,,51,37,0.579545454545455,,,,,,,,,,,88,xavier,1462
+2022,alabama,Nate Oats,590,Alabama,SEC,19,14,0.575757575757576,14.0,,,Lost First Round,157,79,0.665254237288136,5.0,1.0,,,1.7,0.9,13.0,8.0,0.619,21.0,236,alabama,1104
+2022,arizona,Tommy Lloyd,580,Arizona,Pac-12,33,4,0.891891891891892,,2.0,,Lost Regional Semifinal,33,4,0.891891891891892,1.0,1.0,,,-2.9,-3.6,6.0,4.0,0.6,10.0,37,arizona,1112
+2022,arizona state,Bobby Hurley,572,Arizona State,Pac-12,14,17,0.451612903225806,,,,,160,120,0.571428571428571,3.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,280,arizona-state,1113
+2022,arkansas,Eric Musselman,588,Arkansas,SEC,28,9,0.756756756756757,16.0,17.0,1.0,Lost Regional Final,183,62,0.746938775510204,5.0,3.0,,,4.6,3.6,10.0,6.0,0.625,16.0,245,arkansas,1116
+2022,auburn,Bruce Pearl,594,Auburn,SEC,28,6,0.823529411764706,22.0,8.0,-14.0,Lost Second Round,397,197,0.668350168350168,11.0,5.0,1.0,,1.1,1.4,21.0,14.0,0.6,35.0,594,auburn,1120
+2022,baylor,Scott Drew,556,Baylor,Big 12,27,7,0.794117647058823,8.0,4.0,-4.0,Lost Second Round,419,233,0.642638036809816,10.0,5.0,1.0,1.0,0.5,-0.8,21.0,12.0,0.636,33.0,652,baylor,1124
+2022,boston college,Earl Grant,562,Boston College,ACC,13,20,0.393939393939394,,,,,140,109,0.562248995983936,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,249,boston-college,1130
+2022,butler,LaVall Jordan,576,Butler,Big East,14,19,0.424242424242424,,,,,94,98,0.489583333333333,1.0,,,,-0.1,0.4,1.0,1.0,0.5,2.0,192,butler,1139
+2022,california,Mark Fox,560,California,Pac-12,12,20,0.375,,,,,321,234,0.578378378378378,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,555,california,1143
+2022,clemson,Brad Brownell,546,Clemson,ACC,17,16,0.515151515151515,,,,,385,251,0.605345911949686,6.0,1.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,636,clemson,1155
+2022,colorado,Tad Boyle,543,Colorado,Pac-12,21,12,0.636363636363636,,,,,310,221,0.583804143126177,5.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,531,colorado,1160
+2022,creighton,Greg McDermott,586,Creighton,Big East,23,12,0.657142857142857,,,,Lost Second Round,425,268,0.613275613275613,10.0,1.0,,,0.0,0.1,12.0,13.0,0.48,25.0,693,creighton,1166
+2022,depaul,Tony Stubblefield,605,DePaul,Big East,15,16,0.483870967741935,,,,,17,28,0.377777777777778,,,,,,,,,,,45,depaul,1177
+2022,duke,Mike Krzyzewski,578,Duke,ACC,32,7,0.82051282051282,9.0,9.0,0.0,Lost National Semifinal,1202,368,0.765605095541401,36.0,26.0,13.0,5.0,-0.2,-3.0,53.0,18.0,0.746,71.0,1570,duke,1181
+2022,florida,Al Pinkins,597,Florida,SEC,1,1,0.5,,,,,1,1,0.5,,,,,,,,,,,2,florida,1196
+2022,florida,Michael White,611,Florida,SEC,19,13,0.59375,,,,,243,128,0.654986522911051,4.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,371,florida,1196
+2022,florida state,Leonard Hamilton ,564,Florida State,ACC,17,14,0.548387096774194,20.0,,,,617,452,0.577174929840973,11.0,5.0,,,,,,,,,1069,florida-state,1199
+2022,georgetown,Patrick Ewing,558,Georgetown,Big East,6,25,0.193548387096774,,,,,68,84,0.447368421052632,1.0,,,,-0.4,-0.5,0.0,1.0,0.0,1.0,152,georgetown,1207
+2022,georgia,Tom Crean,551,Georgia,SEC,6,26,0.1875,,,,,403,306,0.568406205923836,9.0,4.0,1.0,,-1.0,-1.3,11.0,9.0,0.55,20.0,709,georgia,1208
+2022,georgia tech,Josh Pastner ,593,Georgia Tech,ACC,12,20,0.375,,,,,261,169,0.606976744186047,5.0,,,,,,,,,,430,georgia-tech,1210
+2022,illinois,Brad Underwood ,608,Illinois,Big Ten,23,10,0.696969696969697,11.0,19.0,8.0,Lost Second Round,203,93,0.685810810810811,6.0,,,,,,,,,,296,illinois,1228
+2022,indiana,Mike Woodson,614,Indiana,Big Ten,21,14,0.6,,,,Lost First Round,21,14,0.6,1.0,,,,-0.6,-1.1,1.0,2.0,0.333,3.0,35,indiana,1231
+2022,iowa,Fran McCaffery,585,Iowa,Big Ten,26,10,0.722222222222222,,16.0,,Lost First Round,493,339,0.592548076923077,11.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,832,iowa,1234
+2022,iowa state,T.J. Otzelberger,591,Iowa State,Big 12,22,13,0.628571428571429,,,,Lost Regional Semifinal,121,76,0.614213197969543,3.0,1.0,,,-1.8,-1.4,5.0,6.0,0.455,11.0,197,iowa-state,1235
+2022,kansas,Bill Self,598,Kansas,Big 12,34,6,0.85,3.0,3.0,0.0,Won National Final,763,229,0.769153225806452,23.0,14.0,4.0,2.0,2.5,-4.4,56.0,23.0,0.709,79.0,992,kansas,1242
+2022,kansas state,Bruce Weber,610,Kansas State,Big 12,14,17,0.451612903225806,,,,,497,302,0.622027534418022,13.0,4.0,1.0,,-1.6,-0.6,14.0,13.0,0.519,27.0,799,kansas-state,1243
+2022,kentucky,John Calipari ,547,Kentucky,SEC,26,8,0.764705882352941,10.0,7.0,-3.0,Lost First Round,810,241,0.77069457659372,21.0,15.0,6.0,1.0,,,,,,,1051,kentucky,1246
+2022,louisville,Chris Mack,581,Louisville,ACC,6,8,0.428571428571429,,,,,278,133,0.67639902676399,9.0,4.0,,,1.0,0.0,11.0,8.0,0.579,19.0,411,louisville,1257
+2022,louisville,Mike Pegues,595,Louisville,ACC,7,11,0.388888888888889,,,,,7,11,0.388888888888889,,,,,,,,,,,18,louisville,1257
+2022,lsu,Kevin Nickelberry,589,LSU,SEC,0,1,0.0,,,,Lost First Round,145,239,0.377604166666667,1.0,,,,,,,,,,384,lsu,1261
+2022,lsu,Will Wade,609,LSU,SEC,22,11,0.666666666666667,,,,Lost First Round,196,96,0.671232876712329,5.0,1.0,,,-0.8,-0.8,5.0,7.0,0.417,12.0,292,lsu,1261
+2022,marquette,Shaka Smart,600,Marquette,Big East,19,13,0.59375,,,,Lost First Round,291,155,0.652466367713004,9.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,446,marquette,1266
+2022,maryland,Danny Manning,582,Maryland,Big Ten,10,14,0.416666666666667,21.0,,,,126,154,0.45,2.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,280,maryland,1268
+2022,maryland,Mark Turgeon,607,Maryland,Big Ten,5,3,0.625,21.0,,,,476,275,0.633821571238349,10.0,2.0,,,0.7,0.4,10.0,10.0,0.5,20.0,751,maryland,1268
+2022,miami fl,Jim Larranaga,579,Miami (FL),ACC,26,11,0.702702702702703,,,,Lost Regional Final,668,450,0.597495527728086,10.0,4.0,1.0,,6.4,6.3,16.0,10.0,0.615,26.0,1118,miami-fl,1274
+2022,michigan,Juwan Howard,569,Michigan,Big Ten,19,15,0.558823529411765,6.0,,,Lost Regional Semifinal,61,32,0.655913978494624,2.0,2.0,,,1.5,1.0,5.0,2.0,0.714,7.0,93,michigan,1276
+2022,michigan state,Tom Izzo,574,Michigan State,Big Ten,23,13,0.638888888888889,,,,Lost Second Round,666,267,0.713826366559486,24.0,14.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,933,michigan-state,1277
+2022,minnesota,Ben Johnson,575,Minnesota,Big Ten,13,17,0.433333333333333,,,,,13,17,0.433333333333333,,,,,,,,,,,30,minnesota,1278
+2022,mississippi state,Ben Howland,570,Mississippi State,SEC,18,16,0.529411764705882,,,,,533,306,0.635280095351609,11.0,5.0,3.0,,1.2,2.0,19.0,10.0,0.655,29.0,839,mississippi-state,1280
+2022,missouri,Cuonzo Martin,583,Missouri,SEC,12,21,0.363636363636364,,,,,264,198,0.571428571428571,4.0,1.0,,,-2.1,-1.5,2.0,4.0,0.333,6.0,462,missouri,1281
+2022,nc state,Kevin Keatts,577,NC State,ACC,11,21,0.34375,,,,,162,96,0.627906976744186,3.0,,,,1.5,1.3,4.0,5.0,0.444,9.0,258,nc-state,1301
+2022,nebraska,Fred Hoiberg,566,Nebraska,Big Ten,10,22,0.3125,,,,,139,123,0.530534351145038,4.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,262,nebraska,1304
+2022,northwestern,Chris Collins,549,Northwestern,Big Ten,15,16,0.483870967741935,,,,,133,150,0.469964664310954,1.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,283,northwestern,1321
+2022,notre dame,Mike Brey,545,Notre Dame,ACC,24,11,0.685714285714286,,,,Lost Second Round,571,311,0.647392290249433,15.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,882,notre-dame,1323
+2022,ohio state,Chris Holtmann,567,Ohio State,Big Ten,20,12,0.625,17.0,,,Lost Second Round,221,141,0.610497237569061,7.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,362,ohio-state,1326
+2022,oklahoma,Porter Moser,587,Oklahoma,Big 12,19,16,0.542857142857143,,,,,312,258,0.547368421052632,2.0,2.0,1.0,,3.6,4.0,6.0,3.0,0.667,9.0,570,oklahoma,1328
+2022,oklahoma state,Michael Boynton,544,Oklahoma State,Big 12,15,15,0.5,,,,,87,73,0.54375,1.0,,,,,,,,,,160,oklahoma-state,1329
+2022,ole miss,Kermit Davis Jr,554,Ole Miss,SEC,13,19,0.40625,,,,,467,299,0.609660574412533,6.0,,,,0.8,0.9,1.0,1.0,0.5,2.0,766,ole-miss,1279
+2022,oregon,Dana Altman,537,Oregon,Pac-12,20,15,0.571428571428571,13.0,,,,710,368,0.658627087198516,15.0,5.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,1078,oregon,1332
+2022,oregon state,Wayne Tinkle,606,Oregon State,Pac-12,3,28,0.0967741935483871,,,,,274,228,0.545816733067729,5.0,1.0,,,1.2,1.0,3.0,5.0,0.375,8.0,502,oregon-state,1333
+2022,penn state,Micah Shrewsberry,599,Penn State,Big Ten,14,17,0.451612903225806,,,,,14,17,0.451612903225806,,,,,0.3,0.4,1.0,1.0,0.5,2.0,31,penn-state,1336
+2022,pitt,Jeff Capel III ,548,Pitt,ACC,11,21,0.34375,,,,,226,179,0.558024691358025,3.0,1.0,,,,,,,,,405,pitt,1338
+2022,providence,Ed Cooley,550,Providence,Big East,27,6,0.818181818181818,,13.0,,Lost Regional Semifinal,313,210,0.598470363288719,6.0,1.0,,,-1.3,-2.1,3.0,6.0,0.333,9.0,523,providence,1344
+2022,purdue,Matt Painter,592,Purdue,Big Ten,29,8,0.783783783783784,7.0,10.0,3.0,Lost Regional Semifinal,409,197,0.674917491749175,14.0,6.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,606,purdue,1345
+2022,rutgers,Steve Pikiell,596,Rutgers,Big Ten,18,14,0.5625,,,,Lost First Four,290,247,0.540037243947858,3.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,537,rutgers,1353
+2022,seton hall,Kevin Willard,612,Seton Hall,Big East,21,11,0.65625,,,,Lost First Round,270,210,0.5625,5.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,480,seton-hall,1371
+2022,south carolina,Frank Martin,584,South Carolina,SEC,18,13,0.580645161290323,,,,,288,201,0.588957055214724,5.0,2.0,1.0,,4.0,4.3,10.0,5.0,0.667,15.0,489,south-carolina,1376
+2022,st john s ny,Mike Anderson Sr,538,St. John's (NY),Big East,17,15,0.53125,,,,,419,241,0.634848484848485,9.0,2.0,,,,,,,,,660,st. john`s (ny),1385
+2022,stanford,Jerod Haase,563,Stanford,Pac-12,16,16,0.5,,,,,178,143,0.554517133956386,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,321,stanford,1390
+2022,syracuse,Jim Boeheim ,542,Syracuse,ACC,16,17,0.484848484848485,,,,,1099,426,0.720655737704918,35.0,20.0,5.0,1.0,,,,,,,1525,syracuse,1393
+2022,tcu,Jamie Dixon,555,TCU,Big 12,21,13,0.617647058823529,,,,Lost Second Round,445,207,0.682515337423313,13.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,652,tcu,1395
+2022,tennessee,Rick Barnes,539,Tennessee,SEC,27,8,0.771428571428571,18.0,5.0,-13.0,Lost Second Round,754,395,0.656222802436902,26.0,7.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1149,tennessee,1397
+2022,texas,Chris Beard,540,Texas,Big 12,22,12,0.647058823529412,5.0,25.0,20.0,Lost Second Round,164,72,0.694915254237288,5.0,2.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,236,texas,1400
+2022,texas a m,Buzz Williams,613,Texas A&M,SEC,27,13,0.675,,,,,304,192,0.612903225806452,8.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,496,texas a&m,1401
+2022,texas tech,Mark Adams,536,Texas Tech,Big 12,27,10,0.72972972972973,,12.0,,Lost Regional Semifinal,71,100,0.415204678362573,1.0,1.0,,,-0.6,0.2,2.0,1.0,0.667,3.0,171,texas-tech,1403
+2022,ucla,Mick Cronin,552,UCLA,Pac-12,27,8,0.771428571428571,2.0,11.0,9.0,Lost Regional Semifinal,433,201,0.682965299684543,13.0,3.0,1.0,,-2.3,-0.5,15.0,15.0,0.5,30.0,634,ucla,1417
+2022,uconn,Dan Hurley,573,UConn,Big East,23,10,0.696969696969697,24.0,21.0,-3.0,Lost First Round,224,152,0.595744680851064,4.0,,,,4.2,5.8,15.0,5.0,0.75,20.0,376,uconn,1163
+2022,unc,Hubert Davis,553,UNC,ACC,29,10,0.743589743589744,19.0,,,Lost National Final,29,10,0.743589743589744,1.0,1.0,1.0,,2.8,2.3,7.0,3.0,0.7,10.0,39,unc,1314
+2022,usc,Andy Enfield,557,USC,Pac-12,26,8,0.764705882352941,,22.0,,Lost First Round,224,146,0.605405405405405,5.0,2.0,,,1.6,2.0,6.0,6.0,0.5,12.0,370,usc,1425
+2022,utah,Craig Smith,601,Utah,Pac-12,11,20,0.354838709677419,,,,,164,99,0.623574144486692,2.0,,,,-1.3,-1.4,0.0,2.0,0.0,2.0,263,utah,1428
+2022,vanderbilt,Jerry Stackhouse,603,Vanderbilt,SEC,19,17,0.527777777777778,,,,,39,54,0.419354838709677,,,,,,,,,,,93,vanderbilt,1435
+2022,villanova,Jay Wright,615,Villanova,Big East,30,8,0.789473684210526,4.0,6.0,2.0,Lost National Semifinal,642,282,0.694805194805195,18.0,8.0,4.0,2.0,4.5,3.4,34.0,16.0,0.68,50.0,924,villanova,1437
+2022,virginia,Tony Bennett,541,Virginia,ACC,21,14,0.6,25.0,,,,385,150,0.719626168224299,10.0,4.0,1.0,1.0,-7.1,-8.0,16.0,10.0,0.615,26.0,535,virginia,1438
+2022,virginia tech,Mike Young,616,Virginia Tech,ACC,23,13,0.638888888888889,,,,Lost First Round,353,280,0.557661927330174,7.0,,,,-2.8,-2.1,1.0,7.0,0.125,8.0,633,virginia-tech,1439
+2022,wake forest,Steve Forbes,559,Wake Forest,ACC,25,10,0.714285714285714,,,,,161,69,0.7,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,230,wake-forest,1448
+2022,washington,Mike Hopkins,568,Washington,Pac-12,17,15,0.53125,,,,,89,80,0.526627218934911,1.0,,,,0.4,0.4,1.0,1.0,0.5,2.0,169,washington,1449
+2022,washington state,Kyle Smith,602,Washington State,Pac-12,22,15,0.594594594594595,,,,,216,166,0.565445026178011,,,,,0.2,0.1,1.0,1.0,0.5,2.0,382,washington-state,1450
+2022,west virginia,Bob Huggins,571,West Virginia,Big 12,16,17,0.484848484848485,,,,,844,374,0.692939244663383,25.0,9.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1218,west-virginia,1452
+2022,wisconsin,Greg Gard,561,Wisconsin,Big Ten,25,8,0.757575757575758,,14.0,,Lost Second Round,144,78,0.648648648648649,5.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,222,wisconsin,1458
+2022,xavier,Jonas Hayes,565,Xavier,Big East,4,0,1.0,,,,,4,0,1.0,,,,,,,,,,,4,xavier,1462
+2022,xavier,Travis Steele,604,Xavier,Big East,19,13,0.59375,,,,,70,50,0.583333333333333,,,,,,,,,,,120,xavier,1462
+2023,alabama,Nate Oats,670,Alabama,SEC,31,6,0.837837837837838,20.0,1.0,-19.0,Lost Regional Semifinal,188,85,0.688644688644689,6.0,2.0,,,1.7,0.9,13.0,8.0,0.619,21.0,273,alabama,1104
+2023,arizona,Tommy Lloyd,661,Arizona,Pac-12,28,7,0.8,17.0,8.0,-9.0,Lost First Round,61,11,0.847222222222222,2.0,1.0,,,-2.9,-3.6,6.0,4.0,0.6,10.0,72,arizona,1112
+2023,arizona state,Bobby Hurley,654,Arizona State,Pac-12,23,13,0.638888888888889,,,,Lost First Round,183,133,0.579113924050633,4.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,316,arizona-state,1113
+2023,arkansas,Eric Musselman,668,Arkansas,SEC,22,14,0.611111111111111,10.0,,,Lost Regional Semifinal,205,76,0.729537366548043,6.0,4.0,,,4.6,3.6,10.0,6.0,0.625,16.0,281,arkansas,1116
+2023,auburn,Bruce Pearl,676,Auburn,SEC,21,13,0.617647058823529,15.0,,,Lost Second Round,418,210,0.665605095541401,12.0,5.0,1.0,,1.1,1.4,21.0,14.0,0.6,35.0,628,auburn,1120
+2023,baylor,Scott Drew,637,Baylor,Big 12,23,11,0.676470588235294,5.0,11.0,6.0,Lost Second Round,442,244,0.644314868804665,11.0,5.0,1.0,1.0,0.5,-0.8,21.0,12.0,0.636,33.0,686,baylor,1124
+2023,boston college,Earl Grant,645,Boston College,ACC,16,17,0.484848484848485,,,,,156,126,0.553191489361702,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,282,boston-college,1130
+2023,butler,Thad Matta,662,Butler,Big East,14,18,0.4375,,,,,453,172,0.7248,13.0,6.0,2.0,,1.0,1.4,24.0,13.0,0.649,37.0,625,butler,1139
+2023,california,Mark Fox,641,California,Pac-12,3,29,0.09375,,,,,324,263,0.551959114139693,5.0,,,,-1.2,-1.8,2.0,5.0,0.286,7.0,587,california,1143
+2023,clemson,Brad Brownell,627,Clemson,ACC,23,11,0.676470588235294,,,,,408,262,0.608955223880597,6.0,1.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,670,clemson,1155
+2023,colorado,Tad Boyle,624,Colorado,Pac-12,18,17,0.514285714285714,,,,,328,238,0.579505300353357,5.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,566,colorado,1160
+2023,creighton,Greg McDermott,664,Creighton,Big East,24,13,0.648648648648649,9.0,,,Lost Regional Final,449,281,0.615068493150685,11.0,2.0,,,0.0,0.1,12.0,13.0,0.48,25.0,730,creighton,1166
+2023,depaul,Tony Stubblefield,686,DePaul,Big East,10,23,0.303030303030303,,,,,27,51,0.346153846153846,,,,,,,,,,,78,depaul,1177
+2023,duke,Jon Scheyer,679,Duke,ACC,27,9,0.75,7.0,12.0,5.0,Lost Second Round,27,9,0.75,1.0,,,,1.0,2.0,8.0,3.0,0.727,11.0,36,duke,1181
+2023,florida,Todd Golden,644,Florida,SEC,16,17,0.484848484848485,,,,,73,53,0.579365079365079,1.0,,,,0.9,1.2,6.0,2.0,0.75,8.0,126,florida,1196
+2023,florida state,Leonard Hamilton ,647,Florida State,ACC,9,23,0.28125,,,,,626,475,0.568574023614896,11.0,5.0,,,,,,,,,1101,florida-state,1199
+2023,georgetown,Patrick Ewing,639,Georgetown,Big East,7,25,0.21875,,,,,75,109,0.407608695652174,1.0,,,,-0.4,-0.5,0.0,1.0,0.0,1.0,184,georgetown,1207
+2023,georgia,Michael White,691,Georgia,SEC,16,16,0.5,,,,,259,144,0.642679900744417,4.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,403,georgia,1208
+2023,georgia tech,Josh Pastner ,674,Georgia Tech,ACC,15,18,0.454545454545455,,,,,276,187,0.596112311015119,5.0,,,,,,,,,,463,georgia-tech,1210
+2023,illinois,Brad Underwood ,690,Illinois,Big Ten,20,13,0.606060606060606,23.0,,,Lost First Round,223,106,0.677811550151976,7.0,,,,,,,,,,329,illinois,1228
+2023,indiana,Mike Woodson,695,Indiana,Big Ten,23,12,0.657142857142857,13.0,21.0,8.0,Lost Second Round,44,26,0.628571428571429,2.0,,,,-0.6,-1.1,1.0,2.0,0.333,3.0,70,indiana,1231
+2023,iowa,Fran McCaffery,663,Iowa,Big Ten,19,14,0.575757575757576,,,,Lost First Round,512,353,0.591907514450867,12.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,865,iowa,1234
+2023,iowa state,T.J. Otzelberger,671,Iowa State,Big 12,19,14,0.575757575757576,,,,Lost First Round,140,90,0.608695652173913,4.0,1.0,,,-1.8,-1.4,5.0,6.0,0.455,11.0,230,iowa-state,1235
+2023,kansas,Bill Self,680,Kansas,Big 12,24,8,0.75,5.0,4.0,-1.0,Lost Second Round,787,237,0.7685546875,24.0,14.0,4.0,2.0,2.5,-4.4,56.0,23.0,0.709,79.0,1024,kansas,1242
+2023,kansas,Norm Roberts,678,Kansas,Big 12,4,0,1.0,5.0,4.0,-1.0,Lost Second Round,85,101,0.456989247311828,1.0,,,,,,,,,,186,kansas,1242
+2023,kansas state,Jerome Tang,687,Kansas State,Big 12,26,10,0.722222222222222,,15.0,,Lost Regional Final,26,10,0.722222222222222,1.0,1.0,,,1.5,1.2,3.0,1.0,0.75,4.0,36,kansas-state,1243
+2023,kentucky,John Calipari ,628,Kentucky,SEC,22,12,0.647058823529412,4.0,,,Lost Second Round,832,253,0.766820276497696,22.0,15.0,6.0,1.0,,,,,,,1085,kentucky,1246
+2023,louisville,Kenny Payne,675,Louisville,ACC,4,28,0.125,,,,,4,28,0.125,,,,,,,,,,,32,louisville,1257
+2023,lsu,Matt McMahon,665,LSU,SEC,14,19,0.424242424242424,,,,,168,86,0.661417322834646,3.0,,,,0.6,0.1,2.0,3.0,0.4,5.0,254,lsu,1261
+2023,marquette,Shaka Smart,682,Marquette,Big East,29,7,0.805555555555556,,6.0,,Lost Second Round,320,162,0.663900414937759,10.0,1.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,482,marquette,1266
+2023,maryland,Kevin Willard,692,Maryland,Big Ten,22,13,0.628571428571429,,,,Lost Second Round,292,223,0.566990291262136,6.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,515,maryland,1268
+2023,miami fl,Jim Larranaga,660,Miami (FL),ACC,29,8,0.783783783783784,,16.0,,Lost National Semifinal,697,458,0.603463203463203,11.0,5.0,2.0,,6.4,6.3,16.0,10.0,0.615,26.0,1155,miami-fl,1274
+2023,michigan,Juwan Howard,652,Michigan,Big Ten,18,16,0.529411764705882,22.0,,,,79,48,0.622047244094488,2.0,2.0,,,1.5,1.0,5.0,2.0,0.714,7.0,127,michigan,1276
+2023,michigan state,Tom Izzo,656,Michigan State,Big Ten,21,13,0.617647058823529,,,,Lost Regional Semifinal,687,280,0.710444674250258,25.0,15.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,967,michigan-state,1277
+2023,minnesota,Ben Johnson,658,Minnesota,Big Ten,9,22,0.290322580645161,,,,,22,39,0.360655737704918,,,,,,,,,,,61,minnesota,1278
+2023,mississippi state,Chris Jans,657,Mississippi State,SEC,21,13,0.617647058823529,,,,Lost First Four,164,57,0.742081447963801,4.0,,,,-1.3,-1.9,1.0,5.0,0.167,6.0,221,mississippi-state,1280
+2023,missouri,Dennis Gates,643,Missouri,SEC,25,10,0.714285714285714,,23.0,,Lost Second Round,75,50,0.6,2.0,,,,-0.8,-1.0,1.0,3.0,0.25,4.0,125,missouri,1281
+2023,nc state,Kevin Keatts,659,NC State,ACC,23,11,0.676470588235294,,,,Lost First Round,185,107,0.633561643835616,4.0,,,,1.5,1.3,4.0,5.0,0.444,9.0,292,nc-state,1301
+2023,nebraska,Fred Hoiberg,648,Nebraska,Big Ten,16,16,0.5,,,,,155,139,0.527210884353742,4.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,294,nebraska,1304
+2023,northwestern,Chris Collins,631,Northwestern,Big Ten,22,12,0.647058823529412,,,,Lost Second Round,155,162,0.488958990536278,2.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,317,northwestern,1321
+2023,notre dame,Mike Brey,626,Notre Dame,ACC,11,21,0.34375,,,,,582,332,0.636761487964989,15.0,3.0,,,0.1,-1.0,14.0,13.0,0.519,27.0,914,notre-dame,1323
+2023,ohio state,Chris Holtmann,650,Ohio State,Big Ten,16,19,0.457142857142857,,,,,237,160,0.596977329974811,7.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,397,ohio-state,1326
+2023,oklahoma,Porter Moser,667,Oklahoma,Big 12,15,17,0.46875,,,,,327,275,0.543189368770764,2.0,2.0,1.0,,3.6,4.0,6.0,3.0,0.667,9.0,602,oklahoma,1328
+2023,oklahoma state,Michael Boynton,625,Oklahoma State,Big 12,20,16,0.555555555555556,,,,,107,89,0.545918367346939,1.0,,,,,,,,,,196,oklahoma-state,1329
+2023,ole miss,Kermit Davis Jr,635,Ole Miss,SEC,10,18,0.357142857142857,,,,,477,317,0.600755667506297,6.0,,,,0.8,0.9,1.0,1.0,0.5,2.0,794,ole-miss,1279
+2023,ole miss,Win Case,630,Ole Miss,SEC,2,3,0.4,,,,,2,3,0.4,,,,,,,,,,,5,ole-miss,1279
+2023,oregon,Dana Altman,618,Oregon,Pac-12,21,15,0.583333333333333,21.0,,,,731,383,0.656193895870736,15.0,5.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,1114,oregon,1332
+2023,oregon state,Wayne Tinkle,689,Oregon State,Pac-12,11,21,0.34375,,,,,285,249,0.533707865168539,5.0,1.0,,,1.2,1.0,3.0,5.0,0.375,8.0,534,oregon-state,1333
+2023,penn state,Micah Shrewsberry,681,Penn State,Big Ten,23,14,0.621621621621622,,,,Lost Second Round,37,31,0.544117647058823,1.0,,,,0.3,0.4,1.0,1.0,0.5,2.0,68,penn-state,1336
+2023,pitt,Jeff Capel III ,629,Pitt,ACC,24,12,0.666666666666667,,,,Lost Second Round,250,191,0.566893424036281,4.0,1.0,,,,,,,,,441,pitt,1338
+2023,providence,Ed Cooley,632,Providence,Big East,21,12,0.636363636363636,,,,Lost First Round,334,222,0.600719424460432,7.0,1.0,,,-1.3,-2.1,3.0,6.0,0.333,9.0,556,providence,1344
+2023,purdue,Matt Painter,672,Purdue,Big Ten,29,6,0.828571428571429,,3.0,,Lost First Round,438,203,0.683307332293292,15.0,6.0,,,-2.5,-2.5,24.0,17.0,0.585,41.0,641,purdue,1345
+2023,rutgers,Steve Pikiell,677,Rutgers,Big Ten,19,15,0.558823529411765,,,,,309,262,0.541155866900175,3.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,571,rutgers,1353
+2023,seton hall,Shaheen Holloway,649,Seton Hall,Big East,17,16,0.515151515151515,,,,,81,70,0.536423841059603,1.0,1.0,,,2.8,2.9,3.0,1.0,0.75,4.0,151,seton-hall,1371
+2023,south carolina,Lamont Paris,673,South Carolina,SEC,11,21,0.34375,,,,,98,93,0.513089005235602,1.0,,,,-1.1,-1.3,0.0,2.0,0.0,2.0,191,south-carolina,1376
+2023,st john s ny,Mike Anderson Sr,619,St. John's (NY),Big East,18,15,0.545454545454545,,,,,437,256,0.630591630591631,9.0,2.0,,,,,,,,,693,st. john`s (ny),1385
+2023,stanford,Jerod Haase,646,Stanford,Pac-12,14,19,0.424242424242424,,,,,192,162,0.542372881355932,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,354,stanford,1390
+2023,syracuse,Jim Boeheim ,623,Syracuse,ACC,17,15,0.53125,,,,,1116,441,0.716763005780347,35.0,20.0,5.0,1.0,,,,,,,1557,syracuse,1393
+2023,tcu,Jamie Dixon,636,TCU,Big 12,22,13,0.628571428571429,14.0,22.0,8.0,Lost Second Round,467,220,0.679767103347889,14.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,687,tcu,1395
+2023,tennessee,Rick Barnes,620,Tennessee,SEC,25,11,0.694444444444444,11.0,20.0,9.0,Lost Regional Semifinal,779,406,0.657383966244726,27.0,8.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1185,tennessee,1397
+2023,texas,Chris Beard,621,Texas,Big 12,7,1,0.875,12.0,5.0,-7.0,Lost Regional Final,171,73,0.700819672131147,6.0,3.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,244,texas,1400
+2023,texas,Rodney Terry,688,Texas,Big 12,22,8,0.733333333333333,12.0,5.0,-7.0,Lost Regional Final,185,164,0.530085959885387,2.0,1.0,,,0.2,0.6,4.0,3.0,0.571,7.0,349,texas,1400
+2023,texas a m,Buzz Williams,693,Texas A&M,SEC,25,10,0.714285714285714,,17.0,,Lost First Round,329,202,0.619585687382298,9.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,531,texas a&m,1401
+2023,texas tech,Corey Williams,694,Texas Tech,Big 12,0,1,0.0,25.0,,,,58,134,0.302083333333333,,,,,,,,,,,192,texas-tech,1403
+2023,texas tech,Mark Adams,617,Texas Tech,Big 12,16,15,0.516129032258065,25.0,,,,87,115,0.430693069306931,1.0,1.0,,,-0.6,0.2,2.0,1.0,0.667,3.0,202,texas-tech,1403
+2023,ucla,Mick Cronin,633,UCLA,Pac-12,31,6,0.837837837837838,8.0,7.0,-1.0,Lost Regional Semifinal,464,207,0.69150521609538,14.0,4.0,1.0,,-2.3,-0.5,15.0,15.0,0.5,30.0,671,ucla,1417
+2023,uconn,Dan Hurley,655,UConn,Big East,31,8,0.794871794871795,,10.0,,Won National Final,255,160,0.614457831325301,5.0,1.0,1.0,1.0,4.2,5.8,15.0,5.0,0.75,20.0,415,uconn,1163
+2023,unc,Hubert Davis,634,UNC,ACC,20,13,0.606060606060606,1.0,,,,49,23,0.680555555555556,1.0,1.0,1.0,,2.8,2.3,7.0,3.0,0.7,10.0,72,unc,1314
+2023,usc,Andy Enfield,638,USC,Pac-12,22,11,0.666666666666667,,,,Lost First Round,246,157,0.610421836228288,6.0,2.0,,,1.6,2.0,6.0,6.0,0.5,12.0,403,usc,1425
+2023,utah,Craig Smith,683,Utah,Pac-12,17,15,0.53125,,,,,181,114,0.613559322033898,2.0,,,,-1.3,-1.4,0.0,2.0,0.0,2.0,295,utah,1428
+2023,vanderbilt,Jerry Stackhouse,685,Vanderbilt,SEC,22,15,0.594594594594595,,,,,61,69,0.469230769230769,,,,,,,,,,,130,vanderbilt,1435
+2023,villanova,Kyle Neptune ,669,Villanova,Big East,17,17,0.5,16.0,,,,33,33,0.5,,,,,,,,,,,66,villanova,1437
+2023,virginia,Tony Bennett,622,Virginia,ACC,25,8,0.757575757575758,18.0,14.0,-4.0,Lost First Round,410,158,0.721830985915493,11.0,4.0,1.0,1.0,-7.1,-8.0,16.0,10.0,0.615,26.0,568,virginia,1438
+2023,virginia tech,Mike Young,696,Virginia Tech,ACC,19,15,0.558823529411765,,,,,372,295,0.557721139430285,7.0,,,,-2.8,-2.1,1.0,7.0,0.125,8.0,667,virginia-tech,1439
+2023,wake forest,Steve Forbes,640,Wake Forest,ACC,19,14,0.575757575757576,,,,,180,83,0.684410646387833,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,263,wake-forest,1448
+2023,washington,Mike Hopkins,651,Washington,Pac-12,16,16,0.5,,,,,105,96,0.522388059701492,1.0,,,,0.4,0.4,1.0,1.0,0.5,2.0,201,washington,1449
+2023,washington state,Kyle Smith,684,Washington State,Pac-12,17,17,0.5,,,,,233,183,0.560096153846154,,,,,0.2,0.1,1.0,1.0,0.5,2.0,416,washington-state,1450
+2023,west virginia,Bob Huggins,653,West Virginia,Big 12,19,15,0.558823529411765,,,,Lost First Round,863,389,0.689297124600639,26.0,9.0,2.0,,-4.9,-4.1,20.0,17.0,0.541,37.0,1252,west-virginia,1452
+2023,wisconsin,Greg Gard,642,Wisconsin,Big Ten,20,15,0.571428571428571,,,,,164,93,0.638132295719844,5.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,257,wisconsin,1458
+2023,xavier,Sean Miller ,666,Xavier,Big East,27,10,0.72972972972973,,13.0,,Lost Regional Semifinal,449,166,0.730081300813008,12.0,8.0,,,,,,,,,615,xavier,1462
+2024,alabama,Nate Oats,750,Alabama,SEC,25,12,0.675675675675676,24.0,3.0,-21.0,Lost National Semifinal,213,97,0.687096774193548,7.0,3.0,1.0,,1.7,0.9,13.0,8.0,0.619,21.0,310,alabama,1104
+2024,arizona,Tommy Lloyd,738,Arizona,Pac-12,27,9,0.75,12.0,11.0,-1.0,Lost Regional Semifinal,88,20,0.814814814814815,3.0,2.0,,,-2.9,-3.6,6.0,4.0,0.6,10.0,108,arizona,1112
+2024,arizona state,Bobby Hurley,731,Arizona State,Pac-12,14,18,0.4375,,,,,197,151,0.566091954022989,4.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,348,arizona-state,1113
+2024,arkansas,Eric Musselman,748,Arkansas,SEC,16,17,0.484848484848485,14.0,,,,221,93,0.703821656050955,6.0,4.0,,,4.6,3.6,10.0,6.0,0.625,16.0,314,arkansas,1116
+2024,auburn,Bruce Pearl,755,Auburn,SEC,27,8,0.771428571428571,,18.0,,Lost First Round,445,218,0.671191553544495,13.0,5.0,1.0,,1.1,1.4,21.0,14.0,0.6,35.0,663,auburn,1120
+2024,baylor,Scott Drew,715,Baylor,Big 12,24,11,0.685714285714286,20.0,16.0,-4.0,Lost Second Round,466,255,0.646324549237171,12.0,5.0,1.0,1.0,0.5,-0.8,21.0,12.0,0.636,33.0,721,baylor,1124
+2024,boston college,Earl Grant,723,Boston College,ACC,20,16,0.555555555555556,,,,,176,142,0.553459119496855,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,318,boston-college,1130
+2024,butler,Thad Matta,740,Butler,Big East,18,15,0.545454545454545,,,,,471,187,0.71580547112462,13.0,6.0,2.0,,1.0,1.4,24.0,13.0,0.649,37.0,658,butler,1139
+2024,byu,Mark Pope,758,BYU,Big 12,23,11,0.676470588235294,,,,Lost First Round,187,108,0.633898305084746,2.0,,,,-1.8,-1.9,2.0,3.0,0.4,5.0,295,byu,1140
+2024,california,Mark Madsen,739,California,Pac-12,13,19,0.40625,,,,,83,70,0.542483660130719,,,,,,,,,,,153,california,1143
+2024,cincinnati,Wes Miller,746,Cincinnati,Big 12,22,15,0.594594594594595,,,,,248,178,0.582159624413146,2.0,,,,-0.4,-0.5,0.0,2.0,0.0,2.0,426,cincinnati,1153
+2024,clemson,Brad Brownell,705,Clemson,ACC,24,12,0.666666666666667,,14.0,,Lost Regional Final,432,274,0.611898016997167,7.0,2.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,706,clemson,1155
+2024,colorado,Tad Boyle,702,Colorado,Pac-12,26,11,0.702702702702703,,,,Lost Second Round,354,249,0.587064676616915,6.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,603,colorado,1160
+2024,creighton,Greg McDermott,743,Creighton,Big East,25,10,0.714285714285714,8.0,13.0,5.0,Lost Regional Semifinal,474,291,0.619607843137255,12.0,3.0,,,0.0,0.1,12.0,13.0,0.48,25.0,765,creighton,1166
+2024,depaul,Matt Brady,704,DePaul,Big East,0,14,0.0,,,,,212,191,0.52605459057072,1.0,,,,-0.1,0.0,0.0,1.0,0.0,1.0,403,depaul,1177
+2024,depaul,Tony Stubblefield,769,DePaul,Big East,3,15,0.166666666666667,,,,,30,66,0.3125,,,,,,,,,,,96,depaul,1177
+2024,duke,Jon Scheyer,761,Duke,ACC,27,9,0.75,2.0,9.0,7.0,Lost Regional Final,54,18,0.75,2.0,1.0,,,1.0,2.0,8.0,3.0,0.727,11.0,72,duke,1181
+2024,florida,Todd Golden,722,Florida,SEC,24,12,0.666666666666667,,,,Lost First Round,97,65,0.598765432098765,2.0,,,,0.9,1.2,6.0,2.0,0.75,8.0,162,florida,1196
+2024,florida state,Leonard Hamilton ,725,Florida State,ACC,17,16,0.515151515151515,,,,,643,491,0.567019400352734,11.0,5.0,,,,,,,,,1134,florida-state,1199
+2024,georgetown,Ed Cooley,709,Georgetown,Big East,9,23,0.28125,,,,,343,245,0.583333333333333,7.0,1.0,,,-1.3,-2.1,3.0,6.0,0.333,9.0,588,georgetown,1207
+2024,georgia,Michael White,774,Georgia,SEC,20,17,0.540540540540541,,,,,279,161,0.634090909090909,4.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,440,georgia,1208
+2024,georgia tech,Damon Stoudamire,768,Georgia Tech,ACC,14,18,0.4375,,,,,85,95,0.472222222222222,,,,,,,,,,,180,georgia-tech,1210
+2024,houston,Kelvin Sampson,760,Houston,Big 12,32,5,0.864864864864865,7.0,3.0,-4.0,Lost Regional Semifinal,689,306,0.692462311557789,20.0,8.0,2.0,,-1.8,-0.2,29.0,14.0,0.674,43.0,995,houston,1222
+2024,illinois,Brad Underwood ,773,Illinois,Big Ten,29,9,0.763157894736842,25.0,6.0,-19.0,Lost Regional Final,252,115,0.686648501362398,8.0,1.0,,,,,,,,,367,illinois,1228
+2024,indiana,Mike Woodson,777,Indiana,Big Ten,19,14,0.575757575757576,,,,,63,40,0.611650485436893,2.0,,,,-0.6,-1.1,1.0,2.0,0.333,3.0,103,indiana,1231
+2024,iowa,Fran McCaffery,741,Iowa,Big Ten,19,15,0.558823529411765,,,,,531,368,0.590656284760845,12.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,899,iowa,1234
+2024,iowa state,T.J. Otzelberger,751,Iowa State,Big 12,29,8,0.783783783783784,,8.0,,Lost Regional Semifinal,169,98,0.632958801498127,5.0,2.0,,,-1.8,-1.4,5.0,6.0,0.455,11.0,267,iowa-state,1235
+2024,kansas,Bill Self,762,Kansas,Big 12,23,11,0.676470588235294,1.0,19.0,18.0,Lost Second Round,810,248,0.765595463137996,25.0,14.0,4.0,2.0,2.5,-4.4,56.0,23.0,0.709,79.0,1058,kansas,1242
+2024,kansas state,Jerome Tang,770,Kansas State,Big 12,19,15,0.558823529411765,,,,,45,25,0.642857142857143,1.0,1.0,,,1.5,1.2,3.0,1.0,0.75,4.0,70,kansas-state,1243
+2024,kentucky,John Calipari ,706,Kentucky,SEC,23,10,0.696969696969697,16.0,20.0,4.0,Lost First Round,855,263,0.764758497316637,23.0,15.0,6.0,1.0,,,,,,,1118,kentucky,1246
+2024,louisville,Kenny Payne,754,Louisville,ACC,8,24,0.25,,,,,12,52,0.1875,,,,,,,,,,,64,louisville,1257
+2024,lsu,Matt McMahon,744,LSU,SEC,17,16,0.515151515151515,,,,,185,102,0.644599303135889,3.0,,,,0.6,0.1,2.0,3.0,0.4,5.0,287,lsu,1261
+2024,marquette,Shaka Smart,764,Marquette,Big East,27,10,0.72972972972973,5.0,12.0,7.0,Lost Regional Semifinal,347,172,0.66859344894027,11.0,2.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,519,marquette,1266
+2024,maryland,Kevin Willard,775,Maryland,Big Ten,16,17,0.484848484848485,,,,,308,240,0.562043795620438,6.0,,,,-2.2,-2.0,4.0,7.0,0.364,11.0,548,maryland,1268
+2024,miami fl,Jim Larranaga,737,Miami (FL),ACC,15,17,0.46875,13.0,,,,712,475,0.59983150800337,11.0,5.0,2.0,,6.4,6.3,16.0,10.0,0.615,26.0,1187,miami-fl,1274
+2024,michigan,Juwan Howard,730,Michigan,Big Ten,8,24,0.25,,,,,87,72,0.547169811320755,2.0,2.0,,,1.5,1.0,5.0,2.0,0.714,7.0,159,michigan,1276
+2024,michigan state,Tom Izzo,733,Michigan State,Big Ten,20,15,0.571428571428571,4.0,,,Lost Second Round,707,295,0.705588822355289,26.0,15.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,1002,michigan-state,1277
+2024,minnesota,Ben Johnson,735,Minnesota,Big Ten,19,15,0.558823529411765,,,,,41,54,0.431578947368421,,,,,,,,,,,95,minnesota,1278
+2024,mississippi state,Chris Jans,734,Mississippi State,SEC,21,14,0.6,,,,Lost First Round,185,71,0.72265625,5.0,,,,-1.3,-1.9,1.0,5.0,0.167,6.0,256,mississippi-state,1280
+2024,missouri,Dennis Gates,721,Missouri,SEC,8,24,0.25,,,,,83,74,0.528662420382166,2.0,,,,-0.8,-1.0,1.0,3.0,0.25,4.0,157,missouri,1281
+2024,nc state,Kevin Keatts,736,NC State,ACC,26,15,0.634146341463415,,10.0,,Lost National Semifinal,211,122,0.633633633633634,5.0,1.0,1.0,,1.5,1.3,4.0,5.0,0.444,9.0,333,nc-state,1301
+2024,nebraska,Fred Hoiberg,726,Nebraska,Big Ten,23,11,0.676470588235294,,,,Lost First Round,178,150,0.542682926829268,5.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,328,nebraska,1304
+2024,northwestern,Chris Collins,708,Northwestern,Big Ten,22,12,0.647058823529412,,,,Lost Second Round,177,174,0.504273504273504,3.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,351,northwestern,1321
+2024,notre dame,Micah Shrewsberry,763,Notre Dame,ACC,13,20,0.393939393939394,,,,,50,51,0.495049504950495,1.0,,,,0.3,0.4,1.0,1.0,0.5,2.0,101,notre-dame,1323
+2024,ohio state,Chris Holtmann,728,Ohio State,Big Ten,14,11,0.56,,,,,251,171,0.59478672985782,7.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,422,ohio-state,1326
+2024,ohio state,Jake Diebler,713,Ohio State,Big Ten,8,3,0.727272727272727,,,,,8,3,0.727272727272727,,,,,,,,,,,11,ohio-state,1326
+2024,oklahoma,Porter Moser,747,Oklahoma,Big 12,20,12,0.625,,,,,347,287,0.547318611987382,2.0,2.0,1.0,,3.6,4.0,6.0,3.0,0.667,9.0,634,oklahoma,1328
+2024,oklahoma state,Michael Boynton,703,Oklahoma State,Big 12,12,20,0.375,,,,,119,109,0.521929824561403,1.0,,,,,,,,,,228,oklahoma-state,1329
+2024,ole miss,Chris Beard,700,Ole Miss,SEC,20,12,0.625,,,,,191,85,0.692028985507246,6.0,3.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,276,ole-miss,1279
+2024,oregon,Dana Altman,697,Oregon,Pac-12,24,12,0.666666666666667,,,,Lost Second Round,755,395,0.656521739130435,16.0,5.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,1150,oregon,1332
+2024,oregon state,Wayne Tinkle,772,Oregon State,Pac-12,13,19,0.40625,,,,,298,268,0.526501766784452,5.0,1.0,,,1.2,1.0,3.0,5.0,0.375,8.0,566,oregon-state,1333
+2024,penn state,Mike Rhoades,759,Penn State,Big Ten,16,17,0.484848484848485,,,,,192,130,0.596273291925466,3.0,,,,-1.0,-1.8,0.0,3.0,0.0,3.0,322,penn-state,1336
+2024,pitt,Jeff Capel III ,707,Pitt,ACC,22,11,0.666666666666667,,,,,272,202,0.573839662447257,4.0,1.0,,,,,,,,,474,pitt,1338
+2024,providence,Kim English,718,Providence,Big East,21,14,0.6,,,,,55,43,0.561224489795918,,,,,,,,,,,98,providence,1344
+2024,purdue,Matt Painter,752,Purdue,Big Ten,34,5,0.871794871794872,3.0,2.0,-1.0,Lost National Final,472,208,0.694117647058824,16.0,7.0,1.0,,-2.5,-2.5,24.0,17.0,0.585,41.0,680,purdue,1345
+2024,rutgers,Steve Pikiell,756,Rutgers,Big Ten,15,17,0.46875,,,,,324,279,0.537313432835821,3.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,603,rutgers,1353
+2024,seton hall,Shaheen Holloway,727,Seton Hall,Big East,25,12,0.675675675675676,,,,,106,82,0.563829787234043,1.0,1.0,,,2.8,2.9,3.0,1.0,0.75,4.0,188,seton-hall,1371
+2024,south carolina,Lamont Paris,753,South Carolina,SEC,26,8,0.764705882352941,,24.0,,Lost First Round,124,101,0.551111111111111,2.0,,,,-1.1,-1.3,0.0,2.0,0.0,2.0,225,south-carolina,1376
+2024,st john s ny,Rick Pitino ,757,St. John's (NY),Big East,20,13,0.606060606060606,,,,,854,306,0.736206896551724,23.0,13.0,7.0,2.0,,,,,,,1160,st. john`s (ny),1385
+2024,stanford,Jerod Haase,724,Stanford,Pac-12,14,18,0.4375,,,,,206,180,0.533678756476684,1.0,,,,0.8,0.8,1.0,1.0,0.5,2.0,386,stanford,1390
+2024,syracuse,Adrian Autry,698,Syracuse,ACC,20,12,0.625,,,,,20,12,0.625,,,,,,,,,,,32,syracuse,1393
+2024,tcu,Jamie Dixon,714,TCU,Big 12,21,13,0.617647058823529,,,,Lost First Round,488,233,0.676837725381415,15.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,721,tcu,1395
+2024,tennessee,Rick Barnes,699,Tennessee,SEC,27,9,0.75,9.0,5.0,-4.0,Lost Regional Final,806,415,0.66011466011466,28.0,9.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1221,tennessee,1397
+2024,texas,Rodney Terry,771,Texas,Big 12,21,13,0.617647058823529,18.0,,,Lost Second Round,206,177,0.537859007832898,3.0,1.0,,,0.2,0.6,4.0,3.0,0.571,7.0,383,texas,1400
+2024,texas a m,Buzz Williams,776,Texas A&M,SEC,21,15,0.583333333333333,15.0,,,Lost Second Round,350,217,0.617283950617284,10.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,567,texas a&m,1401
+2024,texas tech,Grant McCasland,742,Texas Tech,Big 12,23,11,0.676470588235294,,,,Lost First Round,178,88,0.669172932330827,2.0,,,,0.5,0.9,4.0,3.0,0.571,7.0,266,texas-tech,1403
+2024,ucf,Johnny Dawkins Jr,712,UCF,Big 12,17,16,0.515151515151515,,,,,304,218,0.582375478927203,2.0,1.0,,,,,,,,,522,ucf,1416
+2024,ucla,Mick Cronin,710,UCLA,Pac-12,16,17,0.484848484848485,,,,,480,224,0.681818181818182,14.0,4.0,1.0,,-2.3,-0.5,15.0,15.0,0.5,30.0,704,ucla,1417
+2024,uconn,Dan Hurley,732,UConn,Big East,37,3,0.925,6.0,1.0,-5.0,Won National Final,292,163,0.641758241758242,6.0,2.0,2.0,2.0,4.2,5.8,15.0,5.0,0.75,20.0,455,uconn,1163
+2024,unc,Hubert Davis,711,UNC,ACC,29,8,0.783783783783784,19.0,7.0,-12.0,Lost Regional Semifinal,78,31,0.715596330275229,2.0,2.0,1.0,,2.8,2.3,7.0,3.0,0.7,10.0,109,unc,1314
+2024,usc,Andy Enfield,717,USC,Pac-12,15,18,0.454545454545455,21.0,,,,261,175,0.598623853211009,6.0,2.0,,,1.6,2.0,6.0,6.0,0.5,12.0,436,usc,1425
+2024,utah,Craig Smith,765,Utah,Pac-12,22,15,0.594594594594595,,,,,203,129,0.61144578313253,2.0,,,,-1.3,-1.4,0.0,2.0,0.0,2.0,332,utah,1428
+2024,vanderbilt,Jerry Stackhouse,767,Vanderbilt,SEC,9,23,0.28125,,,,,70,92,0.432098765432099,,,,,,,,,,,162,vanderbilt,1435
+2024,villanova,Kyle Neptune ,749,Villanova,Big East,18,16,0.529411764705882,22.0,,,,51,49,0.51,,,,,,,,,,,100,villanova,1437
+2024,virginia,Tony Bennett,701,Virginia,ACC,23,11,0.676470588235294,,,,Lost First Four,433,169,0.719269102990033,12.0,4.0,1.0,1.0,-7.1,-8.0,16.0,10.0,0.615,26.0,602,virginia,1438
+2024,virginia tech,Mike Young,778,Virginia Tech,ACC,19,15,0.558823529411765,,,,,391,310,0.557774607703281,7.0,,,,-2.8,-2.1,1.0,7.0,0.125,8.0,701,virginia-tech,1439
+2024,wake forest,Steve Forbes,719,Wake Forest,ACC,21,14,0.6,,,,,201,97,0.674496644295302,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,298,wake-forest,1448
+2024,washington,Mike Hopkins,729,Washington,Pac-12,17,15,0.53125,,,,,122,111,0.523605150214592,1.0,,,,0.4,0.4,1.0,1.0,0.5,2.0,233,washington,1449
+2024,washington state,Kyle Smith,766,Washington State,Pac-12,25,10,0.714285714285714,,23.0,,Lost Second Round,258,193,0.572062084257206,1.0,,,,0.2,0.1,1.0,1.0,0.5,2.0,451,washington-state,1450
+2024,west virginia,Josh Eilert,716,West Virginia,Big 12,9,23,0.28125,,,,,9,23,0.28125,,,,,,,,,,,32,west-virginia,1452
+2024,wisconsin,Greg Gard,720,Wisconsin,Big Ten,22,14,0.611111111111111,,,,Lost First Round,186,107,0.63481228668942,6.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,293,wisconsin,1458
+2024,xavier,Sean Miller ,745,Xavier,Big East,16,18,0.470588235294118,,,,,465,184,0.716486902927581,12.0,8.0,,,,,,,,,649,xavier,1462
+2025,alabama,Nate Oats,833,Alabama,SEC,28,9,0.756756756756757,2.0,6.0,4.0,Lost Regional Final,241,106,0.694524495677233,8.0,4.0,1.0,,1.7,0.9,13.0,8.0,0.619,21.0,347,alabama,1104
+2025,arizona,Tommy Lloyd,818,Arizona,Big 12,24,13,0.648648648648649,10.0,15.0,5.0,Lost Regional Semifinal,112,33,0.772413793103448,4.0,3.0,,,-2.9,-3.6,6.0,4.0,0.6,10.0,145,arizona,1112
+2025,arizona state,Bobby Hurley,810,Arizona State,Big 12,13,20,0.393939393939394,,,,,210,171,0.551181102362205,4.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,381,arizona-state,1113
+2025,arkansas,John Calipari ,786,Arkansas,SEC,22,14,0.611111111111111,16.0,20.0,4.0,Lost Regional Semifinal,877,277,0.759965337954939,24.0,16.0,6.0,1.0,,,,,,,1154,arkansas,1116
+2025,auburn,Bruce Pearl,837,Auburn,SEC,32,6,0.842105263157895,11.0,4.0,-7.0,Lost National Semifinal,477,224,0.680456490727532,14.0,6.0,2.0,,1.1,1.4,21.0,14.0,0.6,35.0,701,auburn,1120
+2025,baylor,Scott Drew,797,Baylor,Big 12,20,15,0.571428571428571,8.0,,,Lost Second Round,486,270,0.642857142857143,13.0,5.0,1.0,1.0,0.5,-0.8,21.0,12.0,0.636,33.0,756,baylor,1124
+2025,boston college,Earl Grant,805,Boston College,ACC,12,19,0.387096774193548,,,,,188,161,0.538681948424069,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,349,boston-college,1130
+2025,butler,Thad Matta,821,Butler,Big East,15,20,0.428571428571429,,,,,486,207,0.701298701298701,13.0,6.0,2.0,,1.0,1.4,24.0,13.0,0.649,37.0,693,butler,1139
+2025,byu,Kevin Young,859,BYU,Big 12,26,10,0.722222222222222,,13.0,,Lost Regional Semifinal,26,10,0.722222222222222,1.0,1.0,,,0.8,0.9,2.0,1.0,0.667,3.0,36,byu,1140
+2025,california,Mark Madsen,820,California,ACC,14,19,0.424242424242424,,,,,97,89,0.521505376344086,,,,,,,,,,,186,california,1143
+2025,cincinnati,Wes Miller,828,Cincinnati,Big 12,19,16,0.542857142857143,20.0,,,,267,194,0.579175704989154,2.0,,,,-0.4,-0.5,0.0,2.0,0.0,2.0,461,cincinnati,1153
+2025,clemson,Brad Brownell,784,Clemson,ACC,27,7,0.794117647058823,,22.0,,Lost First Round,459,281,0.62027027027027,8.0,2.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,740,clemson,1155
+2025,colorado,Tad Boyle,783,Colorado,Big 12,14,21,0.4,,,,,368,270,0.576802507836991,6.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,638,colorado,1160
+2025,creighton,Greg McDermott,825,Creighton,Big East,25,11,0.694444444444444,15.0,,,Lost Second Round,499,302,0.622971285892634,13.0,3.0,,,0.0,0.1,12.0,13.0,0.48,25.0,801,creighton,1166
+2025,depaul,Chris Holtmann,809,DePaul,Big East,14,20,0.411764705882353,,,,,265,191,0.581140350877193,7.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,456,depaul,1177
+2025,duke,Jon Scheyer,844,Duke,ACC,35,4,0.897435897435897,7.0,3.0,-4.0,Lost National Semifinal,89,22,0.801801801801802,3.0,2.0,1.0,,1.0,2.0,8.0,3.0,0.727,11.0,111,duke,1181
+2025,florida,Todd Golden,804,Florida,SEC,36,4,0.9,21.0,1.0,-20.0,Won National Final,133,69,0.658415841584158,3.0,1.0,1.0,1.0,0.9,1.2,6.0,2.0,0.75,8.0,202,florida,1196
+2025,florida state,Leonard Hamilton ,806,Florida State,ACC,17,15,0.53125,,,,,660,506,0.566037735849057,11.0,5.0,,,,,,,,,1166,florida-state,1199
+2025,georgetown,Ed Cooley,789,Georgetown,Big East,18,16,0.529411764705882,,,,,361,261,0.580385852090032,7.0,1.0,,,-1.3,-2.1,3.0,6.0,0.333,9.0,622,georgetown,1207
+2025,georgia,Michael White,855,Georgia,SEC,20,13,0.606060606060606,,,,Lost First Round,299,174,0.632135306553911,5.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,473,georgia,1208
+2025,georgia tech,Damon Stoudamire,851,Georgia Tech,ACC,17,17,0.5,,,,,102,112,0.476635514018692,,,,,,,,,,,214,georgia-tech,1210
+2025,houston,Kelvin Sampson,842,Houston,Big 12,35,5,0.875,4.0,2.0,-2.0,Lost National Final,724,311,0.69951690821256,21.0,9.0,3.0,,-1.8,-0.2,29.0,14.0,0.674,43.0,1035,houston,1222
+2025,illinois,Brad Underwood ,854,Illinois,Big Ten,22,13,0.628571428571429,,,,Lost Second Round,274,128,0.681592039800995,9.0,1.0,,,,,,,,,402,illinois,1228
+2025,indiana,Mike Woodson,858,Indiana,Big Ten,19,13,0.59375,17.0,,,,82,53,0.607407407407407,2.0,,,,-0.6,-1.1,1.0,2.0,0.333,3.0,135,indiana,1231
+2025,iowa,Fran McCaffery,823,Iowa,Big Ten,17,16,0.515151515151515,,,,,548,384,0.587982832618026,12.0,,,,-2.7,-1.7,6.0,10.0,0.375,16.0,932,iowa,1234
+2025,iowa state,T.J. Otzelberger,834,Iowa State,Big 12,25,10,0.714285714285714,5.0,17.0,12.0,Lost Second Round,194,108,0.642384105960265,6.0,2.0,,,-1.8,-1.4,5.0,6.0,0.455,11.0,302,iowa-state,1235
+2025,kansas,Bill Self,845,Kansas,Big 12,21,13,0.617647058823529,1.0,,,Lost First Round,831,261,0.760989010989011,26.0,14.0,4.0,2.0,2.5,-4.4,56.0,23.0,0.709,79.0,1092,kansas,1242
+2025,kansas state,Jerome Tang,852,Kansas State,Big 12,16,17,0.484848484848485,,,,,61,42,0.592233009708738,1.0,1.0,,,1.5,1.2,3.0,1.0,0.75,4.0,103,kansas-state,1243
+2025,kentucky,Mark Pope,840,Kentucky,SEC,24,12,0.666666666666667,23.0,12.0,-11.0,Lost Regional Semifinal,211,120,0.637462235649547,3.0,1.0,,,-1.8,-1.9,2.0,3.0,0.4,5.0,331,kentucky,1246
+2025,louisville,Pat Kelsey,816,Louisville,ACC,27,8,0.771428571428571,,21.0,,Lost First Round,288,130,0.688995215311005,5.0,,,,-1.9,-2.2,0.0,5.0,0.0,5.0,418,louisville,1257
+2025,lsu,Matt McMahon,826,LSU,SEC,14,18,0.4375,,,,,199,120,0.623824451410658,3.0,,,,0.6,0.1,2.0,3.0,0.4,5.0,319,lsu,1261
+2025,marquette,Shaka Smart,847,Marquette,Big East,23,11,0.676470588235294,18.0,,,Lost First Round,370,183,0.669077757685353,12.0,2.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,553,marquette,1266
+2025,maryland,Kevin Willard,856,Maryland,Big Ten,27,9,0.75,,9.0,,Lost Regional Semifinal,335,249,0.573630136986301,7.0,1.0,,,-2.2,-2.0,4.0,7.0,0.364,11.0,584,maryland,1268
+2025,miami fl,Bill Courtney,790,Miami (FL),ACC,3,16,0.157894736842105,,,,,63,129,0.328125,,,,,,,,,,,192,miami-fl,1274
+2025,miami fl,Jim Larranaga,817,Miami (FL),ACC,4,8,0.333333333333333,,,,,716,483,0.597164303586322,11.0,5.0,2.0,,6.4,6.3,16.0,10.0,0.615,26.0,1199,miami-fl,1274
+2025,michigan,Dusty May,822,Michigan,Big Ten,27,10,0.72972972972973,,10.0,,Lost Regional Semifinal,153,79,0.65948275862069,3.0,2.0,1.0,,3.6,3.5,6.0,3.0,0.667,9.0,232,michigan,1276
+2025,michigan state,Tom Izzo,812,Michigan State,Big Ten,30,7,0.810810810810811,,7.0,,Lost Regional Final,737,302,0.709335899903754,27.0,16.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,1039,michigan-state,1277
+2025,minnesota,Ben Johnson,814,Minnesota,Big Ten,15,17,0.46875,,,,,56,71,0.440944881889764,,,,,,,,,,,127,minnesota,1278
+2025,mississippi state,Chris Jans,813,Mississippi State,SEC,21,13,0.617647058823529,,,,Lost First Round,206,84,0.710344827586207,6.0,,,,-1.3,-1.9,1.0,5.0,0.167,6.0,290,mississippi-state,1280
+2025,missouri,Dennis Gates,803,Missouri,SEC,22,12,0.647058823529412,,,,Lost First Round,105,86,0.549738219895288,3.0,,,,-0.8,-1.0,1.0,3.0,0.25,4.0,191,missouri,1281
+2025,nc state,Kevin Keatts,815,NC State,ACC,12,19,0.387096774193548,,,,,223,141,0.612637362637363,5.0,1.0,1.0,,1.5,1.3,4.0,5.0,0.444,9.0,364,nc-state,1301
+2025,nebraska,Fred Hoiberg,807,Nebraska,Big Ten,21,14,0.6,,,,,199,164,0.548209366391185,5.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,363,nebraska,1304
+2025,northwestern,Chris Collins,788,Northwestern,Big Ten,17,16,0.515151515151515,,,,,194,190,0.505208333333333,3.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,384,northwestern,1321
+2025,notre dame,Micah Shrewsberry,846,Notre Dame,ACC,15,18,0.454545454545455,,,,,65,69,0.485074626865672,1.0,,,,0.3,0.4,1.0,1.0,0.5,2.0,134,notre-dame,1323
+2025,ohio state,Jake Diebler,795,Ohio State,Big Ten,17,15,0.53125,,,,,25,18,0.581395348837209,,,,,,,,,,,43,ohio-state,1326
+2025,oklahoma,Porter Moser,829,Oklahoma,SEC,20,14,0.588235294117647,,,,Lost First Round,367,301,0.54940119760479,3.0,2.0,1.0,,3.6,4.0,6.0,3.0,0.667,9.0,668,oklahoma,1328
+2025,oklahoma state,Steve Lutz,819,Oklahoma State,Big 12,17,18,0.485714285714286,,,,,86,53,0.618705035971223,3.0,,,,-0.2,-0.1,0.0,2.0,0.0,2.0,139,oklahoma-state,1329
+2025,ole miss,Chris Beard,782,Ole Miss,SEC,24,12,0.666666666666667,24.0,18.0,-6.0,Lost Regional Semifinal,215,97,0.689102564102564,7.0,4.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,312,ole-miss,1279
+2025,oregon,Dana Altman,779,Oregon,Big Ten,25,10,0.714285714285714,,,,Lost Second Round,780,405,0.658227848101266,17.0,5.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,1185,oregon,1332
+2025,penn state,Mike Rhoades,841,Penn State,Big Ten,16,15,0.516129032258065,,,,,208,145,0.589235127478754,3.0,,,,-1.0,-1.8,0.0,3.0,0.0,3.0,353,penn-state,1336
+2025,pitt,Jeff Capel III ,787,Pitt,ACC,17,15,0.53125,,,,,289,217,0.571146245059289,4.0,1.0,,,,,,,,,506,pitt,1338
+2025,providence,Kim English,800,Providence,Big East,12,20,0.375,,,,,67,63,0.515384615384615,,,,,,,,,,,130,providence,1344
+2025,purdue,Matt Painter,835,Purdue,Big Ten,24,12,0.666666666666667,14.0,14.0,0.0,Lost Regional Semifinal,496,220,0.692737430167598,17.0,8.0,1.0,,-2.5,-2.5,24.0,17.0,0.585,41.0,716,purdue,1345
+2025,rutgers,Steve Pikiell,838,Rutgers,Big Ten,15,17,0.46875,25.0,,,,339,296,0.533858267716535,3.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,635,rutgers,1353
+2025,seton hall,Shaheen Holloway,808,Seton Hall,Big East,7,25,0.21875,,,,,113,107,0.513636363636364,1.0,1.0,,,2.8,2.9,3.0,1.0,0.75,4.0,220,seton-hall,1371
+2025,smu,Andy Enfield,799,SMU,ACC,24,11,0.685714285714286,,,,,285,186,0.605095541401274,6.0,2.0,,,1.6,2.0,6.0,6.0,0.5,12.0,471,smu,1374
+2025,south carolina,Lamont Paris,836,South Carolina,SEC,12,20,0.375,,,,,136,121,0.529182879377432,2.0,,,,-1.1,-1.3,0.0,2.0,0.0,2.0,257,south-carolina,1376
+2025,st john s ny,Rick Pitino ,839,St. John's (NY),Big East,31,5,0.861111111111111,,11.0,,Lost Second Round,885,311,0.739966555183946,24.0,13.0,7.0,2.0,,,,,,,1196,st. john`s (ny),1385
+2025,stanford,Kyle Smith,849,Stanford,ACC,21,14,0.6,,,,,279,207,0.574074074074074,1.0,,,,0.2,0.1,1.0,1.0,0.5,2.0,486,stanford,1390
+2025,syracuse,Adrian Autry,780,Syracuse,ACC,14,19,0.424242424242424,,,,,34,31,0.523076923076923,,,,,,,,,,,65,syracuse,1393
+2025,tcu,Jamie Dixon,796,TCU,Big 12,16,16,0.5,,,,,504,249,0.669322709163347,15.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,753,tcu,1395
+2025,tennessee,Rick Barnes,781,Tennessee,SEC,30,8,0.789473684210526,12.0,5.0,-7.0,Lost Regional Final,836,423,0.664019062748213,29.0,10.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1259,tennessee,1397
+2025,texas,Rodney Terry,853,Texas,SEC,19,16,0.542857142857143,19.0,,,Lost First Four,225,193,0.538277511961722,4.0,1.0,,,0.2,0.6,4.0,3.0,0.571,7.0,418,texas,1400
+2025,texas a m,Buzz Williams,857,Texas A&M,SEC,23,11,0.676470588235294,13.0,19.0,6.0,Lost Second Round,373,228,0.62063227953411,11.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,601,texas a&m,1401
+2025,texas tech,Grant McCasland,824,Texas Tech,Big 12,28,9,0.756756756756757,,8.0,,Lost Regional Final,206,97,0.67986798679868,3.0,1.0,,,0.5,0.9,4.0,3.0,0.571,7.0,303,texas-tech,1403
+2025,ucf,Johnny Dawkins Jr,793,UCF,Big 12,20,17,0.540540540540541,,,,,324,235,0.579606440071556,2.0,1.0,,,,,,,,,559,ucf,1416
+2025,ucla,Mick Cronin,791,UCLA,Big Ten,23,11,0.676470588235294,22.0,,,Lost Second Round,503,235,0.681571815718157,15.0,4.0,1.0,,-2.3,-0.5,15.0,15.0,0.5,30.0,738,ucla,1417
+2025,uconn,Dan Hurley,811,UConn,Big East,24,11,0.685714285714286,3.0,,,Lost Second Round,316,174,0.644897959183673,7.0,2.0,2.0,2.0,4.2,5.8,15.0,5.0,0.75,20.0,490,uconn,1163
+2025,unc,Hubert Davis,792,UNC,ACC,23,14,0.621621621621622,9.0,,,Lost First Round,101,45,0.691780821917808,3.0,2.0,1.0,,2.8,2.3,7.0,3.0,0.7,10.0,146,unc,1314
+2025,usc,Eric Musselman,830,USC,Big Ten,17,18,0.485714285714286,,,,,238,111,0.681948424068768,6.0,4.0,,,4.6,3.6,10.0,6.0,0.625,16.0,349,usc,1425
+2025,utah,Craig Smith,848,Utah,Big 12,15,12,0.555555555555556,,,,,218,141,0.607242339832869,2.0,,,,-1.3,-1.4,0.0,2.0,0.0,2.0,359,utah,1428
+2025,utah,Josh Eilert,798,Utah,Big 12,1,5,0.166666666666667,,,,,10,28,0.263157894736842,,,,,,,,,,,38,utah,1428
+2025,vanderbilt,Mark Byington,785,Vanderbilt,SEC,20,13,0.606060606060606,,,,Lost First Round,233,146,0.614775725593668,2.0,,,,0.1,-0.1,1.0,2.0,0.333,3.0,379,vanderbilt,1435
+2025,villanova,Kyle Neptune ,832,Villanova,Big East,19,14,0.575757575757576,,,,,70,63,0.526315789473684,,,,,,,,,,,133,villanova,1437
+2025,villanova,Mike Nardi,831,Villanova,Big East,2,1,0.666666666666667,,,,,2,1,0.666666666666667,,,,,,,,,,,3,villanova,1437
+2025,virginia,Ron Sanchez,843,Virginia,ACC,15,17,0.46875,,,,,87,95,0.478021978021978,,,,,,,,,,,182,virginia,1438
+2025,virginia tech,Mike Young,860,Virginia Tech,ACC,13,19,0.40625,,,,,404,329,0.551159618008186,7.0,,,,-2.8,-2.1,1.0,7.0,0.125,8.0,733,virginia-tech,1439
+2025,wake forest,Steve Forbes,801,Wake Forest,ACC,21,11,0.65625,,,,,222,108,0.672727272727273,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,330,wake-forest,1448
+2025,washington,Danny Sprinkle,850,Washington,Big Ten,13,18,0.419354838709677,,,,,122,68,0.642105263157895,3.0,,,,0.1,0.0,1.0,3.0,0.25,4.0,190,washington,1449
+2025,west virginia,Darian DeVries,794,West Virginia,Big 12,19,13,0.59375,,,,,169,68,0.713080168776371,3.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,237,west-virginia,1452
+2025,wisconsin,Greg Gard,802,Wisconsin,Big Ten,27,10,0.72972972972973,,16.0,,Lost Second Round,213,117,0.645454545454546,7.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,330,wisconsin,1458
+2025,xavier,Sean Miller ,827,Xavier,Big East,22,12,0.647058823529412,,,,Lost First Round,487,196,0.71303074670571,13.0,8.0,,,,,,,,,683,xavier,1462
+2026,alabama,Nate Oats,913,Alabama,SEC,15,7,0.681818181818182,15.0,,,,256,113,0.693766937669377,8.0,4.0,1.0,,1.7,0.9,13.0,8.0,0.619,21.0,369,alabama,1104
+2026,arizona,Tommy Lloyd,896,Arizona,Big 12,22,0,1.0,13.0,,,,134,33,0.802395209580838,4.0,3.0,,,-2.9,-3.6,6.0,4.0,0.6,10.0,167,arizona,1112
+2026,arizona state,Bobby Hurley,890,Arizona State,Big 12,12,11,0.521739130434783,,,,,222,182,0.54950495049505,4.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,404,arizona-state,1113
+2026,arkansas,John Calipari ,868,Arkansas,SEC,16,6,0.727272727272727,14.0,,,,893,283,0.759353741496599,24.0,16.0,6.0,1.0,,,,,,,1176,arkansas,1116
+2026,auburn,Steven Pearl,918,Auburn,SEC,14,8,0.636363636363636,20.0,,,,14,8,0.636363636363636,,,,,,,,,,,22,auburn,1120
+2026,baylor,Scott Drew,878,Baylor,Big 12,13,9,0.590909090909091,,,,,499,279,0.641388174807198,13.0,5.0,1.0,1.0,0.5,-0.8,21.0,12.0,0.636,33.0,778,baylor,1124
+2026,boston college,Earl Grant,885,Boston College,ACC,9,13,0.409090909090909,,,,,197,174,0.53099730458221,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,371,boston-college,1130
+2026,butler,Thad Matta,901,Butler,Big East,13,10,0.565217391304348,,,,,499,217,0.696927374301676,13.0,6.0,2.0,,1.0,1.4,24.0,13.0,0.649,37.0,716,butler,1139
+2026,byu,Kevin Young,938,BYU,Big 12,17,5,0.772727272727273,8.0,,,,43,15,0.741379310344828,1.0,1.0,,,0.8,0.9,2.0,1.0,0.667,3.0,58,byu,1140
+2026,california,Mark Madsen,900,California,ACC,17,6,0.739130434782609,,,,,114,95,0.545454545454545,,,,,,,,,,,209,california,1143
+2026,cincinnati,Wes Miller,910,Cincinnati,Big 12,11,12,0.478260869565217,,,,,278,206,0.574380165289256,2.0,,,,-0.4,-0.5,0.0,2.0,0.0,2.0,484,cincinnati,1153
+2026,clemson,Brad Brownell,866,Clemson,ACC,19,4,0.826086956521739,,,,,478,285,0.626474442988204,8.0,2.0,,,-1.8,-1.1,5.0,8.0,0.385,13.0,763,clemson,1155
+2026,colorado,Tad Boyle,865,Colorado,Big 12,13,10,0.565217391304348,,,,,381,280,0.576399394856278,6.0,,,,-1.0,-1.4,3.0,6.0,0.333,9.0,661,colorado,1160
+2026,creighton,Greg McDermott,905,Creighton,Big East,12,11,0.521739130434783,23.0,,,,511,313,0.620145631067961,13.0,3.0,,,0.0,0.1,12.0,13.0,0.48,25.0,824,creighton,1166
+2026,depaul,Chris Holtmann,889,DePaul,Big East,12,11,0.521739130434783,,,,,277,202,0.578288100208768,7.0,1.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,479,depaul,1177
+2026,duke,Jon Scheyer,925,Duke,ACC,21,1,0.954545454545455,6.0,,,,110,23,0.827067669172932,3.0,2.0,1.0,,1.0,2.0,8.0,3.0,0.727,11.0,133,duke,1181
+2026,florida,Todd Golden,884,Florida,SEC,16,6,0.727272727272727,3.0,,,,149,75,0.665178571428571,3.0,1.0,1.0,1.0,0.9,1.2,6.0,2.0,0.75,8.0,224,florida,1196
+2026,florida state,Luke Loucks,897,Florida State,ACC,10,12,0.454545454545455,,,,,10,12,0.454545454545455,,,,,,,,,,,22,florida-state,1199
+2026,georgetown,Ed Cooley,871,Georgetown,Big East,13,10,0.565217391304348,,,,,374,271,0.57984496124031,7.0,1.0,,,-1.3,-2.1,3.0,6.0,0.333,9.0,645,georgetown,1207
+2026,georgia,Michael White,935,Georgia,SEC,16,6,0.727272727272727,,,,,315,180,0.636363636363636,5.0,1.0,,,0.8,1.3,6.0,5.0,0.545,11.0,495,georgia,1208
+2026,georgia tech,Damon Stoudamire,931,Georgia Tech,ACC,11,12,0.478260869565217,,,,,113,124,0.476793248945148,,,,,,,,,,,237,georgia-tech,1210
+2026,houston,Kelvin Sampson,924,Houston,Big 12,20,2,0.909090909090909,2.0,,,,744,313,0.703878902554399,21.0,9.0,3.0,,-1.8,-0.2,29.0,14.0,0.674,43.0,1057,houston,1222
+2026,illinois,Brad Underwood ,933,Illinois,Big Ten,20,3,0.869565217391304,17.0,,,,294,131,0.691764705882353,9.0,1.0,,,,,,,,,425,illinois,1228
+2026,indiana,Darian DeVries,875,Indiana,Big Ten,15,8,0.652173913043478,,,,,184,76,0.707692307692308,3.0,,,,-1.5,-1.8,0.0,3.0,0.0,3.0,260,indiana,1231
+2026,iowa,Ben McCollum,904,Iowa,Big Ten,17,5,0.772727272727273,,,,,48,9,0.842105263157895,1.0,,,,0.6,0.3,1.0,1.0,0.5,2.0,57,iowa,1234
+2026,iowa state,T.J. Otzelberger,915,Iowa State,Big 12,20,2,0.909090909090909,16.0,,,,214,110,0.660493827160494,6.0,2.0,,,-1.8,-1.4,5.0,6.0,0.455,11.0,324,iowa-state,1235
+2026,kansas,Bill Self,926,Kansas,Big 12,17,5,0.772727272727273,19.0,,,,848,266,0.761220825852783,26.0,14.0,4.0,2.0,2.5,-4.4,56.0,23.0,0.709,79.0,1114,kansas,1242
+2026,kansas state,Jerome Tang,932,Kansas State,Big 12,10,12,0.454545454545455,,,,,71,54,0.568,1.0,1.0,,,1.5,1.2,3.0,1.0,0.75,4.0,125,kansas-state,1243
+2026,kentucky,Mark Pope,922,Kentucky,SEC,16,7,0.695652173913043,9.0,,,,227,127,0.641242937853107,3.0,1.0,,,-1.8,-1.9,2.0,3.0,0.4,5.0,354,kentucky,1246
+2026,louisville,Pat Kelsey,895,Louisville,ACC,16,6,0.727272727272727,11.0,,,,304,136,0.690909090909091,5.0,,,,-1.9,-2.2,0.0,5.0,0.0,5.0,440,louisville,1257
+2026,lsu,Matt McMahon,906,LSU,SEC,14,8,0.636363636363636,,,,,213,128,0.624633431085044,3.0,,,,0.6,0.1,2.0,3.0,0.4,5.0,341,lsu,1261
+2026,marquette,Shaka Smart,928,Marquette,Big East,8,15,0.347826086956522,,,,,378,198,0.65625,12.0,2.0,1.0,,-3.9,-5.0,9.0,12.0,0.429,21.0,576,marquette,1266
+2026,maryland,Buzz Williams,937,Maryland,Big Ten,8,14,0.363636363636364,,,,,381,242,0.611556982343499,11.0,4.0,,,-0.2,-0.4,12.0,11.0,0.522,23.0,623,maryland,1268
+2026,miami fl,Jai Lucas,898,Miami (FL),ACC,17,5,0.772727272727273,,,,,17,5,0.772727272727273,,,,,,,,,,,22,miami-fl,1274
+2026,michigan,Dusty May,902,Michigan,Big Ten,21,1,0.954545454545455,7.0,,,,174,80,0.68503937007874,3.0,2.0,1.0,,3.6,3.5,6.0,3.0,0.667,9.0,254,michigan,1276
+2026,michigan state,Tom Izzo,892,Michigan State,Big Ten,19,4,0.826086956521739,22.0,,,,756,306,0.711864406779661,27.0,16.0,8.0,1.0,13.2,16.5,53.0,23.0,0.697,76.0,1062,michigan-state,1277
+2026,minnesota,Niko Medved,908,Minnesota,Big Ten,11,12,0.478260869565217,,,,,233,185,0.557416267942584,3.0,,,,-0.8,-1.2,1.0,3.0,0.25,4.0,418,minnesota,1278
+2026,mississippi state,Chris Jans,893,Mississippi State,SEC,11,11,0.5,,,,,217,95,0.69551282051282,6.0,,,,-1.3,-1.9,1.0,5.0,0.167,6.0,312,mississippi-state,1280
+2026,missouri,Dennis Gates,883,Missouri,SEC,15,7,0.681818181818182,,,,,120,93,0.563380281690141,3.0,,,,-0.8,-1.0,1.0,3.0,0.25,4.0,213,missouri,1281
+2026,nc state,Will Wade,934,NC State,ACC,17,6,0.739130434782609,,,,,263,111,0.703208556149733,7.0,1.0,,,-0.8,-0.8,5.0,7.0,0.417,12.0,374,nc-state,1301
+2026,nebraska,Fred Hoiberg,887,Nebraska,Big Ten,20,2,0.909090909090909,,,,,219,166,0.568831168831169,5.0,1.0,,,-1.6,-1.7,4.0,5.0,0.444,9.0,385,nebraska,1304
+2026,northwestern,Chris Collins,870,Northwestern,Big Ten,10,13,0.434782608695652,,,,,204,203,0.501228501228501,3.0,,,,0.9,0.8,3.0,3.0,0.5,6.0,407,northwestern,1321
+2026,notre dame,Micah Shrewsberry,927,Notre Dame,ACC,11,12,0.478260869565217,,,,,76,81,0.484076433121019,1.0,,,,0.3,0.4,1.0,1.0,0.5,2.0,157,notre-dame,1323
+2026,ohio state,Jake Diebler,876,Ohio State,Big Ten,15,7,0.681818181818182,,,,,40,25,0.615384615384615,,,,,,,,,,,65,ohio-state,1326
+2026,oklahoma,Porter Moser,911,Oklahoma,SEC,11,12,0.478260869565217,,,,,378,313,0.547033285094067,3.0,2.0,1.0,,3.6,4.0,6.0,3.0,0.667,9.0,691,oklahoma,1328
+2026,oklahoma state,Steve Lutz,899,Oklahoma State,Big 12,16,6,0.727272727272727,,,,,102,59,0.633540372670807,3.0,,,,-0.2,-0.1,0.0,2.0,0.0,2.0,161,oklahoma-state,1329
+2026,ole miss,Chris Beard,864,Ole Miss,SEC,11,11,0.5,,,,,226,108,0.676646706586826,7.0,4.0,1.0,,4.4,5.6,13.0,6.0,0.684,19.0,334,ole-miss,1279
+2026,oregon,Dana Altman,861,Oregon,Big Ten,8,14,0.363636363636364,,,,,788,419,0.652858326429163,17.0,5.0,1.0,,3.0,3.5,18.0,15.0,0.545,33.0,1207,oregon,1332
+2026,penn state,Mike Rhoades,923,Penn State,Big Ten,10,13,0.434782608695652,,,,,218,158,0.579787234042553,3.0,,,,-1.0,-1.8,0.0,3.0,0.0,3.0,376,penn-state,1336
+2026,pitt,Jeff Capel III ,869,Pitt,ACC,9,14,0.391304347826087,,,,,298,231,0.563327032136106,4.0,1.0,,,,,,,,,529,pitt,1338
+2026,providence,Kim English,880,Providence,Big East,10,13,0.434782608695652,,,,,77,76,0.503267973856209,,,,,,,,,,,153,providence,1344
+2026,purdue,Matt Painter,916,Purdue,Big Ten,18,4,0.818181818181818,1.0,,,,514,224,0.696476964769648,17.0,8.0,1.0,,-2.5,-2.5,24.0,17.0,0.585,41.0,738,purdue,1345
+2026,rutgers,Steve Pikiell,919,Rutgers,Big Ten,9,14,0.391304347826087,,,,,348,310,0.52887537993921,3.0,,,,0.1,0.2,1.0,2.0,0.333,3.0,658,rutgers,1353
+2026,seton hall,Shaheen Holloway,888,Seton Hall,Big East,16,7,0.695652173913043,,,,,129,114,0.530864197530864,1.0,1.0,,,2.8,2.9,3.0,1.0,0.75,4.0,243,seton-hall,1371
+2026,smu,Andy Enfield,879,SMU,ACC,15,7,0.681818181818182,,,,,300,193,0.608519269776876,6.0,2.0,,,1.6,2.0,6.0,6.0,0.5,12.0,493,smu,1374
+2026,south carolina,Lamont Paris,917,South Carolina,SEC,11,12,0.478260869565217,,,,,147,133,0.525,2.0,,,,-1.1,-1.3,0.0,2.0,0.0,2.0,280,south-carolina,1376
+2026,st john s ny,Rick Pitino ,921,St. John's (NY),Big East,17,5,0.772727272727273,5.0,,,,902,316,0.74055829228243,24.0,13.0,7.0,2.0,,,,,,,1218,st. john`s (ny),1385
+2026,stanford,Kyle Smith,929,Stanford,ACC,14,9,0.608695652173913,,,,,293,216,0.575638506876228,1.0,,,,0.2,0.1,1.0,1.0,0.5,2.0,509,stanford,1390
+2026,syracuse,Adrian Autry,862,Syracuse,ACC,13,10,0.565217391304348,,,,,47,41,0.534090909090909,,,,,,,,,,,88,syracuse,1393
+2026,tcu,Jamie Dixon,877,TCU,Big 12,13,9,0.590909090909091,,,,,517,258,0.667096774193548,15.0,3.0,,,-7.1,-6.7,14.0,15.0,0.483,29.0,775,tcu,1395
+2026,tennessee,Rick Barnes,863,Tennessee,SEC,16,6,0.727272727272727,18.0,,,,852,429,0.665105386416862,29.0,10.0,1.0,,-5.1,-3.1,31.0,22.0,0.585,53.0,1281,tennessee,1397
+2026,texas,Sean Miller ,909,Texas,SEC,14,9,0.608695652173913,,,,,501,205,0.709631728045326,13.0,8.0,,,,,,,,,706,texas,1400
+2026,texas a m,Bucky McMillan,907,Texas A&M,SEC,17,5,0.772727272727273,,,,,116,57,0.670520231213873,1.0,,,,-0.3,-0.2,0.0,1.0,0.0,1.0,173,texas a&m,1401
+2026,texas tech,Grant McCasland,903,Texas Tech,Big 12,16,6,0.727272727272727,10.0,,,,222,103,0.683076923076923,3.0,1.0,,,0.5,0.9,4.0,3.0,0.571,7.0,325,texas-tech,1403
+2026,ucf,Johnny Dawkins Jr,874,UCF,Big 12,17,5,0.772727272727273,,,,,341,240,0.586919104991394,2.0,1.0,,,,,,,,,581,ucf,1416
+2026,ucla,Mick Cronin,872,UCLA,Big Ten,16,7,0.695652173913043,12.0,,,,519,242,0.681997371879106,15.0,4.0,1.0,,-2.3,-0.5,15.0,15.0,0.5,30.0,761,ucla,1417
+2026,uconn,Dan Hurley,891,UConn,Big East,22,1,0.956521739130435,4.0,,,,338,175,0.658869395711501,7.0,2.0,2.0,2.0,4.2,5.8,15.0,5.0,0.75,20.0,513,uconn,1163
+2026,unc,Hubert Davis,873,UNC,ACC,18,4,0.818181818181818,25.0,,,,119,49,0.708333333333333,3.0,2.0,1.0,,2.8,2.3,7.0,3.0,0.7,10.0,168,unc,1314
+2026,usc,Eric Musselman,912,USC,Big Ten,17,6,0.739130434782609,,,,,255,117,0.685483870967742,6.0,4.0,,,4.6,3.6,10.0,6.0,0.625,16.0,372,usc,1425
+2026,utah,Alex Jensen,894,Utah,Big 12,9,13,0.409090909090909,,,,,9,13,0.409090909090909,,,,,,,,,,,22,utah,1428
+2026,vanderbilt,Mark Byington,867,Vanderbilt,SEC,19,3,0.863636363636364,,,,,252,149,0.628428927680798,2.0,,,,0.1,-0.1,1.0,2.0,0.333,3.0,401,vanderbilt,1435
+2026,villanova,Kevin Willard,936,Villanova,Big East,17,5,0.772727272727273,,,,,352,254,0.580858085808581,7.0,1.0,,,-2.2,-2.0,4.0,7.0,0.364,11.0,606,villanova,1437
+2026,virginia,Ryan Odom,914,Virginia,ACC,19,3,0.863636363636364,,,,,220,120,0.647058823529412,3.0,,,,-0.6,-0.3,1.0,3.0,0.25,4.0,340,virginia,1438
+2026,virginia tech,Mike Young,939,Virginia Tech,ACC,16,7,0.695652173913043,,,,,420,336,0.555555555555556,7.0,,,,-2.8,-2.1,1.0,7.0,0.125,8.0,756,virginia-tech,1439
+2026,wake forest,Steve Forbes,881,Wake Forest,ACC,11,11,0.5,,,,,233,119,0.661931818181818,1.0,,,,-0.2,-0.2,0.0,1.0,0.0,1.0,352,wake-forest,1448
+2026,washington,Danny Sprinkle,930,Washington,Big Ten,12,11,0.521739130434783,,,,,134,79,0.629107981220657,3.0,,,,0.1,0.0,1.0,3.0,0.25,4.0,213,washington,1449
+2026,west virginia,Ross Hodge,886,West Virginia,Big 12,15,8,0.652173913043478,,,,,61,32,0.655913978494624,,,,,,,,,,,93,west-virginia,1452
+2026,wisconsin,Greg Gard,882,Wisconsin,Big Ten,16,6,0.727272727272727,24.0,,,,229,123,0.650568181818182,7.0,2.0,,,-1.4,-1.2,7.0,7.0,0.5,14.0,352,wisconsin,1458
+2026,xavier,Richard Pitino,920,Xavier,Big East,12,11,0.521739130434783,,,,,259,197,0.567982456140351,4.0,,,,-0.7,-1.0,2.0,4.0,0.333,6.0,456,xavier,1462
