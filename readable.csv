@@ -1,0 +1,79 @@
+Date,Away,Home,HomeSpread,ci_lb,ci_ub
+2/7/2026,Syracuse,Virginia,18.0,5.5,30.0
+2/7/2026,Louisville,Wake Forest,17.0,4.5,29.0
+2/7/2026,Virginia Tech,NC State,18.0,5.5,30.0
+2/7/2026,Miami,Boston College,4.0,-8.5,16.0
+2/7/2026,SMU,Pitt,-17.0,-29.5,-5.0
+2/7/2026,Florida State,Notre Dame,10.0,-2.5,22.0
+2/7/2026,Duke,North Carolina,-4.0,-16.5,8.0
+2/7/2026,Clemson,California,12.0,-0.5,24.0
+2/7/2026,Georgia Tech,Stanford,0.0,-12.5,12.0
+2/9/2026,NC State,Louisville,4.0,-8.5,16.0
+2/10/2026,Virginia,Florida State,11.0,-1.5,23.0
+2/10/2026,North Carolina,Miami,23.0,10.5,35.0
+2/10/2026,Notre Dame,SMU,16.0,3.5,28.0
+2/10/2026,Duke,Pitt,-8.0,-20.5,4.0
+2/11/2026,Virginia Tech,Clemson,17.0,4.5,29.0
+2/11/2026,California,Syracuse,23.0,10.5,35.0
+2/11/2026,Stanford,Boston College,16.0,3.5,28.0
+2/11/2026,Wake Forest,Georgia Tech,17.0,4.5,29.0
+2/14/2026,Clemson,Duke,28.0,15.5,40.0
+2/14/2026,Georgia Tech,Notre Dame,-0.0,-12.5,12.0
+2/14/2026,California,Boston College,20.0,7.5,32.0
+2/14/2026,Florida State,Virginia Tech,1.0,-11.5,13.0
+2/14/2026,Pitt,North Carolina,7.0,-5.5,19.0
+2/14/2026,SMU,Syracuse,-15.0,-27.5,-3.0
+2/14/2026,Miami,NC State,-5.0,-17.5,7.0
+2/14/2026,Stanford,Wake Forest,18.0,5.5,30.0
+2/14/2026,Baylor,Louisville,19.0,6.5,31.0
+2/14/2026,Ohio State,Virginia,9.0,-3.5,21.0
+2/16/2026,Syracuse,Duke,20.0,7.5,32.0
+2/17/2026,Boston College,Florida State,-2.0,-14.5,10.0
+2/17/2026,North Carolina,NC State,22.0,9.5,34.0
+2/17/2026,Louisville,SMU,30.0,17.5,42.0
+2/17/2026,Virginia Tech,Miami,18.0,5.5,30.0
+2/18/2026,Clemson,Wake Forest,13.0,0.5,25.0
+2/18/2026,Virginia,Georgia Tech,4.0,-8.5,16.0
+2/21/2026,Wake Forest,Virginia Tech,26.0,13.5,38.0
+2/21/2026,Florida State,Clemson,6.0,-6.5,18.0
+2/21/2026,North Carolina,Syracuse,16.0,3.5,28.0
+2/21/2026,Notre Dame,Pitt,16.0,3.5,28.0
+2/21/2026,Miami,Virginia,8.0,-4.5,20.0
+2/21/2026,Georgia Tech,Louisville,18.0,5.5,30.0
+2/21/2026,Boston College,SMU,15.0,2.5,27.0
+2/21/2026,Stanford,California,20.0,7.5,32.0
+2/21/2026,Michigan,Duke,6.0,-6.5,18.0
+2/23/2026,Louisville,North Carolina,27.0,14.5,39.0
+2/24/2026,Duke,Notre Dame,-7.0,-19.5,5.0
+2/24/2026,Wake Forest,Boston College,16.0,3.5,28.0
+2/24/2026,NC State,Virginia,15.0,2.5,27.0
+2/24/2026,Miami,Florida State,-16.0,-28.5,-4.0
+2/25/2026,Pitt,Stanford,9.0,-3.5,21.0
+2/25/2026,SMU,California,-13.0,-25.5,-1.0
+2/28/2026,Virginia,Duke,30.0,17.5,42.0
+2/28/2026,Florida State,Georgia Tech,7.0,-5.5,19.0
+2/28/2026,NC State,Notre Dame,-2.0,-14.5,10.0
+2/28/2026,Boston College,Miami,19.0,6.5,31.0
+2/28/2026,Pitt,California,16.0,3.5,28.0
+2/28/2026,Syracuse,Wake Forest,18.0,5.5,30.0
+2/28/2026,SMU,Stanford,-11.0,-23.5,1.0
+2/28/2026,Louisville,Clemson,28.0,15.5,40.0
+2/28/2026,Virginia Tech,North Carolina,17.0,4.5,29.0
+3/2/2026,Duke,NC State,-2.0,-14.5,10.0
+3/3/2026,Wake Forest,Virginia,13.0,0.5,25.0
+3/3/2026,Clemson,North Carolina,20.0,7.5,32.0
+3/3/2026,Syracuse,Louisville,16.0,3.5,28.0
+3/3/2026,Boston College,Virginia Tech,0.0,-12.5,12.0
+3/4/2026,California,Georgia Tech,19.0,6.5,31.0
+3/4/2026,Miami,SMU,5.0,-7.5,17.0
+3/4/2026,Stanford,Notre Dame,20.0,7.5,32.0
+3/4/2026,Florida State,Pitt,8.0,-4.5,20.0
+3/7/2026,Notre Dame,Boston College,14.0,1.5,26.0
+3/7/2026,Georgia Tech,Clemson,14.0,1.5,26.0
+3/7/2026,Virginia Tech,Virginia,25.0,12.5,37.0
+3/7/2026,SMU,Florida State,-16.0,-28.5,-4.0
+3/7/2026,Louisville,Miami,28.0,15.5,40.0
+3/7/2026,Stanford,NC State,12.0,-0.5,24.0
+3/7/2026,California,Wake Forest,21.0,8.5,33.0
+3/7/2026,Pitt,Syracuse,12.0,-0.5,24.0
+3/7/2026,North Carolina,Duke,33.0,20.5,45.0
